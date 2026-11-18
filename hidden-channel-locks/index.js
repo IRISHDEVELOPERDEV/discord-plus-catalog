@@ -1,4 +1,4 @@
-(()=>{ /* HiddenChannelLocks 1.1.0 - MIT. Original implementation. */
+(()=>{ /* HiddenChannelLocks 1.1.1 - MIT. Original implementation. */
 /* Original MIT implementation. Additive only: never mutates, drops or replaces Discord data or list models. */
 function createHiddenChannelLocksCore() {
     const TYPE = {0:'text',2:'voice',4:'category',5:'announcement',13:'stage',14:'directory',15:'forum',16:'media',17:'lobby'};
@@ -78,9 +78,9 @@ function createHiddenChannelLocksCore() {
 const C=createHiddenChannelLocksCore();
 const V=vendetta, {React:R,ReactNative:N}=V.metro.common;
 const storage=V.plugin.storage;
-const VERSION='1.1.0';
+const VERSION='1.1.1';
 const CANNOT_SHOW=1, SHOW=4; // verified enum values in Discord 354.12
-const diag={version:VERSION,active:false,tripped:null,modules:{},added:0,checks:0,events:[]};
+const diag={version:VERSION,showHidden:null,active:false,tripped:null,modules:{},added:0,checks:0,events:[]};
 const unpatch=[],timers=[];let alive=false,voiceSafe=false,S={},installed=false;
 const models=new Map();               // guildId -> last seen list model (for refresh only)
 let shownCache=new WeakMap(), wrapCache=new WeakMap(), verified=new WeakSet(), bypass=false;
@@ -237,13 +237,23 @@ function installHooks() {
 }
 function teardown(){while(unpatch.length){try{unpatch.pop()();}catch{}}installed=false;diag.active=false;if(globalThis[GUARD]===instanceId)delete globalThis[GUARD];}
 const instanceId={};
+function switchRow(value,onChange) {
+    // Prefer Discord's own form switch (correct on/off styling); explicit colours on the RN fallback.
+    try{const Row=V.ui?.components?.Forms?.FormSwitchRow;
+        if(typeof Row==='function'||typeof Row==='object')return R.createElement(Row,{label:'Show hidden-channel locks',subLabel:value?'On':'Off',value:!!value,onValueChange:onChange});}catch{}
+    return R.createElement(N.View,{style:{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}},
+        R.createElement(N.Text,{style:{color:'#dbdee1',fontSize:15}},'Show hidden-channel locks'),
+        R.createElement(N.Switch,{value:!!value,onValueChange:onChange,trackColor:{false:'#4e5058',true:'#5865f2'},thumbColor:'#ffffff'}));
+}
 function Settings() {
-    const [show,setShow]=R.useState(storage.showHidden!==false),[n,repaint]=R.useState(0);
+    const [show,setShow]=R.useState(()=>{try{return storage.showHidden!==false;}catch{return true;}}),[n,repaint]=R.useState(0);
     const text=(s,size=15)=>R.createElement(N.Text,{style:{color:'#dbdee1',fontSize:size,marginBottom:10}},s);
     return R.createElement(N.ScrollView,{style:{flex:1,backgroundColor:'#202225'},contentContainerStyle:{padding:18}},
         text('HiddenChannelLocks '+VERSION,23),text('Adds lock rows for hidden channels to the server channel list. Discord withholds names and messages; real names are shown only if this client actually received them.'),
-        R.createElement(N.View,{style:{flexDirection:'row',alignItems:'center',justifyContent:'space-between'}},text('Show hidden-channel locks'),R.createElement(N.Switch,{value:show,onValueChange:x=>{storage.showHidden=x;setShow(x);refresh();}})),
+        switchRow(show,x=>{try{storage.showHidden=x;}catch(e){log('storage-write-error',e?.message||e);}setShow(x);refresh();repaint(n+1);}),
+        text('Locks are '+(show?'ON':'OFF')+' (saved setting: '+(storage.showHidden===false?'off':'on')+')'),
         R.createElement(N.Pressable,{onPress:()=>{diag.tripped=null;installHooks();refresh();repaint(n+1);},style:{padding:12,backgroundColor:'#5865f2',borderRadius:8,marginVertical:16}},text('Re-check / refresh list')),
+        (diag.showHidden=storage.showHidden!==false,null),
         text('Status: '+(diag.tripped?'Disabled by self-check ('+diag.tripped+')':diag.active?'Active':'Inactive')),
         text(JSON.stringify(diag,null,2),12));
 }
