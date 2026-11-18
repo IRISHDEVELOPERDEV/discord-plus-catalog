@@ -1,14 +1,14 @@
 {
   "name": "HiddenChannelLocks",
-  "description": "Lock placeholders for hidden channels, in their real categories. Tap for received metadata; no recovery of names or messages Discord withholds. Show/hide toggle.",
+  "description": "Temporarily in safe mode (does nothing) while a channel-list issue is fixed.",
   "authors": [
     {
       "name": "Discord+ Personal Build"
     }
   ],
   "main": "index.js",
-  "version": "1.0.0",
-  "hash": "1df5a405d97d1c3c072162f9c77dc7304eb80be99d55ef662f44e0d3fcec94f0",
+  "version": "1.0.1",
+  "hash": "3ef73d1483e3b76986be352251d4d48a4835ade662af05c84e73751180df2fb7",
   "vendetta": {
     "icon": "ic_lock"
   }
