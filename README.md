@@ -9,3 +9,7 @@ Online URL after publication:
 https://raw.githubusercontent.com/IRISHDEVELOPERDEV/discord-plus-catalog/main/plugins-full.json
 
 This is manually maintained, not an automatic update service or scheduled monitor.
+
+## HiddenChannelLocks (original, MIT)
+
+`hidden-channel-locks/` shows hidden/obfuscated channels as lock placeholders in their real category; tap for received metadata. Discord withholds names and messages of hidden channels; this plugin cannot recover them. It replaces the marcmy ShowHiddenChannels entry, which stopped showing names after Discord channel obfuscation.
