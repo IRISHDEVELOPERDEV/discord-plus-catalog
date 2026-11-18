@@ -1,508 +1,142 @@
 (() => {
- const {React:R,ReactNative:N}=vendetta.metro.common;
- const store=vendetta.plugins;
- const URL='https://raw.githubusercontent.com/IRISHDEVELOPERDEV/discord-plus-catalog/main/plugins-full.json';
- const offline=[
-  {
-    "name": "App Icons",
-    "description": "Unlocks all Discord premium app icons without Nitro. Go to Settings > Appearance > App Icon to choose any icon.",
-    "authors": [
-      {
-        "name": "Kario"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "ImageIcon",
-      "original": "ilickft.github.io/revenge-plugins/app-icons/"
-    },
-    "hash": "55373291afdf6564da10be6c0c79198368906cb2c294ffe8da04ed6dc03f9de6",
-    "discordPlus": {
-      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/app-icons",
-      "updated": "2026-11-10",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://ilickft.github.io/revenge-plugins/app-icons/"
-    }
-  },
-  {
-    "name": "BetterChatCopy",
-    "description": "Copy clean nearby Discord conversations from the mobile message action sheet.",
-    "authors": [
-      {
-        "name": "marcmy",
-        "id": "92076581404545024"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "ic_copy_24px",
-      "original": "marcmy.github.io/revenge-plugins/BetterChatCopy/"
-    },
-    "hash": "430de501046ca7dd3b7d316eff2fa7e92c6fbc278042f701d180c33029870693",
-    "discordPlus": {
-      "source": "https://github.com/marcmy/revenge-plugins/tree/HEAD/plugins/BetterChatCopy",
-      "updated": "2026-09-24",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://marcmy.github.io/revenge-plugins/BetterChatCopy/"
-    }
-  },
-  {
-    "name": "Clean Context Menu",
-    "description": "Hide unwanted items from the message long-press context menu with customizable toggles.",
-    "authors": [
-      {
-        "name": "Kario"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "MenuIcon",
-      "original": "ilickft.github.io/revenge-plugins/clean-context-menu/"
-    },
-    "hash": "bc9e9c26aa96a71dd1dab1921201dd81e3d64330948c70ae6e5213b9405eda16",
-    "discordPlus": {
-      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/clean-context-menu",
-      "updated": "2026-11-10",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://ilickft.github.io/revenge-plugins/clean-context-menu/"
-    }
-  },
-  {
-    "name": "Discordo",
-    "description": "Plays the classic Japanese \"DISCORDO!\" chime whenever Discord launches.",
-    "authors": [
-      {
-        "name": "Kario"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "ic_volume_up_24px",
-      "original": "ilickft.github.io/revenge-plugins/discordo/"
-    },
-    "hash": "e37ad9676c054d49a7fb5910cc83ea457b896f9f8c5501233e209561dd69ada7",
-    "discordPlus": {
-      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/discordo",
-      "updated": "2026-11-10",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://ilickft.github.io/revenge-plugins/discordo/"
-    }
-  },
-  {
-    "name": "Dislate Lite",
-    "description": "Translates text into a desired language.",
-    "authors": [
-      {
-        "name": "Acquite",
-        "id": "581573474296791211"
-      },
-      {
-        "name": "sapphire",
-        "id": "757982547861962752"
-      },
-      {
-        "name": "Rico040",
-        "id": "619474349845643275"
-      },
-      {
-        "name": "chrysoljq",
-        "id": "791663810594603028"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "ic_locale_24px",
-      "original": "rico040.github.io/bunny-plugins/dislate/"
-    },
-    "hash": "a16be777e24c9bb2d73e4d8502f49580c3e4f3e3ea75c89e910527c4f438f991",
-    "discordPlus": {
-      "source": "https://github.com/Rico040/bunny-plugins/tree/HEAD/plugins/dislate",
-      "updated": "2026-08-31",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://rico040.github.io/bunny-plugins/dislate/"
-    }
-  },
-  {
-    "name": "Emoji Anywhere",
-    "description": "Use emojis from any server — sends them as small GIFs that look like emojis, while keeping server emojis normal.",
-    "authors": [
-      {
-        "name": "Kario"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "StickerIcon",
-      "original": "ilickft.github.io/revenge-plugins/emoji-anywhere/"
-    },
-    "hash": "41c78345854d3c41ac2d88e64b765007f3eba481402ef7ad160e21132789d37c",
-    "discordPlus": {
-      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/emoji-anywhere",
-      "updated": "2026-11-10",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://ilickft.github.io/revenge-plugins/emoji-anywhere/"
-    }
-  },
-  {
-    "name": "FileSizeOnPicker",
-    "description": "Show the file sizes in the media picker",
-    "authors": [
-      {
-        "name": "MSMA",
-        "id": "307215253811363843"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "ic_image",
-      "original": "martinz64.github.io/vendetta-plugins/FileSizeOnPicker/"
-    },
-    "hash": "c96ba87ee19e0ff31609284ac142460c13404fa57ccdbd17671bec87d00b2a2e",
-    "discordPlus": {
-      "source": "https://github.com/Martinz64/vendetta-plugins/tree/HEAD/plugins/FileSizeOnPicker",
-      "updated": "2026-06-13",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://martinz64.github.io/vendetta-plugins/FileSizeOnPicker/"
-    }
-  },
-  {
-    "name": "HiddenChannelLocks",
-    "description": "Adds lock rows for hidden channels in their real categories (additive, self-checking). Tap for received metadata; cannot recover names or messages Discord withholds. Show/hide toggle.",
-    "authors": [
-      {
-        "name": "Discord+ Personal Build"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "ic_lock",
-      "original": "raw.githubusercontent.com/IRISHDEVELOPERDEV/discord-plus-catalog/main/hidden-channel-locks/"
-    },
-    "hash": "307499af8bf68fa8724a6e85691c0350b665418d1ae607c58634fd273d5c486a",
-    "discordPlus": {
-      "source": "https://github.com/IRISHDEVELOPERDEV/discord-plus-catalog/tree/main/hidden-channel-locks",
-      "updated": "2026-11-18",
-      "checked": "2026-11-18",
-      "checks": "Original MIT 1.1.0: additive list hooks with self-check; local fixture tests pass; rolled out to phone at user request (not pre-verified on device).",
-      "installUrl": "https://raw.githubusercontent.com/IRISHDEVELOPERDEV/discord-plus-catalog/main/hidden-channel-locks/",
-      "license": "MIT"
-    }
-  },
-  {
-    "name": "HideChannelListShortcuts",
-    "description": "Hide Server Boosts (and optionally Events) shortcuts at the top of the channel list",
-    "authors": [
-      {
-        "name": "marcmy",
-        "id": "92076581404545024"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "ic_more_horizontal",
-      "original": "marcmy.github.io/revenge-plugins/HideChannelListShortcuts/"
-    },
-    "hash": "fe063ed86ccdb37baf12422ce40c13ab4cb80e3d4467e92181c322ca534b3ac2",
-    "discordPlus": {
-      "source": "https://github.com/marcmy/revenge-plugins/tree/HEAD/plugins/HideChannelListShortcuts",
-      "updated": "2026-09-01",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://marcmy.github.io/revenge-plugins/HideChannelListShortcuts/"
-    }
-  },
-  {
-    "name": "LongScreenshotFix",
-    "description": "Keeps a deeper Discord message window loaded so Android scrolling screenshots do not stop at the virtualized history boundary",
-    "authors": [
-      {
-        "name": "marcmy",
-        "id": "92076581404545024"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "ic_image",
-      "original": "marcmy.github.io/revenge-plugins/LongScreenshotFix/"
-    },
-    "hash": "ed9d2e965b8d102f999c339bb685776aace2a1474acb0693f52894ca385475b1",
-    "discordPlus": {
-      "source": "https://github.com/marcmy/revenge-plugins/tree/HEAD/plugins/LongScreenshotFix",
-      "updated": "2026-09-15",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://marcmy.github.io/revenge-plugins/LongScreenshotFix/"
-    }
-  },
-  {
-    "name": "Message Logger",
-    "description": "Deleted messages and attachments stay visible with dimmed opacity/lower brightness, and edited messages show the original text dimmed while new text stays bright.",
-    "authors": [
-      {
-        "name": "Kario"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "EyeIcon",
-      "original": "ilickft.github.io/revenge-plugins/message-logger/"
-    },
-    "hash": "afce035063c734ae1aa9bb7f19e8090f76e7696691296b597d3858a0c9d29fce",
-    "discordPlus": {
-      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/message-logger",
-      "updated": "2026-11-10",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://ilickft.github.io/revenge-plugins/message-logger/"
-    }
-  },
-  {
-    "name": "Message Quote",
-    "description": "Turn any message or text into an authentic Discord-style PNG quote card with author avatar, username, timestamp, and styling via /quote or message menu.",
-    "authors": [
-      {
-        "name": "Kario"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "ImageIcon",
-      "original": "ilickft.github.io/revenge-plugins/message-quote/"
-    },
-    "hash": "1b06d4c56e5e4db0f4b48e8238797d94681381c7166c194d496e25e27ee49c12",
-    "discordPlus": {
-      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/message-quote",
-      "updated": "2026-10-19",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://ilickft.github.io/revenge-plugins/message-quote/"
-    }
-  },
-  {
-    "name": "Message Saver",
-    "description": "Save any message with its text and attachments, and easily resend it anytime to any channel.",
-    "authors": [
-      {
-        "name": "Kario"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "BookmarkIcon",
-      "original": "ilickft.github.io/revenge-plugins/message-saver/"
-    },
-    "hash": "4f13fb4480f62097811a423c0eb6de403ad6503976c7f375ab25ba8f0ecd1f04",
-    "discordPlus": {
-      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/message-saver",
-      "updated": "2026-10-19",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://ilickft.github.io/revenge-plugins/message-saver/"
-    }
-  },
-  {
-    "name": "MessageHistory",
-    "description": "Logs edited and deleted messages without exposing edit history in message content.",
-    "authors": [
-      {
-        "name": "marcmy",
-        "id": "92076581404545024"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "ic_history_24px",
-      "original": "marcmy.github.io/revenge-plugins/MessageHistory/"
-    },
-    "hash": "9f3f88ad92dc4b12f73bb68857714bf939462c84eb9f5d3196f931665788275c",
-    "discordPlus": {
-      "source": "https://github.com/marcmy/revenge-plugins/tree/HEAD/plugins/MessageHistory",
-      "updated": "2026-09-15",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://marcmy.github.io/revenge-plugins/MessageHistory/"
-    }
-  },
-  {
-    "name": "Pet Pet",
-    "description": "Use /petpet to generate a pet-pet GIF of any user — reply to someone, mention them, or just pet yourself!",
-    "authors": [
-      {
-        "name": "Kario"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "StickerIcon",
-      "original": "ilickft.github.io/revenge-plugins/pet-pet/"
-    },
-    "hash": "8a508f6efa851f5c28240037cd88c3e5f0a96495efe3b84c4b9eabb5a3d206a1",
-    "discordPlus": {
-      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/pet-pet",
-      "updated": "2026-10-19",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://ilickft.github.io/revenge-plugins/pet-pet/"
-    }
-  },
-  {
-    "name": "PlatformIndicators",
-    "description": "Adds platform indicators (Desktop, Mobile, Web...) to users",
-    "authors": [
-      {
-        "name": "MSMA",
-        "id": "307215253811363843"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "ic_person_status",
-      "original": "martinz64.github.io/vendetta-plugins/PlatformIndicators/"
-    },
-    "hash": "8a3e051039f900e5e1f87ec5989f0e3f3a6728d4c94b8ddfdf5416837f1e9034",
-    "discordPlus": {
-      "source": "https://github.com/Martinz64/vendetta-plugins/tree/HEAD/plugins/PlatformIndicators",
-      "updated": "2026-10-08",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://martinz64.github.io/vendetta-plugins/PlatformIndicators/"
-    }
-  },
-  {
-    "name": "RealMoji",
-    "description": "Makes Freemoji CDN links render as real inline emoji, including messages with surrounding text.",
-    "authors": [
-      {
-        "name": "redstonekasi",
-        "id": "265064055490871297"
-      },
-      {
-        "name": "Purple_Ξye™",
-        "id": "646535537334812682"
-      },
-      {
-        "name": "marcmy",
-        "id": "92076581404545024"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "ReactionIcon",
-      "original": "marcmy.github.io/revenge-plugins/RealMoji/"
-    },
-    "hash": "f649df8ce64a17a52148c67c94c81332f39991eb3db7fc872f21a173351be6e0",
-    "discordPlus": {
-      "source": "https://github.com/marcmy/revenge-plugins/tree/HEAD/plugins/RealMoji",
-      "updated": "2026-09-24",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://marcmy.github.io/revenge-plugins/RealMoji/"
-    }
-  },
-  {
-    "name": "ReviewDB",
-    "description": "Display and post reviews on user profiles.",
-    "authors": [
-      {
-        "name": "maisy",
-        "id": "257109471589957632"
-      },
-      {
-        "name": "John",
-        "id": "780819226839220265"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "ic_trending_16px",
-      "original": "janisslsm.github.io/vdplugins/ReviewDB/"
-    },
-    "hash": "886e15513466a95396789e195e64548658d9b1d9d83374350dc9cb323cc5b096",
-    "discordPlus": {
-      "source": "https://github.com/janisslsm/vdplugins/tree/HEAD/plugins/ReviewDB",
-      "updated": "2026-06-05",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://janisslsm.github.io/vdplugins/ReviewDB/"
-    }
-  },
-  {
-    "name": "SocialEmbedFixer",
-    "description": "Rewrites X/Twitter and Instagram links to selectable embed-friendly services.",
-    "authors": [
-      {
-        "name": "brainage04",
-        "id": "0"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "LinkIcon",
-      "original": "brainage04.github.io/SocialEmbedFixer/"
-    },
-    "hash": "8764a10f7c17a9f520563e91af8240900a407fcc5ce4f53ffb9ab3d663f7a8d8",
-    "discordPlus": {
-      "source": "https://github.com/brainage04/SocialEmbedFixer/tree/HEAD/",
-      "updated": "2026-11-17",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://brainage04.github.io/SocialEmbedFixer/"
-    }
-  },
-  {
-    "name": "Song Spotlight",
-    "description": "Show off songs on your Discord profile!",
-    "authors": [
-      {
-        "name": "nexpid",
-        "id": "853550207039832084"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "MusicIcon",
-      "original": "revenge.nexpid.xyz/song-spotlight/"
-    },
-    "hash": "92232f0eafc383ae3dab4e2ddf4291bea56493ebbc5453f22cfe89a11ca50309",
-    "discordPlus": {
-      "source": "https://github.com/nexpid/RevengePlugins/tree/HEAD/src/plugins/song-spotlight",
-      "updated": "2026-10-17",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://revenge.nexpid.xyz/song-spotlight/"
-    }
-  }
-];
- const bg='#202225',fg='#f2f3f5',muted='#b5bac1';
- function Library(){
-  const [list,setList]=R.useState(offline),[q,setQ]=R.useState(''),[status,S]=R.useState('Bundled catalogue — checked 18 Nov 2026'),[busy,B]=R.useState(''),[rev,rv]=R.useState(0);
-  const refresh=()=>{S('Refreshing catalogue…'); fetch(URL,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(rows=>{if(!Array.isArray(rows))throw Error('Invalid catalogue');setList(rows);S('Current catalogue loaded');}).catch(()=>S('Using bundled catalogue (online catalogue unavailable)'));};
-  R.useEffect(()=>{refresh();},[]);
-  const txt=(s,c=fg,size=15)=>R.createElement(N.Text,{style:{color:c,fontSize:size,marginBottom:5}},s);
-  const button=(label,fn,disabled=false)=>R.createElement(N.Pressable,{disabled,onPress:fn,style:{padding:11,backgroundColor:disabled?'#444':'#5865f2',borderRadius:8,marginTop:7}},txt(label));
-  async function toggle(p){const id=p.discordPlus?.installUrl||('https://'+p.vendetta.original);B(id);try{if(store.plugins[id]){await store.removePlugin(id);S('Removed '+p.name);}else{await store.installPlugin(id,true);S('Installed '+p.name);}rv(rev+1);}catch(e){S(String(e.message||e));}finally{B('');}}
-  const data=list.filter(p=>(p.name+' '+p.description).toLowerCase().includes(q.toLowerCase()));
-  return R.createElement(N.ScrollView,{style:{flex:1,backgroundColor:bg},contentContainerStyle:{padding:16,paddingBottom:80}},
-   txt('Plugin Library',fg,24),txt('Browse recent plugins and tap Install. Installed plugins can be configured or disabled in Revenge → Plugins.',muted),
-   txt('Recent commits and downloads are checked, but compatibility with every Discord version is not guaranteed. Plugins run inside your account: only install ones you trust.',muted,12),
-   R.createElement(N.TextInput,{value:q,onChangeText:setQ,placeholder:'Search plugins',placeholderTextColor:muted,style:{color:fg,borderWidth:1,borderColor:'#555',borderRadius:8,padding:12,marginVertical:10}}),
-   txt(status,muted,12),button('Refresh catalogue',refresh),
-   ...data.map(p=>{const id=p.discordPlus?.installUrl||('https://'+p.vendetta.original);return R.createElement(N.View,{key:id,style:{padding:14,marginTop:12,backgroundColor:'#2b2d31',borderRadius:10}},txt(p.name,fg,18),txt(p.description,muted),txt('By '+p.authors.map(a=>a.name).join(', ')+' · Updated '+p.discordPlus.updated,muted,12),
-     button(busy===id?'Working…':store.plugins[id]?'Remove':'Install',()=>toggle(p),!!busy),
-     button('Source & attribution',()=>N.Linking.openURL(p.discordPlus.source)));
-   })
-  );
+ /* Discord+ Library 3.0 — MIT. Lists curated plugins, themes and fonts; nothing installs or applies until you tap a button. */
+ const {React:R,ReactNative:N,NavigationNative:Nav}=vendetta.metro.common;
+ const P=vendetta.plugins,TH=vendetta.themes,FN=globalThis.bunny?.fonts;
+ const BASE='https://raw.githubusercontent.com/IRISHDEVELOPERDEV/discord-plus-catalog/main/';
+ const FILES={plugins:'plugins-full.json',themes:'themes.json',fonts:'fonts.json'};
+ const OFF={plugins:[{"name":"AccountSwitcher","description":"Enables account switcher as the experiment is gone.","authors":[{"name":"John"}],"discordPlus":{"installUrl":"https://janisslsm.github.io/vdplugins/AccountSwitcher/","source":"https://github.com/janisslsm/vdplugins/tree/HEAD/AccountSwitcher","updated":"2026-04-03","category":"Utility","recommended":false}},{"name":"Achievements","description":"Unlock 430+ achievements with top toast banners, sounds, profile Orb shortcut, bio progress sync, and streak tracking.","authors":[{"name":"Kario"}],"discordPlus":{"installUrl":"https://ilickft.github.io/revenge-plugins/achievements/","source":"https://github.com/ilickft/revenge-plugins/tree/HEAD/achievements","updated":"2026-10-19","category":"Fun","recommended":false}},{"name":"Always Developer Mode","description":"Keeps Discord's Developer Mode (Settings > Advanced) forced on, so custom themes can't turn it off.","authors":[{"name":"OldManJenkins12"}],"discordPlus":{"installUrl":"https://raw.githubusercontent.com/OldManJenkins12/revenge-always-developer-mode/main/plugin/","source":"https://github.com/OldManJenkins12/revenge-always-developer-mode/tree/HEAD/plugin","updated":"2026-09-26","category":"Utility","recommended":false}},{"name":"AlwaysAnimate","description":"Always animates guild icons and avatars.","authors":[{"name":"Cynosphere"}],"discordPlus":{"installUrl":"https://gaarasahni.github.io/custom-plugins/AlwaysAnimate/","source":"https://github.com/gaarasahni/custom-plugins/tree/HEAD/AlwaysAnimate","updated":"2026-08-04","category":"Appearance","recommended":false}},{"name":"Animal Commands","description":"Adds multiple animal image commands.","authors":[{"name":"Vaiskiainen"}],"discordPlus":{"installUrl":"https://vaiskiainen.github.io/testplugins/animalCommands/","source":"https://github.com/Vaiskiainen/testplugins/tree/HEAD/animalCommands","updated":"2026-10-11","category":"Fun","recommended":false}},{"name":"AnonymousFileNames","description":"Randomises file names with best movie quotes before you upload them.","authors":[{"name":"Yaminko"}],"discordPlus":{"installUrl":"https://yaminko18.github.io/Revenge-plugins/AnonymousFileNames/","source":"https://github.com/yaminko18/Revenge-plugins/tree/HEAD/AnonymousFileNames","updated":"2026-07-26","category":"Fun","recommended":false}},{"name":"App Icons","description":"Unlocks all Discord premium app icons without Nitro. Go to Settings > Appearance > App Icon to choose any icon.","authors":[{"name":"Kario"}],"discordPlus":{"installUrl":"https://ilickft.github.io/revenge-plugins/app-icons/","source":"https://github.com/ilickft/revenge-plugins/tree/HEAD/app-icons","updated":"2026-11-10","category":"Appearance","recommended":false}},{"name":"Better Calls","description":"Adds more options to calling, such as silent calls, call confirmations, and more","authors":[{"name":"Palm"}],"discordPlus":{"installUrl":"https://raw.githubusercontent.com/Liz-chan/kettu-plugins/main/dist/better-calls/","source":"https://github.com/Liz-chan/kettu-plugins/tree/HEAD/dist/better-calls","updated":"2026-08-18","category":"Voice & Calls","recommended":false}},{"name":"Better Chat Buttons","description":"Hiding all annoying chat buttons, or making them never collapse, all configurable","authors":[{"name":"Palm"}],"discordPlus":{"installUrl":"https://raw.githubusercontent.com/PalmDevs/revenge-plugins-builds/main/better-chat-buttons/","source":"https://github.com/PalmDevs/revenge-plugins-builds/tree/HEAD/better-chat-buttons","updated":"2026-08-15","category":"Chat","recommended":true}},{"name":"BetterChatCopy","description":"Copy clean nearby Discord conversations from the mobile message action sheet.","authors":[{"name":"marcmy"}],"discordPlus":{"installUrl":"https://marcmy.github.io/revenge-plugins/BetterChatCopy/","source":"https://github.com/marcmy/revenge-plugins/tree/HEAD/plugins/BetterChatCopy","updated":"2026-09-24","category":"Chat","recommended":false}},{"name":"BetterCodeBlocks","description":"Syntax highlighting, copy button & file viewer for code blocks and attachments","authors":[{"name":"tanhoangviet"}],"discordPlus":{"installUrl":"https://nguyenngotanhoang.github.io/BetterCodeBlocks/BetterCodeBlocks/","source":"https://github.com/nguyenngotanhoang/BetterCodeBlocks/tree/HEAD/BetterCodeBlocks","updated":"2026-05-20","category":"Chat","recommended":true}},{"name":"BetterInbox","description":"Categorizes Discord notifications into clean tabs with filters for mentions, replies, and reactions.","authors":[{"name":"fshin"},{"name":"kmmiio99o"}],"discordPlus":{"installUrl":"https://fshinz.github.io/Revenge-Plugins/BetterInbox/","source":"https://github.com/fshinz/Revenge-Plugins/tree/HEAD/BetterInbox","updated":"2026-09-15","category":"Utility","recommended":false}},{"name":"Catbox Upload","description":"Upload a message attachment or a file from a public URL to Catbox anonymously — permanent link, copied to clipboard.","authors":[{"name":"dolanexeee"}],"discordPlus":{"installUrl":"https://dolanexeee.github.io/kettu-plugins/catbox/","source":"https://github.com/dolanexeee/kettu-plugins/tree/HEAD/catbox","updated":"2026-11-13","category":"Media","recommended":false,"caution":"Uploads files to catbox.moe (public, anonymous host)."}},{"name":"Chatbox Avatar","description":"Quickly view your profile from the chatbox.","authors":[{"name":"Cynosphere"},{"name":"kmmiio99o"}],"discordPlus":{"installUrl":"https://kmmiio99o.github.io/vd-plugins/ChatboxAvatar/","source":"https://github.com/kmmiio99o/vd-plugins/tree/HEAD/ChatboxAvatar","updated":"2026-07-02","category":"Appearance","recommended":false}},{"name":"Clean Context Menu","description":"Hide unwanted items from the message long-press context menu with customizable toggles.","authors":[{"name":"Kario"}],"discordPlus":{"installUrl":"https://ilickft.github.io/revenge-plugins/clean-context-menu/","source":"https://github.com/ilickft/revenge-plugins/tree/HEAD/clean-context-menu","updated":"2026-11-10","category":"Chat","recommended":true}},{"name":"ClipboardGIFSend","description":"Send GIF Picker gifs to clipboard instead of chat","authors":[{"name":"Cristiandis"}],"discordPlus":{"installUrl":"https://cristiandis.github.io/clipboardgifsend/","source":"https://github.com/Cristiandis/clipboardgifsend/tree/HEAD","updated":"2026-07-24","category":"Media","recommended":false}},{"name":"Commands","description":"A collection of fixed commands including facts, petpet, and more.","authors":[{"name":"kmmiio99o"}],"discordPlus":{"installUrl":"https://kmmiio99o.github.io/vd-plugins/Commands/","source":"https://github.com/kmmiio99o/vd-plugins/tree/HEAD/Commands","updated":"2026-10-04","category":"Fun","recommended":false}},{"name":"Copy Proxy Link","description":"allowing you to quickly copy the proxy URL","authors":[{"name":"coder.gg"}],"discordPlus":{"installUrl":"https://il1ll.github.io/RevengePlugins/CopyProxyLink/","source":"https://github.com/il1ll/RevengePlugins/tree/HEAD/CopyProxyLink","updated":"2026-03-28","category":"Media","recommended":false}},{"name":"DiscordBetterRichPresenceBar","description":"Enhances Discord Rich Presence with custom UI and interactive buttons","authors":[{"name":"low_kb"}],"discordPlus":{"installUrl":"https://lowkb.github.io/revenge-plugins/DiscordBetterRichPresenceBar/","source":"https://github.com/lowkb/revenge-plugins/tree/HEAD/DiscordBetterRichPresenceBar","updated":"2026-10-09","category":"Fun","recommended":false,"caution":"Sets a custom activity status that others can see."}},{"name":"Discordo","description":"Plays the classic Japanese \"DISCORDO!\" chime whenever Discord launches.","authors":[{"name":"Kario"}],"discordPlus":{"installUrl":"https://ilickft.github.io/revenge-plugins/discordo/","source":"https://github.com/ilickft/revenge-plugins/tree/HEAD/discordo","updated":"2026-11-10","category":"Fun","recommended":false}},{"name":"Discovery","description":"Add option to discover servers on the bottom of Server List.","authors":[{"name":"kmmiio99o"}],"discordPlus":{"installUrl":"https://kmmiio99o.github.io/vd-plugins/Discovery/","source":"https://github.com/kmmiio99o/vd-plugins/tree/HEAD/Discovery","updated":"2026-08-21","category":"Utility","recommended":false}},{"name":"Dislate Lite","description":"Translates text into a desired language.","authors":[{"name":"Acquite"},{"name":"sapphire"},{"name":"Rico040"},{"name":"chrysoljq"}],"discordPlus":{"installUrl":"https://rico040.github.io/bunny-plugins/dislate/","source":"https://github.com/Rico040/bunny-plugins/tree/HEAD/plugins/dislate","updated":"2026-08-31","category":"Chat","recommended":true}},{"name":"Emoji Anywhere","description":"Use emojis from any server — sends them as small GIFs that look like emojis, while keeping server emojis normal.","authors":[{"name":"Kario"}],"discordPlus":{"installUrl":"https://ilickft.github.io/revenge-plugins/emoji-anywhere/","source":"https://github.com/ilickft/revenge-plugins/tree/HEAD/emoji-anywhere","updated":"2026-11-10","category":"Chat","recommended":true}},{"name":"EmojiStats — by woodbloom","description":"Tracks your own message stats locally — message count per server/DM, your most-used custom emojis, and your most active hours.","authors":[{"name":"woodbloom"}],"discordPlus":{"installUrl":"https://woodbloom.github.io/revenge-plugins/EmojiStats/","source":"https://github.com/woodbloom/revenge-plugins/tree/HEAD/EmojiStats","updated":"2026-06-19","category":"Privacy & Info","recommended":false}},{"name":"EnhancedDecor","description":"Your whole profile, only on your phone: any decoration, effect, nameplate, frame, badge, picture, banner, name, bio, colors and saved looks.","authors":[{"name":"ad3333m"}],"discordPlus":{"installUrl":"https://raw.githubusercontent.com/ad3333m/EnhancedDecor/main/","source":"https://github.com/ad3333m/EnhancedDecor/tree/HEAD","updated":"2026-11-14","category":"Appearance","recommended":false}},{"name":"Exact Unread","description":"Shows complete unread counts for the current channel and updates on new/deleted messages.","authors":[{"name":"Custom plugins"}],"discordPlus":{"installUrl":"https://xjetmaker.github.io/revenge-plugins/exact-unread/","source":"https://github.com/xJetmaker/revenge-plugins/tree/HEAD/docs/exact-unread","updated":"2026-10-12","category":"Chat","recommended":false}},{"name":"fast Copy User ID","description":"Adds a button to the message long press context menu to copy the message author's user ID faster.","authors":[{"name":"fshin"}],"discordPlus":{"installUrl":"https://fshinz.github.io/Revenge-Plugins/FastCopyUserID/","source":"https://github.com/fshinz/Revenge-Plugins/tree/HEAD/FastCopyUserID","updated":"2026-08-30","category":"Utility","recommended":false}},{"name":"Fast Delete","description":"Replaces swipe-to-reply with direct deletion for messages you can delete.","authors":[{"name":"Custom plugins"}],"discordPlus":{"installUrl":"https://xjetmaker.github.io/revenge-plugins/fast-delete/","source":"https://github.com/xJetmaker/revenge-plugins/tree/HEAD/docs/fast-delete","updated":"2026-10-12","category":"Chat","recommended":false,"caution":"Replaces swipe-to-reply with delete on your own messages."}},{"name":"FavouriteAnything","description":"Favourite any image or video, not just GIFs! Adds the favourite button to all media in the image viewer.","authors":[{"name":"TheUnrealZaka"}],"discordPlus":{"installUrl":"https://theunrealzaka.github.io/FavouriteAnything/favouriteanything/","source":"https://github.com/TheUnrealZaka/FavouriteAnything/tree/HEAD/favouriteanything","updated":"2026-10-27","category":"Media","recommended":true}},{"name":"FileSizeOnPicker","description":"Show the file sizes in the media picker","authors":[{"name":"MSMA"}],"discordPlus":{"installUrl":"https://martinz64.github.io/vendetta-plugins/FileSizeOnPicker/","source":"https://github.com/Martinz64/vendetta-plugins/tree/HEAD/plugins/FileSizeOnPicker","updated":"2026-06-13","category":"Media","recommended":false}},{"name":"Force Timestamp Locale","description":"Forces timestamps to be in a specific language","authors":[{"name":"Palm"}],"discordPlus":{"installUrl":"https://raw.githubusercontent.com/Liz-chan/kettu-plugins/main/dist/force-timestamp-locale/","source":"https://github.com/Liz-chan/kettu-plugins/tree/HEAD/dist/force-timestamp-locale","updated":"2026-08-18","category":"Appearance","recommended":false}},{"name":"FriendsInServer","description":"Adds a settings page button that lists which members of the current server are on your friends list.","authors":[{"name":"Harvi"}],"discordPlus":{"installUrl":"https://gaarasahni.github.io/custom-plugins/FriendsInServer/","source":"https://github.com/gaarasahni/custom-plugins/tree/HEAD/FriendsInServer","updated":"2026-08-04","category":"Privacy & Info","recommended":false}},{"name":"FriendWatch — by woodbloom","description":"Locally logs every friend add & remove with a timestamp, so you can see exactly who unfriended you — something Discord never tells you.","authors":[{"name":"woodbloom"}],"discordPlus":{"installUrl":"https://woodbloom.github.io/revenge-plugins/FriendWatch/","source":"https://github.com/woodbloom/revenge-plugins/tree/HEAD/FriendWatch","updated":"2026-06-19","category":"Privacy & Info","recommended":false}},{"name":"Geastures+","description":"Tap tap a message to reply/edit, or tap tap tap a message to delete it.","authors":[{"name":"kmmiio99o"}],"discordPlus":{"installUrl":"https://kmmiio99o.github.io/vd-plugins/GeasturesPlus/","source":"https://github.com/kmmiio99o/vd-plugins/tree/HEAD/GeasturesPlus","updated":"2026-08-28","category":"Chat","recommended":false}},{"name":"Ghost Ping Logger","description":"A very stable plugin that retains ghost ping messages for jump navigation, integrates with Advanced Message Logger and much more! Check the plugin settings","authors":[{"name":"dariussbezy"}],"discordPlus":{"installUrl":"https://raw.githubusercontent.com/dariussbezy/Ghost-Ping-Logger-Kettu/main/GPLK/","source":"https://github.com/dariussbezy/Ghost-Ping-Logger-Kettu/tree/HEAD/GPLK","updated":"2026-10-16","category":"Privacy & Info","recommended":false}},{"name":"GIF Performance","description":"Keeps GIFs animated while reducing avoidable React Native image rendering work.","authors":[{"name":"Lordx679"}],"discordPlus":{"installUrl":"https://raw.githubusercontent.com/Lordx679/revenge-gif-performance/main/gif-performance-plugin/","source":"https://github.com/Lordx679/revenge-gif-performance/tree/HEAD/gif-performance-plugin","updated":"2026-09-14","category":"Media","recommended":false}},{"name":"Global Badges","description":"Add badges from other clients to your profile or other users' profiles.","authors":[{"name":"Wolfie"},{"name":"thororen"}],"discordPlus":{"installUrl":"https://raw.githubusercontent.com/WolfPlugs/vendetta-plugins/gh-pages/globalBadges/","source":"https://github.com/WolfPlugs/vendetta-plugins/tree/HEAD/globalBadges","updated":"2026-07-04","category":"Appearance","recommended":false}},{"name":"GuildWatch — by woodbloom","description":"Locally logs every server you join or leave, and warns when a server suddenly renames or re-icons itself — a common sign of a scam takeover.","authors":[{"name":"woodbloom"}],"discordPlus":{"installUrl":"https://woodbloom.github.io/revenge-plugins/GuildWatch/","source":"https://github.com/woodbloom/revenge-plugins/tree/HEAD/GuildWatch","updated":"2026-06-19","category":"Privacy & Info","recommended":false}},{"name":"HiddenChannelLocks","description":"Adds lock rows for hidden channels in their real categories (additive, self-checking). Tap for received metadata; cannot recover names or messages Discord withholds. Show/hide toggle.","authors":[{"name":"Discord+ Personal Build"}],"discordPlus":{"installUrl":"https://raw.githubusercontent.com/IRISHDEVELOPERDEV/discord-plus-catalog/main/hidden-channel-locks/","source":"https://github.com/IRISHDEVELOPERDEV/discord-plus-catalog/tree/main/hidden-channel-locks","updated":"2026-11-18","category":"Privacy & Info","recommended":true}},{"name":"Hide Quest Popups","description":"Hides the mobile quest dock above your user panel. Experimental compatibility.","authors":[{"name":"Nova"}],"discordPlus":{"installUrl":"https://raw.githubusercontent.com/Mysticalz-mc/Kettu-hide-quests-plugin/main/hide-quest-popups/","source":"https://github.com/Mysticalz-mc/Kettu-hide-quests-plugin/tree/HEAD/hide-quest-popups","updated":"2026-10-14","category":"Utility","recommended":false}},{"name":"HideBlockedAndIgnoredMessages","description":"A plugin that removes the `X blocked or ignored message/s` prompt and replies to the blocked or ignored messages from chat.","authors":[{"name":"Zykrah"},{"name":"シグマ siguma"},{"name":"Yaminko"}],"discordPlus":{"installUrl":"https://yaminko18.github.io/Revenge-plugins/HideBlockedAndIgnoredMessages/","source":"https://github.com/yaminko18/Revenge-plugins/tree/HEAD/HideBlockedAndIgnoredMessages","updated":"2026-10-26","category":"Chat","recommended":false}},{"name":"HideBlockedInSettings","description":"Antigravity HideBlockedInSettings mobile port. Completely hides the Accounts you have blocked or ignored section and cards from Content & Social settings.","authors":[{"name":"Antigravity"}],"discordPlus":{"installUrl":"https://mezza1e.github.io/revenge-plugins/hideblockedinsettings/","source":"https://github.com/mezza1e/revenge-plugins/tree/HEAD/hideblockedinsettings","updated":"2026-09-19","category":"Privacy & Info","recommended":false}},{"name":"HideChannelListShortcuts","description":"Hide Server Boosts (and optionally Events) shortcuts at the top of the channel list","authors":[{"name":"marcmy"}],"discordPlus":{"installUrl":"https://marcmy.github.io/revenge-plugins/HideChannelListShortcuts/","source":"https://github.com/marcmy/revenge-plugins/tree/HEAD/plugins/HideChannelListShortcuts","updated":"2026-09-01","category":"Utility","recommended":false}},{"name":"InfoCommands","description":"commands to Get user, server, and invite information","authors":[{"name":"fshin"}],"discordPlus":{"installUrl":"https://fshinz.github.io/Revenge-Plugins/InfoCommands/","source":"https://github.com/fshinz/Revenge-Plugins/tree/HEAD/InfoCommands","updated":"2026-08-30","category":"Privacy & Info","recommended":false}},{"name":"Last Speak","description":"A plugin for show timestamp last speak voice in DM.","authors":[{"name":"Hann"}],"discordPlus":{"installUrl":"https://han22-811422.github.io/Vendetta-Plugins/last-speak-v2/","source":"https://github.com/Han22-811422/Vendetta-Plugins/tree/HEAD/last-speak-v2","updated":"2026-05-29","category":"Voice & Calls","recommended":false}},{"name":"Last.fm","description":"Show off your last.fm status on your Discord profile.","authors":[{"name":"pylix"},{"name":"kmmiio99o"}],"discordPlus":{"installUrl":"https://kmmiio99o.github.io/vd-plugins/Last.fm/","source":"https://github.com/kmmiio99o/vd-plugins/tree/HEAD/Last.fm","updated":"2026-07-26","category":"Media","recommended":false,"caution":"Needs your Last.fm username; sets your activity status."}},{"name":"LastOnlineTracker","description":"Shows 'Active X ago' under usernames in the member list, DM list, and DM header once they go offline.","authors":[{"name":"fshin"}],"discordPlus":{"installUrl":"https://fshinz.github.io/Revenge-Plugins/LastOnlineTracker/","source":"https://github.com/fshinz/Revenge-Plugins/tree/HEAD/LastOnlineTracker","updated":"2026-09-17","category":"Privacy & Info","recommended":false}},{"name":"LongScreenshotFix","description":"Keeps a deeper Discord message window loaded so Android scrolling screenshots do not stop at the virtualized history boundary","authors":[{"name":"marcmy"}],"discordPlus":{"installUrl":"https://marcmy.github.io/revenge-plugins/LongScreenshotFix/","source":"https://github.com/marcmy/revenge-plugins/tree/HEAD/plugins/LongScreenshotFix","updated":"2026-09-15","category":"Media","recommended":false}},{"name":"Markdown Tables","description":"Locally renders GitHub-style pipe tables in Discord mobile messages as compact aligned text tables. Built for Kettu/Revenge/Vendetta-style clients.","authors":[{"name":"Hermes"}],"discordPlus":{"installUrl":"https://thenedj3m.github.io/kettu-plugins/MarkdownTables/","source":"https://github.com/thenedj3m/kettu-plugins/tree/HEAD/MarkdownTables","updated":"2026-06-10","category":"Chat","recommended":false}},{"name":"Media Gestures","description":"Hold two fingers on one attachment to see its URL; lift one finger to keep reading, then return it to save. No copy action.","authors":[{"name":"Custom plugins"}],"discordPlus":{"installUrl":"https://xjetmaker.github.io/revenge-plugins/media-gestures/","source":"https://github.com/xJetmaker/revenge-plugins/tree/HEAD/docs/media-gestures","updated":"2026-10-09","category":"Media","recommended":false}},{"name":"MediaVault","description":"Favorites library for GIFs, images, videos, audio and files, with folders, search and automatically renewed links. Port of the Equicord plugin.","authors":[{"name":"Anybody4506"}],"discordPlus":{"installUrl":"https://anybody4506.github.io/mediaVault-Revenge/MediaVault/","source":"https://github.com/Anybody4506/mediaVault-Revenge/tree/HEAD/dist/MediaVault","updated":"2026-11-11","category":"Media","recommended":true}},{"name":"Member Details","description":"/userinfo <user> — account creation date (snowflake), account age, server join date, roles.","authors":[{"name":"dolanexeee"}],"discordPlus":{"installUrl":"https://dolanexeee.github.io/kettu-plugins/member-details/","source":"https://github.com/dolanexeee/kettu-plugins/tree/HEAD/member-details","updated":"2026-11-13","category":"Privacy & Info","recommended":false}},{"name":"MentionLog — by woodbloom","description":"Locally records every message that mentions you, including the channel and author — so a mention you missed (or that got deleted) is never lost.","authors":[{"name":"woodbloom"}],"discordPlus":{"installUrl":"https://woodbloom.github.io/revenge-plugins/MentionLog/","source":"https://github.com/woodbloom/revenge-plugins/tree/HEAD/MentionLog","updated":"2026-06-19","category":"Privacy & Info","recommended":false}},{"name":"Message Logger","description":"Deleted messages and attachments stay visible with dimmed opacity/lower brightness, and edited messages show the original text dimmed while new text stays bright.","authors":[{"name":"Kario"}],"discordPlus":{"installUrl":"https://ilickft.github.io/revenge-plugins/message-logger/","source":"https://github.com/ilickft/revenge-plugins/tree/HEAD/message-logger","updated":"2026-11-10","category":"Privacy & Info","recommended":true}},{"name":"Message Quote","description":"Turn any message or text into an authentic Discord-style PNG quote card with author avatar, username, timestamp, and styling via /quote or message menu.","authors":[{"name":"Kario"}],"discordPlus":{"installUrl":"https://ilickft.github.io/revenge-plugins/message-quote/","source":"https://github.com/ilickft/revenge-plugins/tree/HEAD/message-quote","updated":"2026-10-19","category":"Fun","recommended":false}},{"name":"Message Saver","description":"Save any message with its text and attachments, and easily resend it anytime to any channel.","authors":[{"name":"Kario"}],"discordPlus":{"installUrl":"https://ilickft.github.io/revenge-plugins/message-saver/","source":"https://github.com/ilickft/revenge-plugins/tree/HEAD/message-saver","updated":"2026-10-19","category":"Chat","recommended":false}},{"name":"MessageHistory","description":"Logs edited and deleted messages without exposing edit history in message content.","authors":[{"name":"marcmy"}],"discordPlus":{"installUrl":"https://marcmy.github.io/revenge-plugins/MessageHistory/","source":"https://github.com/marcmy/revenge-plugins/tree/HEAD/plugins/MessageHistory","updated":"2026-09-15","category":"Privacy & Info","recommended":false}},{"name":"Move Forward Button","description":"Repositions Discord's native Forward button to sit directly under Copy User ID in the message long press context menu.","authors":[{"name":"fshin"}],"discordPlus":{"installUrl":"https://fshinz.github.io/Revenge-Plugins/MoveForwardButton/","source":"https://github.com/fshinz/Revenge-Plugins/tree/HEAD/MoveForwardButton","updated":"2026-08-30","category":"Chat","recommended":false}},{"name":"Multi Scrobbler","description":"Show off your music status from Last.fm, Libre.fm, or ListenBrainz on your Discord profile with comprehensive console logging.","authors":[{"name":"kmmiio99o"}],"discordPlus":{"installUrl":"https://kmmiio99o.github.io/vd-plugins/multi-scrobbler/","source":"https://github.com/kmmiio99o/vd-plugins/tree/HEAD/multi-scrobbler","updated":"2026-07-26","category":"Media","recommended":false,"caution":"Needs a Last.fm/Libre.fm/ListenBrainz username; sets your activity status."}},{"name":"NicknameHistory — by woodbloom","description":"Locally records every server nickname and username change you see, so you can always look up what someone used to be called.","authors":[{"name":"woodbloom"}],"discordPlus":{"installUrl":"https://woodbloom.github.io/revenge-plugins/NicknameHistory/","source":"https://github.com/woodbloom/revenge-plugins/tree/HEAD/NicknameHistory","updated":"2026-06-19","category":"Privacy & Info","recommended":false}},{"name":"No Delete Confirmation","description":"Delete messages immediately from the message menu, including moderation deletions, using Discord’s original action.","authors":[{"name":"Custom plugins"}],"discordPlus":{"installUrl":"https://xjetmaker.github.io/revenge-plugins/no-delete-confirmation/","source":"https://github.com/xJetmaker/revenge-plugins/tree/HEAD/docs/no-delete-confirmation","updated":"2026-10-10","category":"Chat","recommended":false,"caution":"Deletes immediately with no confirm prompt."}},{"name":"No Embeds","description":"Automatically suppresses link embeds on every message you send.","authors":[{"name":"Kario"}],"discordPlus":{"installUrl":"https://ilickft.github.io/revenge-plugins/no-embeds/","source":"https://github.com/ilickft/revenge-plugins/tree/HEAD/no-embeds","updated":"2026-11-10","category":"Chat","recommended":false}},{"name":"No Orb Ads","description":"Blocks or mutes Discord Quest/Orb video ads to save bandwidth while farming Orbs. Uses 5 strategies: flag patching, component hiding, video collapse, API interception, and experiment gating.","authors":[{"name":"Kario"}],"discordPlus":{"installUrl":"https://ilickft.github.io/revenge-plugins/no-orb-ads/","source":"https://github.com/ilickft/revenge-plugins/tree/HEAD/no-orb-ads","updated":"2026-11-10","category":"Utility","recommended":true}},{"name":"No Suggestions","description":"Removes annoying channel suggestions that reappear even if you already removed them","authors":[{"name":"Palm"}],"discordPlus":{"installUrl":"https://raw.githubusercontent.com/Liz-chan/kettu-plugins/main/dist/no-suggestions/","source":"https://github.com/Liz-chan/kettu-plugins/tree/HEAD/dist/no-suggestions","updated":"2026-08-18","category":"Utility","recommended":false}},{"name":"NoCompression","description":"Prevents Discord from compressing files when uploading","authors":[{"name":"MSMA"}],"discordPlus":{"installUrl":"https://martinz64.github.io/vendetta-plugins/NoCompression/","source":"https://github.com/Martinz64/vendetta-plugins/tree/HEAD/NoCompression","updated":"2026-06-13","category":"Media","recommended":true}},{"name":"NoMentionCount","description":"Hide mention counts for specific channels and servers.","authors":[{"name":"fshin"}],"discordPlus":{"installUrl":"https://fshinz.github.io/Revenge-Plugins/NoMentionCount/","source":"https://github.com/fshinz/Revenge-Plugins/tree/HEAD/NoMentionCount","updated":"2026-08-30","category":"Utility","recommended":false}},{"name":"NoTrack — by woodbloom","description":"Blocks Discord's telemetry, analytics & tracking-pixel requests before they leave your device. Live counter & whitelist in settings.","authors":[{"name":"woodbloom"}],"discordPlus":{"installUrl":"https://woodbloom.github.io/revenge-plugins/NoTrack/","source":"https://github.com/woodbloom/revenge-plugins/tree/HEAD/NoTrack","updated":"2026-06-19","category":"Privacy & Info","recommended":true}},{"name":"Override User Avatars","description":"Allows you to set custom profile pictures for multiple Discord users.","authors":[{"name":"Yaminko"}],"discordPlus":{"installUrl":"https://yaminko18.github.io/Revenge-plugins/OverrideUserAvatars/","source":"https://github.com/yaminko18/Revenge-plugins/tree/HEAD/OverrideUserAvatars","updated":"2026-08-04","category":"Appearance","recommended":false}},{"name":"Pet Pet","description":"Use /petpet to generate a pet-pet GIF of any user — reply to someone, mention them, or just pet yourself!","authors":[{"name":"Kario"}],"discordPlus":{"installUrl":"https://ilickft.github.io/revenge-plugins/pet-pet/","source":"https://github.com/ilickft/revenge-plugins/tree/HEAD/pet-pet","updated":"2026-10-19","category":"Fun","recommended":false}},{"name":"PlatformIndicators","description":"Adds platform indicators (Desktop, Mobile, Web...) to users","authors":[{"name":"MSMA"}],"discordPlus":{"installUrl":"https://martinz64.github.io/vendetta-plugins/PlatformIndicators/","source":"https://github.com/Martinz64/vendetta-plugins/tree/HEAD/plugins/PlatformIndicators","updated":"2026-10-08","category":"Privacy & Info","recommended":true}},{"name":"PluginCommands","description":"Manage, install, uninstall, and open plugin settings directly via slash commands.","authors":[{"name":"fshinz"}],"discordPlus":{"installUrl":"https://fshinz.github.io/Revenge-Plugins/Plugin-Commands/","source":"https://github.com/fshinz/Revenge-Plugins/tree/HEAD/Plugin-Commands","updated":"2026-09-06","category":"Utility","recommended":false}},{"name":"Quick Server Switcher","description":"Alphabetical server list + fuzzy search + flat sidebar for Revenge.","authors":[{"name":"Danny Clark"}],"discordPlus":{"installUrl":"https://raw.githubusercontent.com/frdminc/RevengeQuickSwitcher/main/","source":"https://github.com/frdminc/RevengeQuickSwitcher/tree/HEAD","updated":"2026-07-20","category":"Utility","recommended":false}},{"name":"QuickCopy — by woodbloom","description":"Slash commands to instantly copy your user ID, avatar URL or the current server's ID/icon to your clipboard.","authors":[{"name":"woodbloom"}],"discordPlus":{"installUrl":"https://woodbloom.github.io/revenge-plugins/QuickCopy/","source":"https://github.com/woodbloom/revenge-plugins/tree/HEAD/QuickCopy","updated":"2026-06-19","category":"Utility","recommended":false}},{"name":"RealMoji","description":"Makes Freemoji CDN links render as real inline emoji, including messages with surrounding text.","authors":[{"name":"redstonekasi"},{"name":"Purple_Ξye™"},{"name":"marcmy"}],"discordPlus":{"installUrl":"https://marcmy.github.io/revenge-plugins/RealMoji/","source":"https://github.com/marcmy/revenge-plugins/tree/HEAD/plugins/RealMoji","updated":"2026-09-24","category":"Chat","recommended":false}},{"name":"RelationshipNotifier","description":"Notifies you when you are unfriended, or removed from a group DM or server.","authors":[{"name":"Vaiskiainen"}],"discordPlus":{"installUrl":"https://vaiskiainen.github.io/testplugins/relationshipNotifier/","source":"https://github.com/Vaiskiainen/testplugins/tree/HEAD/relationshipNotifier","updated":"2026-03-27","category":"Privacy & Info","recommended":false}},{"name":"RemoveBanner","description":"Remove Server Banners completely.","authors":[{"name":"Vaiskiainen"}],"discordPlus":{"installUrl":"https://vaiskiainen.github.io/testplugins/removeBanner/","source":"https://github.com/Vaiskiainen/testplugins/tree/HEAD/removeBanner","updated":"2026-03-25","category":"Appearance","recommended":false}},{"name":"RemoveBlockedUsers","description":"DevilBro RemoveBlockedUsers mobile port. Removes blocked and ignored messages, strips collapsed bars, prunes orphaned date dividers, filters playerlist, and hides typing.","authors":[{"name":"Antigravity"}],"discordPlus":{"installUrl":"https://mezza1e.github.io/revenge-plugins/removeblockedusers/","source":"https://github.com/mezza1e/revenge-plugins/tree/HEAD/removeblockedusers","updated":"2026-09-19","category":"Privacy & Info","recommended":false}},{"name":"ReviewDB","description":"Display and post reviews on user profiles.","authors":[{"name":"maisy"},{"name":"John"}],"discordPlus":{"installUrl":"https://janisslsm.github.io/vdplugins/ReviewDB/","source":"https://github.com/janisslsm/vdplugins/tree/HEAD/plugins/ReviewDB","updated":"2026-06-05","category":"Privacy & Info","recommended":false}},{"name":"RPCGuard — by woodbloom","description":"Stops Discord from broadcasting what you're playing/listening to (Rich Presence / game activity) to everyone who can see your profile.","authors":[{"name":"woodbloom"}],"discordPlus":{"installUrl":"https://woodbloom.github.io/revenge-plugins/RPCGuard/","source":"https://github.com/woodbloom/revenge-plugins/tree/HEAD/RPCGuard","updated":"2026-06-19","category":"Privacy & Info","recommended":false}},{"name":"SearchLink","description":"Lets you make a link to a search using various services. Adds the /search command","authors":[{"name":"meqativ :3"}],"discordPlus":{"installUrl":"https://meqativ.github.io/dumsane/SearchLink/","source":"https://github.com/meqativ/dumsane/tree/HEAD/SearchLink","updated":"2026-04-01","category":"Utility","recommended":false}},{"name":"Server Drawer","description":"Server Drawer above the YouBar, manage your servers differently! Now fully hides the Quest Dock/GuildsBar, adds a DM tile, optional server-name labels, and a settings screen.","authors":[{"name":"kmmiio99o"},{"name":"Rosie"}],"discordPlus":{"installUrl":"https://kmmiio99o.github.io/vd-plugins/ServerDrawer/","source":"https://github.com/kmmiio99o/vd-plugins/tree/HEAD/ServerDrawer","updated":"2026-09-12","category":"Appearance","recommended":false}},{"name":"Server Info","description":"Displays detailed server information when long pressing a guild icon on sidebar.","authors":[{"name":"fshin"}],"discordPlus":{"installUrl":"https://fshinz.github.io/Revenge-Plugins/ServerInfo/","source":"https://github.com/fshinz/Revenge-Plugins/tree/HEAD/ServerInfo","updated":"2026-08-30","category":"Privacy & Info","recommended":false}},{"name":"Shadow Ban","description":"Shadow ban users so they completely disappear from DMs, all chats, voice channels, and everywhere. Unban via /unsban or from plugin settings.","authors":[{"name":"Kario"}],"discordPlus":{"installUrl":"https://ilickft.github.io/revenge-plugins/shadow-ban/","source":"https://github.com/ilickft/revenge-plugins/tree/HEAD/shadow-ban","updated":"2026-10-19","category":"Privacy & Info","recommended":true}},{"name":"SocialEmbedFixer","description":"Rewrites X/Twitter and Instagram links to selectable embed-friendly services.","authors":[{"name":"brainage04"}],"discordPlus":{"installUrl":"https://brainage04.github.io/SocialEmbedFixer/","source":"https://github.com/brainage04/SocialEmbedFixer/tree/HEAD/","updated":"2026-11-17","category":"Media","recommended":true}},{"name":"Song Spotlight","description":"Show off songs on your Discord profile!","authors":[{"name":"nexpid"}],"discordPlus":{"installUrl":"https://revenge.nexpid.xyz/song-spotlight/","source":"https://github.com/nexpid/RevengePlugins/tree/HEAD/src/plugins/song-spotlight","updated":"2026-10-17","category":"Fun","recommended":false}},{"name":"Soundboard Anywhere","description":"Use soundboard sounds from any server without Nitro — patches Discord's sound availability checks.","authors":[{"name":"Kario"}],"discordPlus":{"installUrl":"https://ilickft.github.io/revenge-plugins/soundboard-anywhere/","source":"https://github.com/ilickft/revenge-plugins/tree/HEAD/soundboard-anywhere","updated":"2026-11-10","category":"Voice & Calls","recommended":false,"caution":"Uses soundboard sounds you don't normally have access to; use at your own risk."}},{"name":"SplitLargeMessages","description":"Automatically splits messages larger than 2000/4000 characters","authors":[{"name":"marcmy"}],"discordPlus":{"installUrl":"https://marcmy.github.io/revenge-plugins/SplitLargeMessages/","source":"https://github.com/marcmy/revenge-plugins/tree/HEAD/SplitLargeMessages","updated":"2026-11-16","category":"Chat","recommended":true}},{"name":"Staff Tags","description":"Shows OWNER, ADMIN, STAFF and moderator tags based on server permissions.","authors":[{"name":"Fiery"},{"name":"siguma"},{"name":"Flarya"}],"discordPlus":{"installUrl":"https://floralflarya.github.io/revenge/stafftag/","source":"https://github.com/FloralFlarya/revenge/tree/HEAD/stafftag","updated":"2026-10-27","category":"Appearance","recommended":false}},{"name":"StealSticker","description":"Save Discord stickers directly to your Camera Roll.","authors":[{"name":"Lotte"}],"discordPlus":{"installUrl":"https://raw.githubusercontent.com/lotte-xrd/steal-sticker-plugin/main/dist/","source":"https://github.com/lotte-xrd/steal-sticker-plugin/tree/HEAD/dist","updated":"2026-08-14","category":"Media","recommended":false}},{"name":"Terminal Prompt","description":"Turns the message box placeholder into a shell prompt, e.g. ethan@discord:~/#general$","authors":[{"name":"ethan"}],"discordPlus":{"installUrl":"https://cathousing.github.io/horrible-kettu-plugins/plugins/terminal-prompt/","source":"https://github.com/CatHousing/horrible-kettu-plugins/tree/HEAD/plugins/terminal-prompt","updated":"2026-10-03","category":"Fun","recommended":false}},{"name":"Terminal Timestamps","description":"Shows message times as [HH:MM:SS], like a shell log.","authors":[{"name":"ethan"}],"discordPlus":{"installUrl":"https://cathousing.github.io/horrible-kettu-plugins/plugins/terminal-timestamps/","source":"https://github.com/CatHousing/horrible-kettu-plugins/tree/HEAD/plugins/terminal-timestamps","updated":"2026-10-03","category":"Appearance","recommended":false}},{"name":"Text Replace","description":"Generic text replacement plugin (Kettu: regex toggle fixed)","authors":[{"name":"Fiery"}],"discordPlus":{"installUrl":"https://mobvadasz2.github.io/textreplace/","source":"https://github.com/mobvadasz2/textreplace/tree/HEAD","updated":"2026-08-09","category":"Chat","recommended":false}},{"name":"Timeout Countdown","description":"/timeoutinfo <user> — shows when a member's timeout ends, with Discord's native live countdown timestamp.","authors":[{"name":"dolanexeee"}],"discordPlus":{"installUrl":"https://dolanexeee.github.io/kettu-plugins/timeout-countdown/","source":"https://github.com/dolanexeee/kettu-plugins/tree/HEAD/timeout-countdown","updated":"2026-11-13","category":"Utility","recommended":false}},{"name":"TimestampHelper — by woodbloom","description":"Slash command to generate Discord timestamp markup (<t:...>) from a relative time like '2h' or '3d', so everyone sees it in their own timezone.","authors":[{"name":"woodbloom"}],"discordPlus":{"installUrl":"https://woodbloom.github.io/revenge-plugins/TimestampHelper/","source":"https://github.com/woodbloom/revenge-plugins/tree/HEAD/TimestampHelper","updated":"2026-06-19","category":"Utility","recommended":false}},{"name":"UwUify","description":"Lets you UwUify text. As a filter on all your messages or through the /uwuify command","authors":[{"name":"meqativ :3"}],"discordPlus":{"installUrl":"https://meqativ.github.io/dumsane/UwUify/","source":"https://github.com/meqativ/dumsane/tree/HEAD/UwUify","updated":"2026-09-20","category":"Fun","recommended":false}},{"name":"ValidUser","description":"Fixes unresolved user mentions like @unknown-user to a normal clickable mention.","authors":[{"name":"fshin"},{"name":"o.oer"},{"name":"kmmiio99o"}],"discordPlus":{"installUrl":"https://fshinz.github.io/Revenge-Plugins/ValidUser/","source":"https://github.com/fshinz/Revenge-Plugins/tree/HEAD/ValidUser","updated":"2026-09-15","category":"Chat","recommended":true}},{"name":"VaultDMs","description":"Hide DM conversations behind a PIN-locked private vault.","authors":[{"name":"you"}],"discordPlus":{"installUrl":"https://raw.githubusercontent.com/tuomix/revenge-plugins/gh-pages/dist/VaultDMs/","source":"https://github.com/tuomix/revenge-plugins/tree/HEAD/dist/VaultDMs","updated":"2026-05-17","category":"Privacy & Info","recommended":false}},{"name":"Video Embeds","description":"Shows a native video player for Facebook, Instagram and Twitter / X video links.","authors":[{"name":"Yaminko"}],"discordPlus":{"installUrl":"https://yaminko18.github.io/Revenge-plugins/VideoEmbeds/","source":"https://github.com/yaminko18/Revenge-plugins/tree/HEAD/VideoEmbeds","updated":"2026-10-27","category":"Media","recommended":false,"caution":"Fetches video info from Facebook/Instagram/X to show a player."}},{"name":"Yellow Notes","description":"Private local global, server, and user notes with search, pins, and reminders.","authors":[{"name":"ProxyDesync"}],"discordPlus":{"installUrl":"https://proxydesync.github.io/yellow-notes-repo/YellowNotes/","source":"https://github.com/ProxyDesync/yellow-notes-repo/tree/HEAD/YellowNotes","updated":"2026-08-05","category":"Utility","recommended":false}},{"name":"YouBar+","description":"Adds Settings and DM buttons to the YouBar. (Requires a restart)","authors":[{"name":"Purple_Ξye™"}],"discordPlus":{"installUrl":"https://purple-eyez.github.io/RevengePlugins/YouBarPlus/","source":"https://github.com/Purple-EyeZ/RevengePlugins/tree/HEAD/YouBarPlus","updated":"2026-07-29","category":"Appearance","recommended":false}},{"name":"🇺🇸 GTA VI Countdown","description":"Counting down until you reach heaven.","authors":[{"name":"Purple_Ξye™"}],"discordPlus":{"installUrl":"https://purple-eyez.github.io/RevengePlugins/GTAVICountdown/","source":"https://github.com/Purple-EyeZ/RevengePlugins/tree/HEAD/GTAVICountdown","updated":"2026-08-11","category":"Fun","recommended":false}}],themes:[{"name":"Catppuccin Mocha","description":"Soothing pastel theme for the high-spirited!","authors":[{"name":"Catppuccin"}],"url":"https://raw.githubusercontent.com/catppuccin/vendetta/main/themes/mocha/mauve.json","swatch":["#1e1e2e","#181825","#11111b","#cdd6f4","#cba6f7"],"light":false,"background":false,"updated":"2025-05-04","source":"https://github.com/catppuccin/vendetta/blob/HEAD/themes/mocha/mauve.json","recommended":true},{"name":"Catppuccin Macchiato","description":"Soothing pastel theme for the high-spirited!","authors":[{"name":"Catppuccin"}],"url":"https://raw.githubusercontent.com/catppuccin/vendetta/main/themes/macchiato/mauve.json","swatch":["#24273a","#1e2030","#181926","#cad3f5","#c6a0f6"],"light":false,"background":false,"updated":"2025-05-04","source":"https://github.com/catppuccin/vendetta/blob/HEAD/themes/macchiato/mauve.json","recommended":false},{"name":"Catppuccin Frappé","description":"Soothing pastel theme for the high-spirited!","authors":[{"name":"Catppuccin"}],"url":"https://raw.githubusercontent.com/catppuccin/vendetta/main/themes/frappe/mauve.json","swatch":["#303446","#292c3c","#232634","#c6d0f5","#ca9ee6"],"light":false,"background":false,"updated":"2025-05-04","source":"https://github.com/catppuccin/vendetta/blob/HEAD/themes/frappe/mauve.json","recommended":false},{"name":"Catppuccin Latte","description":"Soothing pastel theme for the high-spirited!","authors":[{"name":"Catppuccin"}],"url":"https://raw.githubusercontent.com/catppuccin/vendetta/main/themes/latte/mauve.json","swatch":["#eff1f5","#e6e9ef","#dce0e8","#4c4f69","#8839ef"],"light":true,"background":false,"updated":"2025-05-04","source":"https://github.com/catppuccin/vendetta/blob/HEAD/themes/latte/mauve.json","recommended":false},{"name":"Rosé Pine","description":"Something beautiful. All natural pine, faux fur and a bit of soho vibes for the classy minimalist.","authors":[{"name":"Moodle","id":"807170846497570848"}],"url":"https://raw.githubusercontent.com/rose-pine/discord-mobile/main/rosepine-nobg.json","swatch":["#191724","#191724","#26233a","#e0def4","#31748f"],"light":false,"background":false,"updated":"2025-02-06","source":"https://github.com/rose-pine/discord-mobile/blob/HEAD/rosepine-nobg.json","recommended":true},{"name":"Rosé Pine Moon","description":"Something beautiful. All natural pine, faux fur and a bit of soho vibes for the classy minimalist.","authors":[{"name":"Moodle","id":"807170846497570848"}],"url":"https://raw.githubusercontent.com/rose-pine/discord-mobile/main/rosepinemoon.json","swatch":["#232136","#232136","#393552","#e0def4","#3e8fb0"],"light":false,"background":false,"updated":"2025-02-06","source":"https://github.com/rose-pine/discord-mobile/blob/HEAD/rosepinemoon.json","recommended":false},{"name":"Rosé Pine Dawn","description":"All natural pine, faux fur and a bit of soho vibes for the classy minimalist.","authors":[{"name":"Moodl","id":"807170846497570848"}],"url":"https://raw.githubusercontent.com/rose-pine/discord-mobile/main/rosepinedawn.json","swatch":["#faf4ed","#faf4ed","#f2e9e1","#575279","#286983"],"light":true,"background":false,"updated":"2025-05-30","source":"https://github.com/rose-pine/discord-mobile/blob/HEAD/rosepinedawn.json","recommended":false},{"name":"Dracula","description":"Dracula Classic (draculatheme.com spec): official UI background ramp, purple accent, cyan links, pink-free status colours.","authors":[{"name":"rain-themes"}],"url":"https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/dracula/dracula.json","swatch":["#282A36","#21222C","#191A21","#F8F8F2","#BD93F9"],"light":false,"background":false,"updated":"2026-09-29","source":"https://github.com/alpine-vortex/rain-themes/blob/HEAD/dracula/dracula.json","recommended":true},{"name":"Nord Frost","description":"Nord (nordtheme/nord): Polar Night surfaces with the bright nord8 Frost accent — Nord's documented primary accent.","authors":[{"name":"rain-themes"}],"url":"https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/nord-frost/nord-frost.json","swatch":["#2E3440","#3B4252","#2E3440","#D8DEE9","#88C0D0"],"light":false,"background":false,"updated":"2026-09-29","source":"https://github.com/alpine-vortex/rain-themes/blob/HEAD/nord-frost/nord-frost.json","recommended":false},{"name":"Nord Polar Night","description":"Nord (nordtheme/nord): Polar Night surfaces with a quiet nord9 Frost accent and nord8 links.","authors":[{"name":"rain-themes"}],"url":"https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/nord-polar-night/nord-polar-night.json","swatch":["#2E3440","#3B4252","#2E3440","#D8DEE9","#81A1C1"],"light":false,"background":false,"updated":"2026-09-29","source":"https://github.com/alpine-vortex/rain-themes/blob/HEAD/nord-polar-night/nord-polar-night.json","recommended":true},{"name":"Tokyo Night Storm","description":"Tokyo Night — Storm (folke/tokyonight.nvim): slate-blue storm background, blue accent, teal links.","authors":[{"name":"rain-themes"}],"url":"https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/tokyonight-storm/tokyonight-storm.json","swatch":["#24283B","#1F2335","#1B1E2D","#C0CAF5","#7AA2F7"],"light":false,"background":false,"updated":"2026-09-29","source":"https://github.com/alpine-vortex/rain-themes/blob/HEAD/tokyonight-storm/tokyonight-storm.json","recommended":true},{"name":"Tokyo Dark","description":"Tokyo Dark (tiagovla/tokyodark.nvim): ink-black bg0 chat, bg1 panels, blue accent, purple links.","authors":[{"name":"rain-themes"}],"url":"https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/tokyodark/tokyodark.json","swatch":["#11121D","#1A1B2A","#06080A","#A0A8CD","#7199EE"],"light":false,"background":false,"updated":"2026-09-29","source":"https://github.com/alpine-vortex/rain-themes/blob/HEAD/tokyodark/tokyodark.json","recommended":false},{"name":"Gruvbox Material Dark","description":"Gruvbox Material (sainnhe/gruvbox-material) dark, medium background, material foreground: softer contrast, grey-first selection, teal-blue accent, purple links.","authors":[{"name":"rain-themes"}],"url":"https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/gruvbox-material-dark/gruvbox-material-dark.json","swatch":["#282828","#32302F","#1B1B1B","#D4BE98","#7DAEA3"],"light":false,"background":false,"updated":"2026-09-29","source":"https://github.com/alpine-vortex/rain-themes/blob/HEAD/gruvbox-material-dark/gruvbox-material-dark.json","recommended":true},{"name":"Everforest Dark","description":"Everforest dark, medium contrast (sainnhe/everforest): warm grey-green bg0 chat, green accent, blue links, aqua online.","authors":[{"name":"rain-themes"}],"url":"https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/everforest-dark/everforest-dark.json","swatch":["#2D353B","#343F44","#232A2E","#D3C6AA","#A7C080"],"light":false,"background":false,"updated":"2026-09-29","source":"https://github.com/alpine-vortex/rain-themes/blob/HEAD/everforest-dark/everforest-dark.json","recommended":false},{"name":"Kanagawa Wave","description":"Kanagawa Wave (rebelot/kanagawa.nvim): sumiInk surfaces, fujiWhite text, crystalBlue accent, springBlue links.","authors":[{"name":"rain-themes"}],"url":"https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/kanagawa-wave/kanagawa-wave.json","swatch":["#1F1F28","#181820","#16161D","#DCD7BA","#7E9CD8"],"light":false,"background":false,"updated":"2026-09-29","source":"https://github.com/alpine-vortex/rain-themes/blob/HEAD/kanagawa-wave/kanagawa-wave.json","recommended":false},{"name":"Kanagawa Dragon","description":"Kanagawa Dragon (rebelot/kanagawa.nvim): warm dragonBlack surfaces, dragonWhite text, muted dragonBlue2 accent, dragonTeal links.","authors":[{"name":"rain-themes"}],"url":"https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/kanagawa-dragon/kanagawa-dragon.json","swatch":["#181616","#12120F","#0D0C0C","#C5C9C5","#8BA4B0"],"light":false,"background":false,"updated":"2026-09-29","source":"https://github.com/alpine-vortex/rain-themes/blob/HEAD/kanagawa-dragon/kanagawa-dragon.json","recommended":false},{"name":"Solarized Osaka","description":"Dark Solarized Osaka (craftzdog/solarized-osaka.nvim): deep teal-black base04 chat, base03 panels, Solarized blue accent, cyan links.","authors":[{"name":"rain-themes"}],"url":"https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/solarized-osaka/solarized-osaka.json","swatch":["#001419","#002C38","#001419","#9EABAC","#268BD3"],"light":false,"background":false,"updated":"2026-09-29","source":"https://github.com/alpine-vortex/rain-themes/blob/HEAD/solarized-osaka/solarized-osaka.json","recommended":false},{"name":"Loui2 Gruvbox Sharp","description":"Revenge Android adaptation of Gruvbox Sharp by round-panda, with Loui2's palette and readability modifications.","authors":[{"name":"round-panda"},{"name":"Loui2"}],"url":"https://raw.githubusercontent.com/Loui2/loui2-discord-gruvbox-suite/main/revenge/theme.json","swatch":["#32302f","#282828","#1d2021","#ebdbb2","#076678"],"light":false,"background":false,"updated":"2026-08-20","source":"https://github.com/Loui2/loui2-discord-gruvbox-suite/blob/HEAD/revenge/theme.json","recommended":false},{"name":"Everforest Hard","description":"a theme based on the Everforest hard dark palette","authors":[{"name":"7eahaus","id":"322399383050256387"}],"url":"https://raw.githubusercontent.com/7eahaus/Discord-Themes/main/teaforest/mobile-themes/everforest-hard-dark.json","swatch":["#2E383C","#272E33","#1E2326","#D3C6AA","#A7C080"],"light":false,"background":false,"updated":"2026-06-19","source":"https://github.com/7eahaus/Discord-Themes/blob/HEAD/teaforest/mobile-themes/everforest-hard-dark.json","recommended":false},{"name":"Everforest Hard Light","description":"a theme based on the Everforest hard light palette","authors":[{"name":"7eahaus","id":"322399383050256387"}],"url":"https://raw.githubusercontent.com/7eahaus/Discord-Themes/main/teaforest/mobile-themes/everforest-hard-light.json","swatch":["#F8F5E4","#FFFBEF","#F2EFDF","#5C6A72","#8DA101"],"light":true,"background":false,"updated":"2026-06-19","source":"https://github.com/7eahaus/Discord-Themes/blob/HEAD/teaforest/mobile-themes/everforest-hard-light.json","recommended":false},{"name":"Fallout 4 Terminal","description":"A Fallout 4 inspired terminal theme for Discord, ported from Vencord to Revenge by Pearl8520, edited by 7eahaus","authors":[{"name":"7eahaus","id":"322399383050256387"}],"url":"https://raw.githubusercontent.com/7eahaus/Discord-Themes/main/fallout/fallout4terminal.json","swatch":["#000900","#000900","#000900","#4AEF98","#4AEF98"],"light":false,"background":false,"updated":"2026-08-13","source":"https://github.com/7eahaus/Discord-Themes/blob/HEAD/fallout/fallout4terminal.json","recommended":false},{"name":"system24","description":"a tui-style discord theme. ported from refact0r/system24. monochrome surfaces, teal accent.","authors":[{"name":"refact0r"},{"name":"LukasDerBaum42"}],"url":"https://raw.githubusercontent.com/LukasDerBaum42/discord-theme/main/themes/system24.json","swatch":["#141414","#141414","#1d1d1d","#aeaeae","#24a684"],"light":false,"background":false,"updated":"2026-08-08","source":"https://github.com/LukasDerBaum42/discord-theme/blob/HEAD/themes/system24.json","recommended":false},{"name":"system24 (tokyo night)","description":"a tui-style discord theme. ported from refact0r/system24.","authors":[{"name":"refact0r"},{"name":"LukasDerBaum42"}],"url":"https://raw.githubusercontent.com/LukasDerBaum42/discord-theme/main/themes/flavors/system24-tokyo-night.json","swatch":["#1a1b26","#1a1b26","#16161d","#a9b1d6","#648fed"],"light":false,"background":false,"updated":"2026-08-08","source":"https://github.com/LukasDerBaum42/discord-theme/blob/HEAD/themes/flavors/system24-tokyo-night.json","recommended":false},{"name":"system24 (nord)","description":"a tui-style discord theme. ported from refact0r/system24.","authors":[{"name":"refact0r"},{"name":"LukasDerBaum42"}],"url":"https://raw.githubusercontent.com/LukasDerBaum42/discord-theme/main/themes/flavors/system24-nord.json","swatch":["#2e3440","#2e3440","#272b35","#d8dee9","#88c0d0"],"light":false,"background":false,"updated":"2026-08-08","source":"https://github.com/LukasDerBaum42/discord-theme/blob/HEAD/themes/flavors/system24-nord.json","recommended":false},{"name":"system24 (catppuccin mocha)","description":"a tui-style discord theme. ported from refact0r/system24.","authors":[{"name":"refact0r"},{"name":"LukasDerBaum42"}],"url":"https://raw.githubusercontent.com/LukasDerBaum42/discord-theme/main/themes/flavors/system24-catppuccin-mocha.json","swatch":["#1e1e2e","#1e1e2e","#181825","#bac2de","#caa6f7"],"light":false,"background":false,"updated":"2026-08-08","source":"https://github.com/LukasDerBaum42/discord-theme/blob/HEAD/themes/flavors/system24-catppuccin-mocha.json","recommended":false},{"name":"system24 (rosé pine)","description":"a tui-style discord theme. ported from refact0r/system24.","authors":[{"name":"refact0r"},{"name":"LukasDerBaum42"}],"url":"https://raw.githubusercontent.com/LukasDerBaum42/discord-theme/main/themes/flavors/system24-rose-pine.json","swatch":["#1a1825","#1a1825","#201d2f","#c0bddb","#ebbcba"],"light":false,"background":false,"updated":"2026-08-08","source":"https://github.com/LukasDerBaum42/discord-theme/blob/HEAD/themes/flavors/system24-rose-pine.json","recommended":false},{"name":"Pure Black","description":"Midnight Theme, turned up to 11","authors":[{"name":"breadcat0314","id":"354957913187680257"}],"url":"https://raw.githubusercontent.com/breadcat0314/discord-themes/main/AMOLED.json","swatch":["#000000","#000000","#141414","#FFFFFF","#141414"],"light":false,"background":false,"updated":"2026-03-04","source":"https://github.com/breadcat0314/discord-themes/blob/HEAD/AMOLED.json","recommended":true},{"name":"Monolith OLED","description":"Monolith on true black. Pixels off, infinite contrast.","authors":[{"name":"Ace","id":"1225921043559088138"}],"url":"https://raw.githubusercontent.com/Tachyon-os/Tachy_Themes/main/Themes/Monolith-OLED.json","swatch":["#000000","#000000","#000000","#FFFFFF","#86efac"],"light":false,"background":false,"updated":"2026-07-28","source":"https://github.com/Tachyon-os/Tachy_Themes/blob/HEAD/Themes/Monolith-OLED.json","recommended":false},{"name":"Aetheris Dev - Amoled","description":"A Comfy Dark Purple Theme","authors":[{"name":"AsterionVT","id":"183251375193456641"}],"url":"https://raw.githubusercontent.com/AsterionXeity/Aetheris/main/Aetheris-Dev-Amoled.json","swatch":["#080228","#080228","#080228","#D793d5","#5908C5"],"light":false,"background":false,"updated":"2026-02-25","source":"https://github.com/AsterionXeity/Aetheris/blob/HEAD/Aetheris-Dev-Amoled.json","recommended":false},{"name":"Midnight Vencord","description":"Based on Midnight Vencord by refact0r.","authors":[{"name":"kmmiio99o.dev","id":"879393496627306587"}],"url":"https://raw.githubusercontent.com/kmmiio99o/discord-mobile-themes/main/midnight-vencord.json","swatch":["#32302f","#32302f","#282828","#ebdbb2","#d3869b"],"light":false,"background":false,"updated":"2026-08-20","source":"https://github.com/kmmiio99o/discord-mobile-themes/blob/HEAD/midnight-vencord.json","recommended":true},{"name":"Old Midnight","description":"Brings back the old midnight theme before Discord refreshed.","authors":[{"name":"luky_cz9876","id":"975732907316506646"}],"url":"https://raw.githubusercontent.com/Lukycz9876/Lukys-Discord-Themes/main/Old%20Midnight.json","swatch":["#000000","#000000","#000000","#dddee1","#3c8ceb"],"light":false,"background":false,"updated":"2026-08-27","source":"https://github.com/Lukycz9876/Lukys-Discord-Themes/blob/HEAD/Old Midnight.json","recommended":false},{"name":"Aurora","description":"Polar night sky lit up by green and violet northern lights","authors":[{"name":"i_795","id":"1126614446643609704"}],"url":"https://raw.githubusercontent.com/I-794/iOSDiscordThemes/main/Aurora.json","swatch":["#0d1524","#121c2f","#070b14","#d9e6f2","#008547"],"light":false,"background":false,"updated":"2026-11-16","source":"https://github.com/I-794/iOSDiscordThemes/blob/HEAD/Aurora.json","recommended":false},{"name":"Glacier","description":"Frosted slate blue with pale arctic ice","authors":[{"name":"i_795","id":"1126614446643609704"}],"url":"https://raw.githubusercontent.com/I-794/iOSDiscordThemes/main/Glacier.json","swatch":["#323c4d","#2a3341","#202733","#e3eaf2","#4a6fa5"],"light":false,"background":false,"updated":"2026-11-16","source":"https://github.com/I-794/iOSDiscordThemes/blob/HEAD/Glacier.json","recommended":false},{"name":"Graphite","description":"Pure grayscale with only a whisper of color for status","authors":[{"name":"i_795","id":"1126614446643609704"}],"url":"https://raw.githubusercontent.com/I-794/iOSDiscordThemes/main/Graphite.json","swatch":["#1a1a1a","#212121","#0f0f0f","#d4d4d4","#6e6e6e"],"light":false,"background":false,"updated":"2026-11-16","source":"https://github.com/I-794/iOSDiscordThemes/blob/HEAD/Graphite.json","recommended":false},{"name":"Synthwave","description":"Neon magenta and cyan over an 80s night grid","authors":[{"name":"i_795","id":"1126614446643609704"}],"url":"https://raw.githubusercontent.com/I-794/iOSDiscordThemes/main/Synthwave.json","swatch":["#170f2b","#1e1438","#0c0718","#e6dcff","#dc0687"],"light":false,"background":false,"updated":"2026-11-16","source":"https://github.com/I-794/iOSDiscordThemes/blob/HEAD/Synthwave.json","recommended":false},{"name":"Void","description":"Pure black AMOLED theme with an icy blue glow","authors":[{"name":"i_795","id":"1126614446643609704"}],"url":"https://raw.githubusercontent.com/I-794/iOSDiscordThemes/main/Void.json","swatch":["#000000","#07080a","#000000","#e3e8ef","#1e7fb6"],"light":false,"background":false,"updated":"2026-11-16","source":"https://github.com/I-794/iOSDiscordThemes/blob/HEAD/Void.json","recommended":false},{"name":"Espresso","description":"Dark roast browns with a swirl of cream","authors":[{"name":"i_795","id":"1126614446643609704"}],"url":"https://raw.githubusercontent.com/I-794/iOSDiscordThemes/main/Espresso.json","swatch":["#2e1d14","#372419","#1b100a","#ead9c8","#8f5b2a"],"light":false,"background":false,"updated":"2026-11-16","source":"https://github.com/I-794/iOSDiscordThemes/blob/HEAD/Espresso.json","recommended":false},{"name":"Sakura Dusk","description":"Cherry blossoms against a plum colored evening","authors":[{"name":"i_795","id":"1126614446643609704"}],"url":"https://raw.githubusercontent.com/I-794/iOSDiscordThemes/main/Sakura%20Dusk.json","swatch":["#1f1620","#281c29","#120c13","#f1dfe8","#b54d76"],"light":false,"background":false,"updated":"2026-11-16","source":"https://github.com/I-794/iOSDiscordThemes/blob/HEAD/Sakura Dusk.json","recommended":false},{"name":"Nocturne - Obsidian","description":"Nocturne (Obsidian variant) theme made by Esvi","authors":[{"name":"Esvi","id":"1356186866533138474"}],"url":"https://raw.githubusercontent.com/esvius/nocturne/main/themes/obsidian.theme.json","swatch":["#000000","#000000","#000000","#f3f3f3","#5e7a96"],"light":false,"background":false,"updated":"2026-08-25","source":"https://github.com/esvius/nocturne/blob/HEAD/themes/obsidian.theme.json","recommended":false},{"name":"Nocturne - Navy","description":"Nocturne (Navy variant) theme made by Esvi","authors":[{"name":"Esvi","id":"1356186866533138474"}],"url":"https://raw.githubusercontent.com/esvius/nocturne/main/themes/navy.theme.json","swatch":["#2e333f","#262a34","#20232b","#eceff7","#6e93b9"],"light":false,"background":false,"updated":"2026-08-25","source":"https://github.com/esvius/nocturne/blob/HEAD/themes/navy.theme.json","recommended":false},{"name":"Nocturne - Light","description":"Nocturne (Light variant) theme made by Esvi","authors":[{"name":"Esvi","id":"1356186866533138474"}],"url":"https://raw.githubusercontent.com/esvius/nocturne/main/themes/light.theme.json","swatch":["#eceff7","#e3e7f0","#d8dee9","#2e333f","#6e93b9"],"light":true,"background":false,"updated":"2026-08-25","source":"https://github.com/esvius/nocturne/blob/HEAD/themes/light.theme.json","recommended":false},{"name":"Aetheris","description":"Aetheris palette on mobile: violet canvas, readable lavender text.","authors":[{"name":"GeeNuTz"}],"url":"https://raw.githubusercontent.com/GeeNuTz/discord-themes/main/Aetheris/Aetheris-Revenge.json","swatch":["#26125e","#1e0e50","#0f062b","#f0e6ff","#5a23a8"],"light":false,"background":false,"updated":"2026-11-09","source":"https://github.com/GeeNuTz/discord-themes/blob/HEAD/Aetheris/Aetheris-Revenge.json","recommended":false},{"name":"Comfy Deep","description":"Comfy Deep for Discord: near-black navy, teal text, low-glare surfaces. ClearVision v7 layout, measured contrast.","authors":[{"name":"GeeNuTz"}],"url":"https://raw.githubusercontent.com/GeeNuTz/discord-themes/main/Comfy/ComfyDeep-Revenge.json","swatch":["#050917","#0f121b","#02050c","#a8e3d3","#244d42"],"light":false,"background":false,"updated":"2026-11-09","source":"https://github.com/GeeNuTz/discord-themes/blob/HEAD/Comfy/ComfyDeep-Revenge.json","recommended":false},{"name":"Ashen","description":"Greyscale theme on pure AMOLED black — white mention pings, no color","authors":[{"name":"Celesth","id":"3"}],"url":"https://raw.githubusercontent.com/Celesth/RainThemes/main/Dark/Ashen.json","swatch":["#000000","#000000","#111111","#e0e0e0","#777777"],"light":false,"background":false,"updated":"2026-05-03","source":"https://github.com/Celesth/RainThemes/blob/HEAD/Dark/Ashen.json","recommended":false},{"name":"Ashen Light","description":"Inverted greyscale theme — near-white surfaces, charcoal text, and no color","authors":[{"name":"Celesth","id":"3"}],"url":"https://raw.githubusercontent.com/Celesth/RainThemes/main/Light/snow.json","swatch":["#ffffff","#f5f5f5","#e8e8e8","#242424","#777777"],"light":true,"background":false,"updated":"2026-09-06","source":"https://github.com/Celesth/RainThemes/blob/HEAD/Light/snow.json","recommended":false},{"name":"Crimson Dusk","description":"Dark theme with deep crimson and rose pink accents on near-black slate","authors":[{"name":"Celesth","id":"2"}],"url":"https://raw.githubusercontent.com/Celesth/RainThemes/main/Dark/Crimson-Dusk.json","swatch":["#1b2021","#1b2021","#262b2c","#f5c8cb","#ea638c"],"light":false,"background":false,"updated":"2026-04-17","source":"https://github.com/Celesth/RainThemes/blob/HEAD/Dark/Crimson-Dusk.json","recommended":false},{"name":"HighRose","description":"pathetic and dark, but still pink","authors":[{"name":"Dimu","id":"1275796154717573122"}],"url":"https://raw.githubusercontent.com/pdimu/discord/main/HighRose.json","swatch":["#14080B","#1E0F13","#11070A","#EFDEE1","#713345"],"light":false,"background":false,"updated":"2026-11-08","source":"https://github.com/pdimu/discord/blob/HEAD/HighRose.json","recommended":false}],fonts:[{"name":"DM Sans","fontName":"DM Sans","authors":[{"name":"AhmadMorningstar"}],"url":"https://raw.githubusercontent.com/AhmadMorningstar/Discord-Fonts/main/DM_Sans.json","files":18,"updated":"2026-08-26","source":"https://github.com/AhmadMorningstar/Discord-Fonts/blob/HEAD/DM_Sans.json"},{"name":"JetBrains Mono","fontName":"JetBrains Mono","authors":[{"name":"AhmadMorningstar"}],"url":"https://raw.githubusercontent.com/AhmadMorningstar/Discord-Fonts/main/JetBrainsMono.json","files":18,"updated":"2026-08-26","source":"https://github.com/AhmadMorningstar/Discord-Fonts/blob/HEAD/JetBrainsMono.json"},{"name":"Cascadia Mono","fontName":"Cascadia Mono","authors":[{"name":"AhmadMorningstar"}],"url":"https://raw.githubusercontent.com/AhmadMorningstar/Discord-Fonts/main/Cascadia_Mono.json","files":18,"updated":"2026-08-24","source":"https://github.com/AhmadMorningstar/Discord-Fonts/blob/HEAD/Cascadia_Mono.json"},{"name":"Archivo Black","fontName":"Archivo Black","authors":[{"name":"AhmadMorningstar"}],"url":"https://raw.githubusercontent.com/AhmadMorningstar/Discord-Fonts/main/Archivo_Black.json","files":18,"updated":"2026-08-26","source":"https://github.com/AhmadMorningstar/Discord-Fonts/blob/HEAD/Archivo_Black.json"},{"name":"Asap Sharp","fontName":"Asap Sharp","authors":[{"name":"AhmadMorningstar"}],"url":"https://raw.githubusercontent.com/AhmadMorningstar/Discord-Fonts/main/Asap_Sharp.json","files":18,"updated":"2026-08-26","source":"https://github.com/AhmadMorningstar/Discord-Fonts/blob/HEAD/Asap_Sharp.json"},{"name":"McLaren","fontName":"McLaren","authors":[{"name":"AhmadMorningstar"}],"url":"https://raw.githubusercontent.com/AhmadMorningstar/Discord-Fonts/main/McLaren.json","files":18,"updated":"2026-08-24","source":"https://github.com/AhmadMorningstar/Discord-Fonts/blob/HEAD/McLaren.json"},{"name":"Figtree","fontName":"Figtree","authors":[{"name":"Rairof"}],"url":"https://raw.githubusercontent.com/Rairof/Theme-Fonts/main/Figtree/Figtree-font-snippet.json","files":18,"updated":"2026-08-08","source":"https://github.com/Rairof/Theme-Fonts/blob/HEAD/Figtree/Figtree-font-snippet.json"},{"name":"Geist","fontName":"Geist","authors":[{"name":"azurenekowo"}],"url":"https://raw.githubusercontent.com/azurenekowo/discord-theme-fonts/main/Geist_Rain.json","files":18,"updated":"2026-09-28","source":"https://github.com/azurenekowo/discord-theme-fonts/blob/HEAD/Geist_Rain.json"},{"name":"Atkinson Hyperlegible","fontName":"Atkinson Hyperlegible","authors":[{"name":"dmack6464"}],"url":"https://raw.githubusercontent.com/dmack6464/RealDark/master/Rain/AtkinsonForRain.json","files":18,"updated":"2026-07-06","source":"https://github.com/dmack6464/RealDark/blob/HEAD/Rain/AtkinsonForRain.json"},{"name":"Balsamiq Sans","fontName":"Balsamiq Sans","authors":[{"name":"Ruhannn"}],"url":"https://raw.githubusercontent.com/Ruhannn/bunnyfont/main/balsamiq-sans.json","files":18,"updated":"2026-11-02","source":"https://github.com/Ruhannn/bunnyfont/blob/HEAD/balsamiq-sans.json"},{"name":"DM Mono Light","fontName":"DM Mono Light","authors":[{"name":"SlashXIV"}],"url":"https://raw.githubusercontent.com/SlashXIV/discord-themes/main/fonts/dm-mono.json","files":18,"updated":"2026-10-11","source":"https://github.com/SlashXIV/discord-themes/blob/HEAD/fonts/dm-mono.json"},{"name":"Outfit","fontName":"Outfit","authors":[{"name":"GoyDevv"}],"url":"https://raw.githubusercontent.com/GoyDevv/ArseIDE/main/revenge-fonts/outfit.json","files":11,"updated":"2026-09-03","source":"https://github.com/GoyDevv/ArseIDE/blob/HEAD/revenge-fonts/outfit.json"},{"name":"Saira (All Mapped)","fontName":"Saira (All Mapped)","authors":[{"name":"Titan87zs"}],"url":"https://raw.githubusercontent.com/Titan87zs/titan87zs.github.io/main/kettu/Saira-AllMapped.json","files":18,"updated":"2026-07-31","source":"https://github.com/Titan87zs/titan87zs.github.io/blob/HEAD/kettu/Saira-AllMapped.json"},{"name":"Sarpanch","fontName":"Sarpanch","authors":[{"name":"Brayden1609"}],"url":"https://raw.githubusercontent.com/Brayden1609/Fonts/main/Sarpanch-font-snippet.json","files":18,"updated":"2026-08-15","source":"https://github.com/Brayden1609/Fonts/blob/HEAD/Sarpanch-font-snippet.json"}]};
+ const CHECKED='2026-11-18';
+ const L=globalThis.__PYON_LOADER__||{};
+ const themesOK=()=>!!TH&&(L.hasThemeSupport!==false);
+ const fontsOK=()=>!!FN&&L.fontPatch===2;
+ const CATS=['Recommended','Installed','Chat','Privacy & Info','Appearance','Media','Voice & Calls','Utility','Fun'];
+ const C={bg:'#1e1f22',card:'#2b2d31',fg:'#f2f3f5',muted:'#b5bac1',accent:'#5865f2',green:'#23a55a',red:'#da373c',chip:'#383a40',warn:'#f0b232',link:'#00a8fc'};
+ const cache={plugins:null,themes:null,fonts:null},srcOf={};
+ const slash=u=>u.endsWith('/')?u:u+'/';
+ const idOf=p=>slash(p?.discordPlus?.installUrl||('https://'+(p?.vendetta?.original||'')));
+ const who=a=>(a||[]).map(x=>typeof x==='string'?x:x?.name).filter(Boolean).join(', ')||'Unknown';
+ const err=e=>String(e?.message||e).slice(0,140);
+ const reload=()=>{try{N.NativeModules.BundleUpdaterManager.reload();}catch(e){}};
+ function load(kind,force){
+  if(cache[kind]&&!force)return Promise.resolve(cache[kind]);
+  return fetch(BASE+FILES[kind]+'?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();})
+   .then(rows=>{if(!Array.isArray(rows)||!rows.length)throw Error('invalid');cache[kind]=rows;srcOf[kind]='online';return rows;})
+   .catch(()=>{srcOf[kind]='offline';return cache[kind]||OFF[kind];});
  }
- let removeSection;
- return {settings:Library,onLoad(){
-  const api=globalThis.bunny?.ui?.settings;
-  if(api?.registerSection) removeSection=api.registerSection({name:'Discord+',items:[{key:'DISCORD_PLUS_LIBRARY',title:()=> 'Plugin Library',render:async()=>({default:Library})}]});
- },onUnload(){removeSection?.();}};
+ function T(s,o={}){return R.createElement(N.Text,{style:{color:o.c||C.fg,fontSize:o.s||15,fontWeight:o.b?'700':'400',marginBottom:o.mb??4,textAlign:o.center?'center':undefined},numberOfLines:o.n},s);}
+ function Chip(label,active,onPress,color){return R.createElement(N.Pressable,{key:label,onPress,style:{paddingVertical:7,paddingHorizontal:12,borderRadius:16,marginRight:8,marginBottom:8,backgroundColor:color||(active?C.accent:C.chip)}},T(label,{s:13,mb:0,b:active}));}
+ function Badge(label,color){return R.createElement(N.View,{key:label,style:{paddingVertical:2,paddingHorizontal:8,borderRadius:10,backgroundColor:color,marginRight:6,marginBottom:4}},T(label,{s:11,mb:0,b:true}));}
+ function Btn(label,onPress,color,disabled){return R.createElement(N.Pressable,{key:label,disabled,onPress,style:{paddingVertical:9,paddingHorizontal:14,borderRadius:8,backgroundColor:disabled?'#4e5058':color||C.accent,minWidth:92,alignItems:'center',marginLeft:6,marginBottom:6}},T(label,{s:14,b:true,mb:0}));}
+ function Swatch(colors){return R.createElement(N.View,{style:{flexDirection:'row',marginBottom:8}},...(colors||[]).filter(Boolean).map((c,i)=>R.createElement(N.View,{key:i,style:{width:i===4?40:28,height:28,borderRadius:14,backgroundColor:c,marginRight:6,borderWidth:1,borderColor:'#ffffff33'}})));}
+ function Library({tab:initial}){
+  const [tab,setTab]=R.useState(initial||'plugins');
+  const [rows,setRows]=R.useState({plugins:cache.plugins||OFF.plugins,themes:cache.themes||OFF.themes,fonts:cache.fonts||OFF.fonts});
+  const [q,setQ]=R.useState(''),[cat,setCat]=R.useState('Recommended'),[sort,setSort]=R.useState('updated');
+  const [status,S]=R.useState('Loading catalogue…'),[busy,B]=R.useState(''),[restart,setRestart]=R.useState(''),[,bump]=R.useState(0);
+  const [paste,setPaste]=R.useState(false),[url,setUrl]=R.useState('');
+  const refresh=R.useCallback(force=>{S('Refreshing catalogue…');Promise.all(['plugins','themes','fonts'].map(k=>load(k,force))).then(([a,b,c])=>{setRows({plugins:a,themes:b,fonts:c});
+   S(srcOf.plugins==='online'?'Online catalogue · updated just now':'Offline — showing bundled catalogue (checked '+CHECKED+')');});},[]);
+  R.useEffect(()=>{refresh(false);},[]);
+  async function run(id,fn,done,needsRestart){if(busy)return;B(id);try{await fn();S(done);if(needsRestart)setRestart(needsRestart);}catch(e){S('Failed: '+err(e));}finally{B('');bump(x=>x+1);}}
+  const pInst=id=>!!P.plugins[id],pOn=id=>!!P.plugins[id]?.enabled;
+  const tInst=u=>!!TH?.themes?.[u],tOn=u=>!!TH?.themes?.[u]?.selected;
+  const fInst=n=>!!FN?.fonts?.[n],fOn=n=>FN?.fonts?.__selected===n;
+  const togglePlugin=p=>{const id=idOf(p);return pInst(id)?run(id,()=>P.removePlugin(id),'Uninstalled '+p.name):run(id,()=>P.installPlugin(id,true),'Installed '+p.name+' — enabled. Configure it in Revenge → Plugins.');};
+  const applyTheme=t=>run(t.url,async()=>{if(!tInst(t.url))await TH.installTheme(t.url);await TH.selectTheme(t.url);},'Applied '+t.name,'Theme applied. Restart Discord to apply it everywhere.');
+  const removeTheme=t=>run(t.url,()=>TH.removeTheme(t.url),'Removed '+t.name,tOn(t.url)?'Theme removed. Restart Discord to finish.':'');
+  const resetTheme=()=>run('reset-theme',()=>TH.selectTheme('default'),'Back to Discord\'s default theme','Default theme restored. Restart Discord to finish.');
+  const applyFont=f=>run(f.url,async()=>{if(fInst(f.fontName))await FN.selectFont(f.fontName);else await FN.installFont(f.url,true);},'Applied font '+f.name,'Font applied. Restart Discord to see it.');
+  const removeFont=f=>run(f.url,()=>FN.removeFont(f.fontName),'Removed font '+f.name,'Font removed. Restart Discord to finish.');
+  const resetFont=()=>run('reset-font',()=>FN.selectFont(null),'Back to Discord\'s default font','Default font restored. Restart Discord to finish.');
+  const installPasted=kind=>{const u=url.trim();if(!/^https?:\/\//.test(u)){S('Paste a full https:// link first');return;}
+   if(kind==='plugin')return run('paste',()=>P.installPlugin(slash(u),true),'Installed plugin from link');
+   if(kind==='theme')return run('paste',()=>TH.installTheme(u),'Installed theme — tap Apply in Revenge → Themes or here');
+   return run('paste',()=>FN.installFont(u,false),'Installed font — select it in Revenge → Fonts');};
+  const ql=q.trim().toLowerCase();
+  const match=(...xs)=>xs.join(' ').toLowerCase().includes(ql);
+  const byDate=(a,b)=>String(b.updated||b.discordPlus?.updated||'').localeCompare(String(a.updated||a.discordPlus?.updated||''))||a.name.localeCompare(b.name);
+  const sorter=sort==='name'?(a,b)=>a.name.localeCompare(b.name):byDate;
+  let data;
+  if(tab==='plugins'){data=rows.plugins.filter(p=>{const d=p.discordPlus||{};if(ql)return match(p.name,p.description,who(p.authors),d.category);
+   if(cat==='Recommended')return !!d.recommended;if(cat==='Installed')return pInst(idOf(p));return d.category===cat;});}
+  else if(tab==='themes'){data=rows.themes.filter(t=>!ql||match(t.name,t.description,who(t.authors)));}
+  else{data=rows.fonts.filter(f=>!ql||match(f.name,f.description,who(f.authors)));}
+  data=data.slice().sort(sorter);
+  const counts={};for(const p of rows.plugins){const c=p.discordPlus?.category;counts[c]=(counts[c]||0)+1;if(p.discordPlus?.recommended)counts.Recommended=(counts.Recommended||0)+1;}
+  counts.Installed=rows.plugins.filter(p=>pInst(idOf(p))).length;
+  const tabs=[['plugins','Plugins '+rows.plugins.length]];if(themesOK())tabs.push(['themes','Themes '+rows.themes.length]);if(fontsOK())tabs.push(['fonts','Fonts '+rows.fonts.length]);
+  const cur=TH?.getCurrentTheme?.();
+  const header=R.createElement(N.View,{style:{padding:16,paddingBottom:4}},
+   T('Discord+ Library',{s:24,b:true}),
+   T('Curated plugins, themes and fonts. Nothing installs or changes until you tap a button.',{c:C.muted,s:13,mb:10}),
+   R.createElement(N.View,{style:{flexDirection:'row',flexWrap:'wrap'}},...tabs.map(([k,l])=>Chip(l,tab===k,()=>{setTab(k);setQ('');}))),
+   R.createElement(N.TextInput,{value:q,onChangeText:setQ,placeholder:tab==='plugins'?'Search plugins, authors, features…':tab==='themes'?'Search themes…':'Search fonts…',placeholderTextColor:C.muted,style:{color:C.fg,backgroundColor:C.card,borderRadius:8,padding:12,marginBottom:10}}),
+   tab==='plugins'&&!ql?R.createElement(N.View,{style:{flexDirection:'row',flexWrap:'wrap'}},...CATS.map(c=>Chip(c+(counts[c]?' '+counts[c]:''),cat===c,()=>setCat(c)))):null,
+   tab==='plugins'?T('Third-party plugins come from their authors\' own sites and run inside your account. Only install ones you trust.',{c:C.muted,s:12,mb:8}):null,
+   tab==='themes'?R.createElement(N.View,{style:{flexDirection:'row',alignItems:'center',justifyContent:'space-between',flexWrap:'wrap',marginBottom:6}},T('Current: '+(cur?.data?.name||'Discord default'),{c:C.muted,s:13,mb:0}),Btn('Reset to default',resetTheme,'#4e5058',!!busy)):null,
+   tab==='fonts'?R.createElement(N.View,{style:{flexDirection:'row',alignItems:'center',justifyContent:'space-between',flexWrap:'wrap',marginBottom:6}},T('Current: '+(FN?.fonts?.__selected||'Discord default'),{c:C.muted,s:13,mb:0}),Btn('Reset to default',resetFont,'#4e5058',!!busy)):null,
+   restart?R.createElement(N.View,{style:{backgroundColor:'#3c3f45',borderRadius:8,padding:10,marginBottom:8,flexDirection:'row',alignItems:'center',justifyContent:'space-between'}},R.createElement(N.View,{style:{flex:1,paddingRight:8}},T(restart,{s:13,mb:0})),Btn('Restart now',reload,C.green)):null,
+   R.createElement(N.View,{style:{flexDirection:'row',alignItems:'center',justifyContent:'space-between',marginTop:2,flexWrap:'wrap'}},
+    R.createElement(N.View,{style:{flex:1,minWidth:150}},T(status,{c:C.muted,s:12,mb:0})),
+    R.createElement(N.View,{style:{flexDirection:'row'}},Chip(sort==='updated'?'Newest':'A–Z',true,()=>setSort(sort==='updated'?'name':'updated')),Chip('Refresh',false,()=>refresh(true)),Chip(paste?'Close link':'Paste link',paste,()=>setPaste(!paste)))),
+   paste?R.createElement(N.View,{style:{backgroundColor:C.card,borderRadius:8,padding:12,marginBottom:8}},
+    T('Install from a link',{b:true,mb:6}),
+    R.createElement(N.TextInput,{value:url,onChangeText:setUrl,autoCapitalize:'none',autoCorrect:false,placeholder:'https://…',placeholderTextColor:C.muted,style:{color:C.fg,backgroundColor:C.bg,borderRadius:8,padding:10,marginBottom:8}}),
+    R.createElement(N.View,{style:{flexDirection:'row',flexWrap:'wrap',justifyContent:'flex-end'}},Btn('Plugin',()=>installPasted('plugin'),C.accent,!!busy),themesOK()?Btn('Theme',()=>installPasted('theme'),C.accent,!!busy):null,fontsOK()?Btn('Font',()=>installPasted('font'),C.accent,!!busy):null)):null,
+   T(ql?data.length+' results':(tab==='plugins'?cat+' · '+data.length:data.length+' '+tab),{c:C.muted,s:12,mb:6}));
+  const card=(...kids)=>R.createElement(N.View,{style:{marginHorizontal:16,marginBottom:10,padding:14,backgroundColor:C.card,borderRadius:10}},...kids);
+  const footer=(updated,source,extra)=>R.createElement(N.View,{style:{flexDirection:'row',justifyContent:'space-between',alignItems:'center'}},
+   T('Updated '+(updated||'unknown')+(extra?' · '+extra:''),{c:C.muted,s:12,mb:0}),
+   source?R.createElement(N.Pressable,{onPress:()=>N.Linking.openURL(source)},T('Source ›',{c:C.link,s:12,mb:0})):null);
+  const renderPlugin=p=>{const id=idOf(p),d=p.discordPlus||{},inst=pInst(id),on=pOn(id),working=busy===id;
+   return card(R.createElement(N.View,{style:{flexDirection:'row',alignItems:'flex-start',justifyContent:'space-between'}},
+     R.createElement(N.View,{style:{flex:1,paddingRight:10}},T(p.name,{s:17,b:true,mb:2}),T('by '+who(p.authors),{c:C.muted,s:12,mb:4}),
+      R.createElement(N.View,{style:{flexDirection:'row',flexWrap:'wrap'}},d.category?Badge(d.category,C.chip):null,d.recommended?Badge('★ Recommended','#4e5d94'):null,
+       inst?Badge(on?'Installed · on':'Installed · off',on?C.green:'#4e5058'):null,d.caution?Badge('Caution',C.warn):null)),
+     Btn(working?'…':inst?'Uninstall':'Install',()=>togglePlugin(p),inst?C.red:C.accent,!!busy)),
+    T(p.description||'',{s:14,mb:6}),d.caution?T('⚠ '+d.caution,{c:C.warn,s:12}):null,footer(d.updated,d.source));};
+  const renderTheme=t=>{const inst=tInst(t.url),on=tOn(t.url),working=busy===t.url;
+   return card(Swatch(t.swatch),R.createElement(N.View,{style:{flexDirection:'row',alignItems:'flex-start',justifyContent:'space-between'}},
+     R.createElement(N.View,{style:{flex:1,paddingRight:10}},T(t.name,{s:17,b:true,mb:2}),T('by '+who(t.authors),{c:C.muted,s:12,mb:4}),
+      R.createElement(N.View,{style:{flexDirection:'row',flexWrap:'wrap'}},on?Badge('Applied',C.green):inst?Badge('Installed','#4e5058'):null,t.recommended?Badge('★ Recommended','#4e5d94'):null,t.light?Badge('Light','#6d6f78'):null,t.background?Badge('Wallpaper','#6d6f78'):null)),
+     R.createElement(N.View,{style:{alignItems:'flex-end'}},Btn(working?'…':on?'Applied':'Apply',()=>applyTheme(t),C.accent,!!busy||on),inst?Btn('Remove',()=>removeTheme(t),C.red,!!busy):null)),
+    t.description?T(t.description,{s:14,mb:6,n:3}):null,footer(t.updated,t.source));};
+  const renderFont=f=>{const inst=fInst(f.fontName),on=fOn(f.fontName),working=busy===f.url;
+   return card(R.createElement(N.View,{style:{flexDirection:'row',alignItems:'flex-start',justifyContent:'space-between'}},
+     R.createElement(N.View,{style:{flex:1,paddingRight:10}},T(f.name,{s:17,b:true,mb:2}),T('by '+who(f.authors),{c:C.muted,s:12,mb:4}),
+      R.createElement(N.View,{style:{flexDirection:'row',flexWrap:'wrap'}},on?Badge('Applied',C.green):inst?Badge('Installed','#4e5058'):null,f.style?Badge(f.style,C.chip):null)),
+     R.createElement(N.View,{style:{alignItems:'flex-end'}},Btn(working?'…':on?'Applied':'Apply',()=>applyFont(f),C.accent,!!busy||on),inst?Btn('Remove',()=>removeFont(f),C.red,!!busy):null)),
+    f.description?T(f.description,{s:14,mb:6}):null,footer(f.updated,f.source,f.files?f.files+' font files':''));};
+  const renderItem=({item})=>tab==='plugins'?renderPlugin(item):tab==='themes'?renderTheme(item):renderFont(item);
+  return R.createElement(N.FlatList,{style:{flex:1,backgroundColor:C.bg},data,keyExtractor:x=>tab==='plugins'?idOf(x):x.url,renderItem,ListHeaderComponent:header,
+   ListEmptyComponent:R.createElement(N.View,{style:{padding:24}},T(tab==='plugins'&&cat==='Installed'?'No catalogue plugins installed yet.':'Nothing matches.',{c:C.muted})),
+   contentContainerStyle:{paddingBottom:80},initialNumToRender:10,windowSize:9,keyboardShouldPersistTaps:'handled',extraData:[tab,busy,status,restart,cat,sort].join('|')});
+ }
+ function open(nav,tab){nav.push('BUNNY_CUSTOM_PAGE',{title:'Discord+ Library',render:()=>R.createElement(Library,{tab})});}
+ function Banner({tab}){
+  const nav=Nav.useNavigation();
+  const n=(cache[tab]||OFF[tab]).length;
+  const label={plugins:'Browse '+n+' curated plugins',themes:'Browse '+n+' curated themes',fonts:'Browse '+n+' curated fonts'}[tab];
+  return R.createElement(N.Pressable,{onPress:()=>open(nav,tab),style:{margin:12,marginBottom:4,padding:14,borderRadius:10,backgroundColor:C.accent,flexDirection:'row',alignItems:'center',justifyContent:'space-between'}},
+   R.createElement(N.View,{style:{flex:1}},T(label,{s:16,b:true,mb:2}),T('Discord+ Library · search, one-tap install'+(tab==='plugins'?' · paste a link':''),{s:12,mb:0,c:'#e3e5ff'})),T('›',{s:24,b:true,mb:0}));
+ }
+ const wrapped=[];let removeSection;
+ function wrapRows(){
+  const reg=globalThis.bunny?.ui?.settings?.registeredSections;if(!reg)return;
+  const map={BUNNY_PLUGINS:'plugins',BUNNY_THEMES:'themes',BUNNY_FONTS:'fonts'};
+  for(const sect of Object.values(reg))for(const row of sect||[]){const tab=map[row?.key];if(!tab||row.__dpOrig||typeof row.render!=='function')continue;
+   const orig=row.render;row.__dpOrig=orig;
+   row.render=()=>orig().then(m=>{const Inner=m.default;return {default:function DiscordPlusWrapped(props){return R.createElement(N.View,{style:{flex:1}},R.createElement(Banner,{tab}),R.createElement(Inner,props));}};});
+   wrapped.push(row);}
+ }
+ function unwrapRows(){for(const row of wrapped.splice(0)){if(row.__dpOrig){row.render=row.__dpOrig;delete row.__dpOrig;}}}
+ return {settings:()=>R.createElement(Library,{tab:'plugins'}),onLoad(){
+  try{wrapRows();}catch(e){console.log('[Discord+ Library] banner unavailable',e?.message||e);}
+  try{const api=globalThis.bunny?.ui?.settings;const icon=n=>{try{return vendetta.ui.assets.getAssetIDByName(n);}catch{return undefined;}};
+   const items=[{key:'DISCORD_PLUS_LIBRARY',title:()=>'Plugin Library',icon:icon('PuzzlePieceIcon'),render:async()=>({default:()=>R.createElement(Library,{tab:'plugins'})})}];
+   if(themesOK())items.push({key:'DISCORD_PLUS_THEMES',title:()=>'Theme Library',icon:icon('PaintPaletteIcon'),render:async()=>({default:()=>R.createElement(Library,{tab:'themes'})})});
+   if(fontsOK())items.push({key:'DISCORD_PLUS_FONTS',title:()=>'Font Library',icon:icon('LettersIcon'),render:async()=>({default:()=>R.createElement(Library,{tab:'fonts'})})});
+   if(api?.registerSection)removeSection=api.registerSection({name:'Discord+',items});}catch(e){console.log('[Discord+ Library] settings section unavailable',e?.message||e);}
+  Promise.all(['plugins','themes','fonts'].map(k=>load(k,false))).catch(()=>{});
+ },onUnload(){try{unwrapRows();}catch{}try{removeSection?.();}catch{}}};
 })()

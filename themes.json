@@ -1,0 +1,1267 @@
+[
+  {
+    "name": "Catppuccin Mocha",
+    "description": "Soothing pastel theme for the high-spirited!",
+    "authors": [
+      {
+        "name": "Catppuccin"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/catppuccin/vendetta/main/themes/mocha/mauve.json",
+    "spec": 2,
+    "swatch": [
+      "#1e1e2e",
+      "#181825",
+      "#11111b",
+      "#cdd6f4",
+      "#cba6f7"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2025-05-04",
+    "source": "https://github.com/catppuccin/vendetta/blob/HEAD/themes/mocha/mauve.json",
+    "license": "MIT",
+    "recommended": true,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Catppuccin Macchiato",
+    "description": "Soothing pastel theme for the high-spirited!",
+    "authors": [
+      {
+        "name": "Catppuccin"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/catppuccin/vendetta/main/themes/macchiato/mauve.json",
+    "spec": 2,
+    "swatch": [
+      "#24273a",
+      "#1e2030",
+      "#181926",
+      "#cad3f5",
+      "#c6a0f6"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2025-05-04",
+    "source": "https://github.com/catppuccin/vendetta/blob/HEAD/themes/macchiato/mauve.json",
+    "license": "MIT",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Catppuccin Frappé",
+    "description": "Soothing pastel theme for the high-spirited!",
+    "authors": [
+      {
+        "name": "Catppuccin"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/catppuccin/vendetta/main/themes/frappe/mauve.json",
+    "spec": 2,
+    "swatch": [
+      "#303446",
+      "#292c3c",
+      "#232634",
+      "#c6d0f5",
+      "#ca9ee6"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2025-05-04",
+    "source": "https://github.com/catppuccin/vendetta/blob/HEAD/themes/frappe/mauve.json",
+    "license": "MIT",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Catppuccin Latte",
+    "description": "Soothing pastel theme for the high-spirited!",
+    "authors": [
+      {
+        "name": "Catppuccin"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/catppuccin/vendetta/main/themes/latte/mauve.json",
+    "spec": 2,
+    "swatch": [
+      "#eff1f5",
+      "#e6e9ef",
+      "#dce0e8",
+      "#4c4f69",
+      "#8839ef"
+    ],
+    "light": true,
+    "background": false,
+    "updated": "2025-05-04",
+    "source": "https://github.com/catppuccin/vendetta/blob/HEAD/themes/latte/mauve.json",
+    "license": "MIT",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Rosé Pine",
+    "description": "Something beautiful. All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
+    "authors": [
+      {
+        "name": "Moodle",
+        "id": "807170846497570848"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/rose-pine/discord-mobile/main/rosepine-nobg.json",
+    "spec": 2,
+    "swatch": [
+      "#191724",
+      "#191724",
+      "#26233a",
+      "#e0def4",
+      "#31748f"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2025-02-06",
+    "source": "https://github.com/rose-pine/discord-mobile/blob/HEAD/rosepine-nobg.json",
+    "license": "MIT",
+    "recommended": true,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Rosé Pine Moon",
+    "description": "Something beautiful. All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
+    "authors": [
+      {
+        "name": "Moodle",
+        "id": "807170846497570848"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/rose-pine/discord-mobile/main/rosepinemoon.json",
+    "spec": 2,
+    "swatch": [
+      "#232136",
+      "#232136",
+      "#393552",
+      "#e0def4",
+      "#3e8fb0"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2025-02-06",
+    "source": "https://github.com/rose-pine/discord-mobile/blob/HEAD/rosepinemoon.json",
+    "license": "MIT",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Rosé Pine Dawn",
+    "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
+    "authors": [
+      {
+        "name": "Moodl",
+        "id": "807170846497570848"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/rose-pine/discord-mobile/main/rosepinedawn.json",
+    "spec": 2,
+    "swatch": [
+      "#faf4ed",
+      "#faf4ed",
+      "#f2e9e1",
+      "#575279",
+      "#286983"
+    ],
+    "light": true,
+    "background": false,
+    "updated": "2025-05-30",
+    "source": "https://github.com/rose-pine/discord-mobile/blob/HEAD/rosepinedawn.json",
+    "license": "MIT",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Dracula",
+    "description": "Dracula Classic (draculatheme.com spec): official UI background ramp, purple accent, cyan links, pink-free status colours.",
+    "authors": [
+      {
+        "name": "rain-themes"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/dracula/dracula.json",
+    "spec": 2,
+    "swatch": [
+      "#282A36",
+      "#21222C",
+      "#191A21",
+      "#F8F8F2",
+      "#BD93F9"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-09-29",
+    "source": "https://github.com/alpine-vortex/rain-themes/blob/HEAD/dracula/dracula.json",
+    "license": "none",
+    "recommended": true,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Nord Frost",
+    "description": "Nord (nordtheme/nord): Polar Night surfaces with the bright nord8 Frost accent — Nord's documented primary accent.",
+    "authors": [
+      {
+        "name": "rain-themes"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/nord-frost/nord-frost.json",
+    "spec": 2,
+    "swatch": [
+      "#2E3440",
+      "#3B4252",
+      "#2E3440",
+      "#D8DEE9",
+      "#88C0D0"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-09-29",
+    "source": "https://github.com/alpine-vortex/rain-themes/blob/HEAD/nord-frost/nord-frost.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Nord Polar Night",
+    "description": "Nord (nordtheme/nord): Polar Night surfaces with a quiet nord9 Frost accent and nord8 links.",
+    "authors": [
+      {
+        "name": "rain-themes"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/nord-polar-night/nord-polar-night.json",
+    "spec": 2,
+    "swatch": [
+      "#2E3440",
+      "#3B4252",
+      "#2E3440",
+      "#D8DEE9",
+      "#81A1C1"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-09-29",
+    "source": "https://github.com/alpine-vortex/rain-themes/blob/HEAD/nord-polar-night/nord-polar-night.json",
+    "license": "none",
+    "recommended": true,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Tokyo Night Storm",
+    "description": "Tokyo Night — Storm (folke/tokyonight.nvim): slate-blue storm background, blue accent, teal links.",
+    "authors": [
+      {
+        "name": "rain-themes"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/tokyonight-storm/tokyonight-storm.json",
+    "spec": 2,
+    "swatch": [
+      "#24283B",
+      "#1F2335",
+      "#1B1E2D",
+      "#C0CAF5",
+      "#7AA2F7"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-09-29",
+    "source": "https://github.com/alpine-vortex/rain-themes/blob/HEAD/tokyonight-storm/tokyonight-storm.json",
+    "license": "none",
+    "recommended": true,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Tokyo Dark",
+    "description": "Tokyo Dark (tiagovla/tokyodark.nvim): ink-black bg0 chat, bg1 panels, blue accent, purple links.",
+    "authors": [
+      {
+        "name": "rain-themes"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/tokyodark/tokyodark.json",
+    "spec": 2,
+    "swatch": [
+      "#11121D",
+      "#1A1B2A",
+      "#06080A",
+      "#A0A8CD",
+      "#7199EE"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-09-29",
+    "source": "https://github.com/alpine-vortex/rain-themes/blob/HEAD/tokyodark/tokyodark.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Gruvbox Material Dark",
+    "description": "Gruvbox Material (sainnhe/gruvbox-material) dark, medium background, material foreground: softer contrast, grey-first selection, teal-blue accent, purple links.",
+    "authors": [
+      {
+        "name": "rain-themes"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/gruvbox-material-dark/gruvbox-material-dark.json",
+    "spec": 2,
+    "swatch": [
+      "#282828",
+      "#32302F",
+      "#1B1B1B",
+      "#D4BE98",
+      "#7DAEA3"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-09-29",
+    "source": "https://github.com/alpine-vortex/rain-themes/blob/HEAD/gruvbox-material-dark/gruvbox-material-dark.json",
+    "license": "none",
+    "recommended": true,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Everforest Dark",
+    "description": "Everforest dark, medium contrast (sainnhe/everforest): warm grey-green bg0 chat, green accent, blue links, aqua online.",
+    "authors": [
+      {
+        "name": "rain-themes"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/everforest-dark/everforest-dark.json",
+    "spec": 2,
+    "swatch": [
+      "#2D353B",
+      "#343F44",
+      "#232A2E",
+      "#D3C6AA",
+      "#A7C080"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-09-29",
+    "source": "https://github.com/alpine-vortex/rain-themes/blob/HEAD/everforest-dark/everforest-dark.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Kanagawa Wave",
+    "description": "Kanagawa Wave (rebelot/kanagawa.nvim): sumiInk surfaces, fujiWhite text, crystalBlue accent, springBlue links.",
+    "authors": [
+      {
+        "name": "rain-themes"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/kanagawa-wave/kanagawa-wave.json",
+    "spec": 2,
+    "swatch": [
+      "#1F1F28",
+      "#181820",
+      "#16161D",
+      "#DCD7BA",
+      "#7E9CD8"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-09-29",
+    "source": "https://github.com/alpine-vortex/rain-themes/blob/HEAD/kanagawa-wave/kanagawa-wave.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Kanagawa Dragon",
+    "description": "Kanagawa Dragon (rebelot/kanagawa.nvim): warm dragonBlack surfaces, dragonWhite text, muted dragonBlue2 accent, dragonTeal links.",
+    "authors": [
+      {
+        "name": "rain-themes"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/kanagawa-dragon/kanagawa-dragon.json",
+    "spec": 2,
+    "swatch": [
+      "#181616",
+      "#12120F",
+      "#0D0C0C",
+      "#C5C9C5",
+      "#8BA4B0"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-09-29",
+    "source": "https://github.com/alpine-vortex/rain-themes/blob/HEAD/kanagawa-dragon/kanagawa-dragon.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Solarized Osaka",
+    "description": "Dark Solarized Osaka (craftzdog/solarized-osaka.nvim): deep teal-black base04 chat, base03 panels, Solarized blue accent, cyan links.",
+    "authors": [
+      {
+        "name": "rain-themes"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/alpine-vortex/rain-themes/main/solarized-osaka/solarized-osaka.json",
+    "spec": 2,
+    "swatch": [
+      "#001419",
+      "#002C38",
+      "#001419",
+      "#9EABAC",
+      "#268BD3"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-09-29",
+    "source": "https://github.com/alpine-vortex/rain-themes/blob/HEAD/solarized-osaka/solarized-osaka.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Loui2 Gruvbox Sharp",
+    "description": "Revenge Android adaptation of Gruvbox Sharp by round-panda, with Loui2's palette and readability modifications.",
+    "authors": [
+      {
+        "name": "round-panda"
+      },
+      {
+        "name": "Loui2"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/Loui2/loui2-discord-gruvbox-suite/main/revenge/theme.json",
+    "spec": 2,
+    "swatch": [
+      "#32302f",
+      "#282828",
+      "#1d2021",
+      "#ebdbb2",
+      "#076678"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-08-20",
+    "source": "https://github.com/Loui2/loui2-discord-gruvbox-suite/blob/HEAD/revenge/theme.json",
+    "license": "NOASSERTION",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Everforest Hard",
+    "description": "a theme based on the Everforest hard dark palette",
+    "authors": [
+      {
+        "name": "7eahaus",
+        "id": "322399383050256387"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/7eahaus/Discord-Themes/main/teaforest/mobile-themes/everforest-hard-dark.json",
+    "spec": 2,
+    "swatch": [
+      "#2E383C",
+      "#272E33",
+      "#1E2326",
+      "#D3C6AA",
+      "#A7C080"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-06-19",
+    "source": "https://github.com/7eahaus/Discord-Themes/blob/HEAD/teaforest/mobile-themes/everforest-hard-dark.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Everforest Hard Light",
+    "description": "a theme based on the Everforest hard light palette",
+    "authors": [
+      {
+        "name": "7eahaus",
+        "id": "322399383050256387"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/7eahaus/Discord-Themes/main/teaforest/mobile-themes/everforest-hard-light.json",
+    "spec": 2,
+    "swatch": [
+      "#F8F5E4",
+      "#FFFBEF",
+      "#F2EFDF",
+      "#5C6A72",
+      "#8DA101"
+    ],
+    "light": true,
+    "background": false,
+    "updated": "2026-06-19",
+    "source": "https://github.com/7eahaus/Discord-Themes/blob/HEAD/teaforest/mobile-themes/everforest-hard-light.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Fallout 4 Terminal",
+    "description": "A Fallout 4 inspired terminal theme for Discord, ported from Vencord to Revenge by Pearl8520, edited by 7eahaus",
+    "authors": [
+      {
+        "name": "7eahaus",
+        "id": "322399383050256387"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/7eahaus/Discord-Themes/main/fallout/fallout4terminal.json",
+    "spec": 2,
+    "swatch": [
+      "#000900",
+      "#000900",
+      "#000900",
+      "#4AEF98",
+      "#4AEF98"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-08-13",
+    "source": "https://github.com/7eahaus/Discord-Themes/blob/HEAD/fallout/fallout4terminal.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "system24",
+    "description": "a tui-style discord theme. ported from refact0r/system24. monochrome surfaces, teal accent.",
+    "authors": [
+      {
+        "name": "refact0r"
+      },
+      {
+        "name": "LukasDerBaum42"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/LukasDerBaum42/discord-theme/main/themes/system24.json",
+    "spec": 2,
+    "swatch": [
+      "#141414",
+      "#141414",
+      "#1d1d1d",
+      "#aeaeae",
+      "#24a684"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-08-08",
+    "source": "https://github.com/LukasDerBaum42/discord-theme/blob/HEAD/themes/system24.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "system24 (tokyo night)",
+    "description": "a tui-style discord theme. ported from refact0r/system24.",
+    "authors": [
+      {
+        "name": "refact0r"
+      },
+      {
+        "name": "LukasDerBaum42"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/LukasDerBaum42/discord-theme/main/themes/flavors/system24-tokyo-night.json",
+    "spec": 2,
+    "swatch": [
+      "#1a1b26",
+      "#1a1b26",
+      "#16161d",
+      "#a9b1d6",
+      "#648fed"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-08-08",
+    "source": "https://github.com/LukasDerBaum42/discord-theme/blob/HEAD/themes/flavors/system24-tokyo-night.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "system24 (nord)",
+    "description": "a tui-style discord theme. ported from refact0r/system24.",
+    "authors": [
+      {
+        "name": "refact0r"
+      },
+      {
+        "name": "LukasDerBaum42"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/LukasDerBaum42/discord-theme/main/themes/flavors/system24-nord.json",
+    "spec": 2,
+    "swatch": [
+      "#2e3440",
+      "#2e3440",
+      "#272b35",
+      "#d8dee9",
+      "#88c0d0"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-08-08",
+    "source": "https://github.com/LukasDerBaum42/discord-theme/blob/HEAD/themes/flavors/system24-nord.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "system24 (catppuccin mocha)",
+    "description": "a tui-style discord theme. ported from refact0r/system24.",
+    "authors": [
+      {
+        "name": "refact0r"
+      },
+      {
+        "name": "LukasDerBaum42"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/LukasDerBaum42/discord-theme/main/themes/flavors/system24-catppuccin-mocha.json",
+    "spec": 2,
+    "swatch": [
+      "#1e1e2e",
+      "#1e1e2e",
+      "#181825",
+      "#bac2de",
+      "#caa6f7"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-08-08",
+    "source": "https://github.com/LukasDerBaum42/discord-theme/blob/HEAD/themes/flavors/system24-catppuccin-mocha.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "system24 (rosé pine)",
+    "description": "a tui-style discord theme. ported from refact0r/system24.",
+    "authors": [
+      {
+        "name": "refact0r"
+      },
+      {
+        "name": "LukasDerBaum42"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/LukasDerBaum42/discord-theme/main/themes/flavors/system24-rose-pine.json",
+    "spec": 2,
+    "swatch": [
+      "#1a1825",
+      "#1a1825",
+      "#201d2f",
+      "#c0bddb",
+      "#ebbcba"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-08-08",
+    "source": "https://github.com/LukasDerBaum42/discord-theme/blob/HEAD/themes/flavors/system24-rose-pine.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Pure Black",
+    "description": "Midnight Theme, turned up to 11",
+    "authors": [
+      {
+        "name": "breadcat0314",
+        "id": "354957913187680257"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/breadcat0314/discord-themes/main/AMOLED.json",
+    "spec": 2,
+    "swatch": [
+      "#000000",
+      "#000000",
+      "#141414",
+      "#FFFFFF",
+      "#141414"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-03-04",
+    "source": "https://github.com/breadcat0314/discord-themes/blob/HEAD/AMOLED.json",
+    "license": "none",
+    "recommended": true,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Monolith OLED",
+    "description": "Monolith on true black. Pixels off, infinite contrast.",
+    "authors": [
+      {
+        "name": "Ace",
+        "id": "1225921043559088138"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/Tachyon-os/Tachy_Themes/main/Themes/Monolith-OLED.json",
+    "spec": 2,
+    "swatch": [
+      "#000000",
+      "#000000",
+      "#000000",
+      "#FFFFFF",
+      "#86efac"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-07-28",
+    "source": "https://github.com/Tachyon-os/Tachy_Themes/blob/HEAD/Themes/Monolith-OLED.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Aetheris Dev - Amoled",
+    "description": "A Comfy Dark Purple Theme",
+    "authors": [
+      {
+        "name": "AsterionVT",
+        "id": "183251375193456641"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/AsterionXeity/Aetheris/main/Aetheris-Dev-Amoled.json",
+    "spec": 2,
+    "swatch": [
+      "#080228",
+      "#080228",
+      "#080228",
+      "#D793d5",
+      "#5908C5"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-02-25",
+    "source": "https://github.com/AsterionXeity/Aetheris/blob/HEAD/Aetheris-Dev-Amoled.json",
+    "license": "GPL-3.0",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Midnight Vencord",
+    "description": "Based on Midnight Vencord by refact0r.",
+    "authors": [
+      {
+        "name": "kmmiio99o.dev",
+        "id": "879393496627306587"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/kmmiio99o/discord-mobile-themes/main/midnight-vencord.json",
+    "spec": 2,
+    "swatch": [
+      "#32302f",
+      "#32302f",
+      "#282828",
+      "#ebdbb2",
+      "#d3869b"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-08-20",
+    "source": "https://github.com/kmmiio99o/discord-mobile-themes/blob/HEAD/midnight-vencord.json",
+    "license": "none",
+    "recommended": true,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Old Midnight",
+    "description": "Brings back the old midnight theme before Discord refreshed.",
+    "authors": [
+      {
+        "name": "luky_cz9876",
+        "id": "975732907316506646"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/Lukycz9876/Lukys-Discord-Themes/main/Old%20Midnight.json",
+    "spec": 2,
+    "swatch": [
+      "#000000",
+      "#000000",
+      "#000000",
+      "#dddee1",
+      "#3c8ceb"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-08-27",
+    "source": "https://github.com/Lukycz9876/Lukys-Discord-Themes/blob/HEAD/Old Midnight.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Aurora",
+    "description": "Polar night sky lit up by green and violet northern lights",
+    "authors": [
+      {
+        "name": "i_795",
+        "id": "1126614446643609704"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/I-794/iOSDiscordThemes/main/Aurora.json",
+    "spec": 2,
+    "swatch": [
+      "#0d1524",
+      "#121c2f",
+      "#070b14",
+      "#d9e6f2",
+      "#008547"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-11-16",
+    "source": "https://github.com/I-794/iOSDiscordThemes/blob/HEAD/Aurora.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Glacier",
+    "description": "Frosted slate blue with pale arctic ice",
+    "authors": [
+      {
+        "name": "i_795",
+        "id": "1126614446643609704"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/I-794/iOSDiscordThemes/main/Glacier.json",
+    "spec": 2,
+    "swatch": [
+      "#323c4d",
+      "#2a3341",
+      "#202733",
+      "#e3eaf2",
+      "#4a6fa5"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-11-16",
+    "source": "https://github.com/I-794/iOSDiscordThemes/blob/HEAD/Glacier.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Graphite",
+    "description": "Pure grayscale with only a whisper of color for status",
+    "authors": [
+      {
+        "name": "i_795",
+        "id": "1126614446643609704"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/I-794/iOSDiscordThemes/main/Graphite.json",
+    "spec": 2,
+    "swatch": [
+      "#1a1a1a",
+      "#212121",
+      "#0f0f0f",
+      "#d4d4d4",
+      "#6e6e6e"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-11-16",
+    "source": "https://github.com/I-794/iOSDiscordThemes/blob/HEAD/Graphite.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Synthwave",
+    "description": "Neon magenta and cyan over an 80s night grid",
+    "authors": [
+      {
+        "name": "i_795",
+        "id": "1126614446643609704"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/I-794/iOSDiscordThemes/main/Synthwave.json",
+    "spec": 2,
+    "swatch": [
+      "#170f2b",
+      "#1e1438",
+      "#0c0718",
+      "#e6dcff",
+      "#dc0687"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-11-16",
+    "source": "https://github.com/I-794/iOSDiscordThemes/blob/HEAD/Synthwave.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Void",
+    "description": "Pure black AMOLED theme with an icy blue glow",
+    "authors": [
+      {
+        "name": "i_795",
+        "id": "1126614446643609704"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/I-794/iOSDiscordThemes/main/Void.json",
+    "spec": 2,
+    "swatch": [
+      "#000000",
+      "#07080a",
+      "#000000",
+      "#e3e8ef",
+      "#1e7fb6"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-11-16",
+    "source": "https://github.com/I-794/iOSDiscordThemes/blob/HEAD/Void.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Espresso",
+    "description": "Dark roast browns with a swirl of cream",
+    "authors": [
+      {
+        "name": "i_795",
+        "id": "1126614446643609704"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/I-794/iOSDiscordThemes/main/Espresso.json",
+    "spec": 2,
+    "swatch": [
+      "#2e1d14",
+      "#372419",
+      "#1b100a",
+      "#ead9c8",
+      "#8f5b2a"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-11-16",
+    "source": "https://github.com/I-794/iOSDiscordThemes/blob/HEAD/Espresso.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Sakura Dusk",
+    "description": "Cherry blossoms against a plum colored evening",
+    "authors": [
+      {
+        "name": "i_795",
+        "id": "1126614446643609704"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/I-794/iOSDiscordThemes/main/Sakura%20Dusk.json",
+    "spec": 2,
+    "swatch": [
+      "#1f1620",
+      "#281c29",
+      "#120c13",
+      "#f1dfe8",
+      "#b54d76"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-11-16",
+    "source": "https://github.com/I-794/iOSDiscordThemes/blob/HEAD/Sakura Dusk.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Nocturne - Obsidian",
+    "description": "Nocturne (Obsidian variant) theme made by Esvi",
+    "authors": [
+      {
+        "name": "Esvi",
+        "id": "1356186866533138474"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/esvius/nocturne/main/themes/obsidian.theme.json",
+    "spec": 2,
+    "swatch": [
+      "#000000",
+      "#000000",
+      "#000000",
+      "#f3f3f3",
+      "#5e7a96"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-08-25",
+    "source": "https://github.com/esvius/nocturne/blob/HEAD/themes/obsidian.theme.json",
+    "license": "MIT",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Nocturne - Navy",
+    "description": "Nocturne (Navy variant) theme made by Esvi",
+    "authors": [
+      {
+        "name": "Esvi",
+        "id": "1356186866533138474"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/esvius/nocturne/main/themes/navy.theme.json",
+    "spec": 2,
+    "swatch": [
+      "#2e333f",
+      "#262a34",
+      "#20232b",
+      "#eceff7",
+      "#6e93b9"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-08-25",
+    "source": "https://github.com/esvius/nocturne/blob/HEAD/themes/navy.theme.json",
+    "license": "MIT",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Nocturne - Light",
+    "description": "Nocturne (Light variant) theme made by Esvi",
+    "authors": [
+      {
+        "name": "Esvi",
+        "id": "1356186866533138474"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/esvius/nocturne/main/themes/light.theme.json",
+    "spec": 2,
+    "swatch": [
+      "#eceff7",
+      "#e3e7f0",
+      "#d8dee9",
+      "#2e333f",
+      "#6e93b9"
+    ],
+    "light": true,
+    "background": false,
+    "updated": "2026-08-25",
+    "source": "https://github.com/esvius/nocturne/blob/HEAD/themes/light.theme.json",
+    "license": "MIT",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Aetheris",
+    "description": "Aetheris palette on mobile: violet canvas, readable lavender text.",
+    "authors": [
+      {
+        "name": "GeeNuTz"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/GeeNuTz/discord-themes/main/Aetheris/Aetheris-Revenge.json",
+    "spec": 2,
+    "swatch": [
+      "#26125e",
+      "#1e0e50",
+      "#0f062b",
+      "#f0e6ff",
+      "#5a23a8"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-11-09",
+    "source": "https://github.com/GeeNuTz/discord-themes/blob/HEAD/Aetheris/Aetheris-Revenge.json",
+    "license": "MIT",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Comfy Deep",
+    "description": "Comfy Deep for Discord: near-black navy, teal text, low-glare surfaces. ClearVision v7 layout, measured contrast.",
+    "authors": [
+      {
+        "name": "GeeNuTz"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/GeeNuTz/discord-themes/main/Comfy/ComfyDeep-Revenge.json",
+    "spec": 2,
+    "swatch": [
+      "#050917",
+      "#0f121b",
+      "#02050c",
+      "#a8e3d3",
+      "#244d42"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-11-09",
+    "source": "https://github.com/GeeNuTz/discord-themes/blob/HEAD/Comfy/ComfyDeep-Revenge.json",
+    "license": "MIT",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Ashen",
+    "description": "Greyscale theme on pure AMOLED black — white mention pings, no color",
+    "authors": [
+      {
+        "name": "Celesth",
+        "id": "3"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/Celesth/RainThemes/main/Dark/Ashen.json",
+    "spec": 2,
+    "swatch": [
+      "#000000",
+      "#000000",
+      "#111111",
+      "#e0e0e0",
+      "#777777"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-05-03",
+    "source": "https://github.com/Celesth/RainThemes/blob/HEAD/Dark/Ashen.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Ashen Light",
+    "description": "Inverted greyscale theme — near-white surfaces, charcoal text, and no color",
+    "authors": [
+      {
+        "name": "Celesth",
+        "id": "3"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/Celesth/RainThemes/main/Light/snow.json",
+    "spec": 2,
+    "swatch": [
+      "#ffffff",
+      "#f5f5f5",
+      "#e8e8e8",
+      "#242424",
+      "#777777"
+    ],
+    "light": true,
+    "background": false,
+    "updated": "2026-09-06",
+    "source": "https://github.com/Celesth/RainThemes/blob/HEAD/Light/snow.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "Crimson Dusk",
+    "description": "Dark theme with deep crimson and rose pink accents on near-black slate",
+    "authors": [
+      {
+        "name": "Celesth",
+        "id": "2"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/Celesth/RainThemes/main/Dark/Crimson-Dusk.json",
+    "spec": 2,
+    "swatch": [
+      "#1b2021",
+      "#1b2021",
+      "#262b2c",
+      "#f5c8cb",
+      "#ea638c"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-04-17",
+    "source": "https://github.com/Celesth/RainThemes/blob/HEAD/Dark/Crimson-Dusk.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  },
+  {
+    "name": "HighRose",
+    "description": "pathetic and dark, but still pink",
+    "authors": [
+      {
+        "name": "Dimu",
+        "id": "1275796154717573122"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/pdimu/discord/main/HighRose.json",
+    "spec": 2,
+    "swatch": [
+      "#14080B",
+      "#1E0F13",
+      "#11070A",
+      "#EFDEE1",
+      "#713345"
+    ],
+    "light": false,
+    "background": false,
+    "updated": "2026-11-08",
+    "source": "https://github.com/pdimu/discord/blob/HEAD/HighRose.json",
+    "license": "none",
+    "recommended": false,
+    "checked": "2026-11-18",
+    "checks": "JSON HTTP 200, spec 2/3 valid for Revenge 1.12.1; not phone-tested"
+  }
+]

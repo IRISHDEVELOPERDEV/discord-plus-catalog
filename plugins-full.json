@@ -1,5 +1,160 @@
 [
   {
+    "name": "AccountSwitcher",
+    "description": "Enables account switcher as the experiment is gone.",
+    "authors": [
+      {
+        "name": "John",
+        "id": "780819226839220265"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_trending_16px",
+      "original": "janisslsm.github.io/vdplugins/AccountSwitcher/"
+    },
+    "hash": "3f2ad8964e3f2f28732233613e92dfcbe3ce5fa70dade7504dcebffa660dc268",
+    "discordPlus": {
+      "source": "https://github.com/janisslsm/vdplugins/tree/HEAD/AccountSwitcher",
+      "updated": "2026-04-03",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://janisslsm.github.io/vdplugins/AccountSwitcher/",
+      "license": "BSD-3-Clause",
+      "category": "Utility",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Achievements",
+    "description": "Unlock 430+ achievements with top toast banners, sounds, profile Orb shortcut, bio progress sync, and streak tracking.",
+    "authors": [
+      {
+        "name": "Kario"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "TrophyIcon",
+      "original": "ilickft.github.io/revenge-plugins/achievements/"
+    },
+    "hash": "67dd4662876936a6434fe95314fa5179a8239642b3241a10b91a97086623edf7",
+    "discordPlus": {
+      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/achievements",
+      "updated": "2026-10-19",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://ilickft.github.io/revenge-plugins/achievements/",
+      "license": "MIT",
+      "category": "Fun",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Always Developer Mode",
+    "description": "Keeps Discord's Developer Mode (Settings > Advanced) forced on, so custom themes can't turn it off.",
+    "authors": [
+      {
+        "name": "OldManJenkins12",
+        "id": "675724335159181332"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "WrenchIcon",
+      "original": "raw.githubusercontent.com/OldManJenkins12/revenge-always-developer-mode/main/plugin/"
+    },
+    "hash": "9fd0cb1d4c91d6dc400e8f159eba1bcf334d69f89d7493f3e920114edd04c501",
+    "discordPlus": {
+      "source": "https://github.com/OldManJenkins12/revenge-always-developer-mode/tree/HEAD/plugin",
+      "updated": "2026-09-26",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://raw.githubusercontent.com/OldManJenkins12/revenge-always-developer-mode/main/plugin/",
+      "license": "GPL-3.0",
+      "category": "Utility",
+      "recommended": false
+    }
+  },
+  {
+    "name": "AlwaysAnimate",
+    "description": "Always animates guild icons and avatars.",
+    "authors": [
+      {
+        "name": "Cynosphere",
+        "id": "150745989836308480"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "icon-qs-gifs",
+      "original": "gaarasahni.github.io/custom-plugins/AlwaysAnimate/"
+    },
+    "hash": "64eaddb41098fe7bcb2877e1fb81edd0916acd3879039300f9a100029f6883c6",
+    "discordPlus": {
+      "source": "https://github.com/gaarasahni/custom-plugins/tree/HEAD/AlwaysAnimate",
+      "updated": "2026-08-04",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://gaarasahni.github.io/custom-plugins/AlwaysAnimate/",
+      "license": "none",
+      "category": "Appearance",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Animal Commands",
+    "description": "Adds multiple animal image commands.",
+    "authors": [
+      {
+        "name": "Vaiskiainen",
+        "id": "1465743112428064955"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "wumpus-wump",
+      "original": "vaiskiainen.github.io/testplugins/animalCommands/"
+    },
+    "hash": "429459fa1fee7d7551b9c5160bbb5b544d17d8245d95f54b11a1aea45425e707",
+    "discordPlus": {
+      "source": "https://github.com/Vaiskiainen/testplugins/tree/HEAD/animalCommands",
+      "updated": "2026-10-11",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://vaiskiainen.github.io/testplugins/animalCommands/",
+      "license": "CC0-1.0",
+      "category": "Fun",
+      "recommended": false
+    }
+  },
+  {
+    "name": "AnonymousFileNames",
+    "description": "Randomises file names with best movie quotes before you upload them.",
+    "authors": [
+      {
+        "name": "Yaminko",
+        "id": "666"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_image",
+      "original": "yaminko18.github.io/Revenge-plugins/AnonymousFileNames/"
+    },
+    "hash": "bfbb812287a06cb958fea1175cb7b16d8fa59076543020bef04707093b4f18f4",
+    "discordPlus": {
+      "source": "https://github.com/yaminko18/Revenge-plugins/tree/HEAD/AnonymousFileNames",
+      "updated": "2026-07-26",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://yaminko18.github.io/Revenge-plugins/AnonymousFileNames/",
+      "license": "CC0-1.0",
+      "category": "Fun",
+      "recommended": false
+    }
+  },
+  {
     "name": "App Icons",
     "description": "Unlocks all Discord premium app icons without Nitro. Go to Settings > Appearance > App Icon to choose any icon.",
     "authors": [
@@ -18,7 +173,61 @@
       "updated": "2026-11-10",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://ilickft.github.io/revenge-plugins/app-icons/"
+      "installUrl": "https://ilickft.github.io/revenge-plugins/app-icons/",
+      "category": "Appearance",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Better Calls",
+    "description": "Adds more options to calling, such as silent calls, call confirmations, and more",
+    "authors": [
+      {
+        "name": "Palm",
+        "id": "629368283354628116"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "icon-call",
+      "original": "raw.githubusercontent.com/Liz-chan/kettu-plugins/main/dist/better-calls/"
+    },
+    "hash": "1287ab48f085409920e2347dfba60b3a5807f3481005b4cfc2dd209030fdcde4",
+    "discordPlus": {
+      "source": "https://github.com/Liz-chan/kettu-plugins/tree/HEAD/dist/better-calls",
+      "updated": "2026-08-18",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://raw.githubusercontent.com/Liz-chan/kettu-plugins/main/dist/better-calls/",
+      "license": "none",
+      "category": "Voice & Calls",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Better Chat Buttons",
+    "description": "Hiding all annoying chat buttons, or making them never collapse, all configurable",
+    "authors": [
+      {
+        "name": "Palm",
+        "id": "629368283354628116"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ChatCheckIcon",
+      "original": "raw.githubusercontent.com/PalmDevs/revenge-plugins-builds/main/better-chat-buttons/"
+    },
+    "hash": "be3b7a3a6c433fa122f4402f28193646655cc7fece01cfb0121958b3549a44ed",
+    "discordPlus": {
+      "source": "https://github.com/PalmDevs/revenge-plugins-builds/tree/HEAD/better-chat-buttons",
+      "updated": "2026-08-15",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://raw.githubusercontent.com/PalmDevs/revenge-plugins-builds/main/better-chat-buttons/",
+      "license": "none",
+      "category": "Chat",
+      "recommended": true
     }
   },
   {
@@ -41,7 +250,120 @@
       "updated": "2026-09-24",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://marcmy.github.io/revenge-plugins/BetterChatCopy/"
+      "installUrl": "https://marcmy.github.io/revenge-plugins/BetterChatCopy/",
+      "category": "Chat",
+      "recommended": false
+    }
+  },
+  {
+    "name": "BetterCodeBlocks",
+    "description": "Syntax highlighting, copy button & file viewer for code blocks and attachments",
+    "authors": [
+      {
+        "name": "tanhoangviet",
+        "id": "000000000000000001"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_message_edit",
+      "original": "nguyenngotanhoang.github.io/BetterCodeBlocks/BetterCodeBlocks/"
+    },
+    "hash": "0f2df5915dec6be953640047667a86f8d6ca68873309d01a3860daba9c2f6393",
+    "discordPlus": {
+      "source": "https://github.com/nguyenngotanhoang/BetterCodeBlocks/tree/HEAD/BetterCodeBlocks",
+      "updated": "2026-05-20",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://nguyenngotanhoang.github.io/BetterCodeBlocks/BetterCodeBlocks/",
+      "license": "none",
+      "category": "Chat",
+      "recommended": true
+    }
+  },
+  {
+    "name": "BetterInbox",
+    "description": "Categorizes Discord notifications into clean tabs with filters for mentions, replies, and reactions.",
+    "authors": [
+      {
+        "name": "fshin",
+        "id": "1381008677301129257"
+      },
+      {
+        "name": "kmmiio99o",
+        "id": "879393496627306587"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_notification_24px",
+      "original": "fshinz.github.io/Revenge-Plugins/BetterInbox/"
+    },
+    "hash": "9b3e674c1acd234e461b1aecbfc3c85883fc3f35e6574283bf3ccf7ef0b026c3",
+    "discordPlus": {
+      "source": "https://github.com/fshinz/Revenge-Plugins/tree/HEAD/BetterInbox",
+      "updated": "2026-09-15",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://fshinz.github.io/Revenge-Plugins/BetterInbox/",
+      "license": "CC0-1.0",
+      "category": "Utility",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Catbox Upload",
+    "description": "Upload a message attachment or a file from a public URL to Catbox anonymously — permanent link, copied to clipboard.",
+    "authors": [
+      {
+        "name": "dolanexeee"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "original": "dolanexeee.github.io/kettu-plugins/catbox/"
+    },
+    "hash": "4d69b4f7c054362891304514ec2e8c55bceed60f88fd59da48a69f7c3f478919",
+    "discordPlus": {
+      "source": "https://github.com/dolanexeee/kettu-plugins/tree/HEAD/catbox",
+      "updated": "2026-11-13",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://dolanexeee.github.io/kettu-plugins/catbox/",
+      "license": "none",
+      "category": "Media",
+      "recommended": false,
+      "caution": "Uploads files to catbox.moe (public, anonymous host)."
+    }
+  },
+  {
+    "name": "Chatbox Avatar",
+    "description": "Quickly view your profile from the chatbox.",
+    "authors": [
+      {
+        "name": "Cynosphere",
+        "id": "150745989836308480"
+      },
+      {
+        "name": "kmmiio99o",
+        "id": "879393496627306587"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "UserSquareIcon",
+      "original": "kmmiio99o.github.io/vd-plugins/ChatboxAvatar/"
+    },
+    "hash": "42243c6db02a5fdd0aa2656a40a0744cc96a7cdf8d5e3319af7643fef078cd31",
+    "discordPlus": {
+      "source": "https://github.com/kmmiio99o/vd-plugins/tree/HEAD/ChatboxAvatar",
+      "updated": "2026-07-02",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://kmmiio99o.github.io/vd-plugins/ChatboxAvatar/",
+      "license": "GPL-3.0",
+      "category": "Appearance",
+      "recommended": false
     }
   },
   {
@@ -63,7 +385,114 @@
       "updated": "2026-11-10",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://ilickft.github.io/revenge-plugins/clean-context-menu/"
+      "installUrl": "https://ilickft.github.io/revenge-plugins/clean-context-menu/",
+      "category": "Chat",
+      "recommended": true
+    }
+  },
+  {
+    "name": "ClipboardGIFSend",
+    "description": "Send GIF Picker gifs to clipboard instead of chat",
+    "authors": [
+      {
+        "name": "Cristiandis",
+        "id": "559776692240121866"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "gif",
+      "original": "cristiandis.github.io/clipboardgifsend/"
+    },
+    "hash": "e7754ac14436b27e8bff7722b2908ab7a33bb36a815a51273f73756cccb8873b",
+    "discordPlus": {
+      "source": "https://github.com/Cristiandis/clipboardgifsend/tree/HEAD",
+      "updated": "2026-07-24",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://cristiandis.github.io/clipboardgifsend/",
+      "license": "Unlicense",
+      "category": "Media",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Commands",
+    "description": "A collection of fixed commands including facts, petpet, and more.",
+    "authors": [
+      {
+        "name": "kmmiio99o",
+        "id": "879393496627306587"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_badge_staff",
+      "original": "kmmiio99o.github.io/vd-plugins/Commands/"
+    },
+    "hash": "cd83ebaa06d82a340f8a8e9260c29cb47afdb1dbe6c6430ac05244a948da5e3d",
+    "discordPlus": {
+      "source": "https://github.com/kmmiio99o/vd-plugins/tree/HEAD/Commands",
+      "updated": "2026-10-04",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://kmmiio99o.github.io/vd-plugins/Commands/",
+      "license": "GPL-3.0",
+      "category": "Fun",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Copy Proxy Link",
+    "description": "allowing you to quickly copy the proxy URL",
+    "authors": [
+      {
+        "name": "coder.gg",
+        "id": "1099039269391171765"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "LinkIcon",
+      "original": "il1ll.github.io/RevengePlugins/CopyProxyLink/"
+    },
+    "hash": "636a09599d01de165e0b615ee1eb5ec06f1f4854231a5c158d95075e1ee4b8a3",
+    "discordPlus": {
+      "source": "https://github.com/il1ll/RevengePlugins/tree/HEAD/CopyProxyLink",
+      "updated": "2026-03-28",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://il1ll.github.io/RevengePlugins/CopyProxyLink/",
+      "license": "CC0-1.0",
+      "category": "Media",
+      "recommended": false
+    }
+  },
+  {
+    "name": "DiscordBetterRichPresenceBar",
+    "description": "Enhances Discord Rich Presence with custom UI and interactive buttons",
+    "authors": [
+      {
+        "name": "low_kb",
+        "id": "1474889588131762206"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ActivityIcon",
+      "original": "lowkb.github.io/revenge-plugins/DiscordBetterRichPresenceBar/"
+    },
+    "hash": "d5e24a7759436778c1668ca7ee761dbad739aa04d8027d8bd0cf646a1957b2b9",
+    "discordPlus": {
+      "source": "https://github.com/lowkb/revenge-plugins/tree/HEAD/DiscordBetterRichPresenceBar",
+      "updated": "2026-10-09",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://lowkb.github.io/revenge-plugins/DiscordBetterRichPresenceBar/",
+      "license": "none",
+      "category": "Fun",
+      "recommended": false,
+      "caution": "Sets a custom activity status that others can see."
     }
   },
   {
@@ -85,7 +514,35 @@
       "updated": "2026-11-10",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://ilickft.github.io/revenge-plugins/discordo/"
+      "installUrl": "https://ilickft.github.io/revenge-plugins/discordo/",
+      "category": "Fun",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Discovery",
+    "description": "Add option to discover servers on the bottom of Server List.",
+    "authors": [
+      {
+        "name": "kmmiio99o",
+        "id": "879393496627306587"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "MagnifyingGlassIcon",
+      "original": "kmmiio99o.github.io/vd-plugins/Discovery/"
+    },
+    "hash": "19977070ac86dd190b6cb7ffbb1345465aedd023bd7139bf59c64ed36fa8504f",
+    "discordPlus": {
+      "source": "https://github.com/kmmiio99o/vd-plugins/tree/HEAD/Discovery",
+      "updated": "2026-08-21",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://kmmiio99o.github.io/vd-plugins/Discovery/",
+      "license": "GPL-3.0",
+      "category": "Utility",
+      "recommended": false
     }
   },
   {
@@ -120,7 +577,9 @@
       "updated": "2026-08-31",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://rico040.github.io/bunny-plugins/dislate/"
+      "installUrl": "https://rico040.github.io/bunny-plugins/dislate/",
+      "category": "Chat",
+      "recommended": true
     }
   },
   {
@@ -142,7 +601,163 @@
       "updated": "2026-11-10",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://ilickft.github.io/revenge-plugins/emoji-anywhere/"
+      "installUrl": "https://ilickft.github.io/revenge-plugins/emoji-anywhere/",
+      "category": "Chat",
+      "recommended": true
+    }
+  },
+  {
+    "name": "EmojiStats — by woodbloom",
+    "description": "Tracks your own message stats locally — message count per server/DM, your most-used custom emojis, and your most active hours.",
+    "authors": [
+      {
+        "name": "woodbloom",
+        "id": "793935599702507542"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_emoji_24px",
+      "original": "woodbloom.github.io/revenge-plugins/EmojiStats/"
+    },
+    "hash": "f1535429c626485516f8014751a2f41e1ff47c714b6d25198c9432ba41c7400c",
+    "discordPlus": {
+      "source": "https://github.com/woodbloom/revenge-plugins/tree/HEAD/EmojiStats",
+      "updated": "2026-06-19",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://woodbloom.github.io/revenge-plugins/EmojiStats/",
+      "license": "CC0-1.0",
+      "category": "Privacy & Info",
+      "recommended": false
+    }
+  },
+  {
+    "name": "EnhancedDecor",
+    "description": "Your whole profile, only on your phone: any decoration, effect, nameplate, frame, badge, picture, banner, name, bio, colors and saved looks.",
+    "authors": [
+      {
+        "name": "ad3333m"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_profile_24px",
+      "original": "raw.githubusercontent.com/ad3333m/EnhancedDecor/main/"
+    },
+    "hash": "af0d784eaa86b935dc7b58c90f50196d50ede5536d680217a0d085d4d85fab59",
+    "discordPlus": {
+      "source": "https://github.com/ad3333m/EnhancedDecor/tree/HEAD",
+      "updated": "2026-11-14",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://raw.githubusercontent.com/ad3333m/EnhancedDecor/main/",
+      "license": "none",
+      "category": "Appearance",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Exact Unread",
+    "description": "Shows complete unread counts for the current channel and updates on new/deleted messages.",
+    "authors": [
+      {
+        "name": "Custom plugins"
+      }
+    ],
+    "main": "index-0.1.4.js",
+    "vendetta": {
+      "icon": "ic_message_24px",
+      "original": "xjetmaker.github.io/revenge-plugins/exact-unread/"
+    },
+    "hash": "92dd73af07fc034153f7b344471a1b4dbc6c8c77412fed3c7095220ca4103102",
+    "discordPlus": {
+      "source": "https://github.com/xJetmaker/revenge-plugins/tree/HEAD/docs/exact-unread",
+      "updated": "2026-10-12",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://xjetmaker.github.io/revenge-plugins/exact-unread/",
+      "license": "none",
+      "category": "Chat",
+      "recommended": false
+    }
+  },
+  {
+    "name": "fast Copy User ID",
+    "description": "Adds a button to the message long press context menu to copy the message author's user ID faster.",
+    "authors": [
+      {
+        "name": "fshin",
+        "id": "1381008677301129257"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "IdIcon",
+      "original": "fshinz.github.io/Revenge-Plugins/FastCopyUserID/"
+    },
+    "hash": "20c27c4ee2ead80c95c4d16638343e2060d3da6100c89a8d6131312f8a9fa95e",
+    "discordPlus": {
+      "source": "https://github.com/fshinz/Revenge-Plugins/tree/HEAD/FastCopyUserID",
+      "updated": "2026-08-30",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://fshinz.github.io/Revenge-Plugins/FastCopyUserID/",
+      "license": "CC0-1.0",
+      "category": "Utility",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Fast Delete",
+    "description": "Replaces swipe-to-reply with direct deletion for messages you can delete.",
+    "authors": [
+      {
+        "name": "Custom plugins"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_message_delete",
+      "original": "xjetmaker.github.io/revenge-plugins/fast-delete/"
+    },
+    "hash": "74d2d56d3b23275b9b301f0419061a03d1fb16fda80cd8f0e02cfa6e334d9ba5",
+    "discordPlus": {
+      "source": "https://github.com/xJetmaker/revenge-plugins/tree/HEAD/docs/fast-delete",
+      "updated": "2026-10-12",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://xjetmaker.github.io/revenge-plugins/fast-delete/",
+      "license": "none",
+      "category": "Chat",
+      "recommended": false,
+      "caution": "Replaces swipe-to-reply with delete on your own messages."
+    }
+  },
+  {
+    "name": "FavouriteAnything",
+    "description": "Favourite any image or video, not just GIFs! Adds the favourite button to all media in the image viewer.",
+    "authors": [
+      {
+        "name": "TheUnrealZaka",
+        "id": "299007476055269376"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_star_filled",
+      "original": "theunrealzaka.github.io/FavouriteAnything/favouriteanything/"
+    },
+    "hash": "228227f2f0df90e21951019901aca1b48a68e63f9235e58ffeb7bb568f6edc95",
+    "discordPlus": {
+      "source": "https://github.com/TheUnrealZaka/FavouriteAnything/tree/HEAD/favouriteanything",
+      "updated": "2026-10-27",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://theunrealzaka.github.io/FavouriteAnything/favouriteanything/",
+      "license": "MIT",
+      "category": "Media",
+      "recommended": true
     }
   },
   {
@@ -165,7 +780,216 @@
       "updated": "2026-06-13",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://martinz64.github.io/vendetta-plugins/FileSizeOnPicker/"
+      "installUrl": "https://martinz64.github.io/vendetta-plugins/FileSizeOnPicker/",
+      "category": "Media",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Force Timestamp Locale",
+    "description": "Forces timestamps to be in a specific language",
+    "authors": [
+      {
+        "name": "Palm",
+        "id": "629368283354628116"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "TimerIcon",
+      "original": "raw.githubusercontent.com/Liz-chan/kettu-plugins/main/dist/force-timestamp-locale/"
+    },
+    "hash": "78e02c719d9bb328322698f1aca356b54e41fd9d4d87f9582d02bb7be68b121f",
+    "discordPlus": {
+      "source": "https://github.com/Liz-chan/kettu-plugins/tree/HEAD/dist/force-timestamp-locale",
+      "updated": "2026-08-18",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://raw.githubusercontent.com/Liz-chan/kettu-plugins/main/dist/force-timestamp-locale/",
+      "license": "none",
+      "category": "Appearance",
+      "recommended": false
+    }
+  },
+  {
+    "name": "FriendsInServer",
+    "description": "Adds a settings page button that lists which members of the current server are on your friends list.",
+    "authors": [
+      {
+        "name": "Harvi"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "original": "gaarasahni.github.io/custom-plugins/FriendsInServer/"
+    },
+    "hash": "ed06c6b5a09e200d94216e66443b28a51af46b6b7640fe27fe2520ce1a38cba1",
+    "discordPlus": {
+      "source": "https://github.com/gaarasahni/custom-plugins/tree/HEAD/FriendsInServer",
+      "updated": "2026-08-04",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://gaarasahni.github.io/custom-plugins/FriendsInServer/",
+      "license": "none",
+      "category": "Privacy & Info",
+      "recommended": false
+    }
+  },
+  {
+    "name": "FriendWatch — by woodbloom",
+    "description": "Locally logs every friend add & remove with a timestamp, so you can see exactly who unfriended you — something Discord never tells you.",
+    "authors": [
+      {
+        "name": "woodbloom",
+        "id": "793935599702507542"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_friend_request_24px",
+      "original": "woodbloom.github.io/revenge-plugins/FriendWatch/"
+    },
+    "hash": "9b0325f30907b18b256c6533c4e8f37da215a860c7c1399bd71261c7290ed1b9",
+    "discordPlus": {
+      "source": "https://github.com/woodbloom/revenge-plugins/tree/HEAD/FriendWatch",
+      "updated": "2026-06-19",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://woodbloom.github.io/revenge-plugins/FriendWatch/",
+      "license": "CC0-1.0",
+      "category": "Privacy & Info",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Geastures+",
+    "description": "Tap tap a message to reply/edit, or tap tap tap a message to delete it.",
+    "authors": [
+      {
+        "name": "kmmiio99o",
+        "id": "879393496627306587"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ChatPlusIcon",
+      "original": "kmmiio99o.github.io/vd-plugins/GeasturesPlus/"
+    },
+    "hash": "49a35020f2b94d8229e468c48e3e142a3c7f012fcfcac7dffb2f70547eb31e78",
+    "discordPlus": {
+      "source": "https://github.com/kmmiio99o/vd-plugins/tree/HEAD/GeasturesPlus",
+      "updated": "2026-08-28",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://kmmiio99o.github.io/vd-plugins/GeasturesPlus/",
+      "license": "GPL-3.0",
+      "category": "Chat",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Ghost Ping Logger",
+    "description": "A very stable plugin that retains ghost ping messages for jump navigation, integrates with Advanced Message Logger and much more! Check the plugin settings",
+    "authors": [
+      {
+        "name": "dariussbezy"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "original": "raw.githubusercontent.com/dariussbezy/Ghost-Ping-Logger-Kettu/main/GPLK/"
+    },
+    "hash": "dddcb004132b68fed4364e8663eaeed8eb7941623966302ac8dd06f5e42554f3",
+    "discordPlus": {
+      "source": "https://github.com/dariussbezy/Ghost-Ping-Logger-Kettu/tree/HEAD/GPLK",
+      "updated": "2026-10-16",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://raw.githubusercontent.com/dariussbezy/Ghost-Ping-Logger-Kettu/main/GPLK/",
+      "license": "none",
+      "category": "Privacy & Info",
+      "recommended": false
+    }
+  },
+  {
+    "name": "GIF Performance",
+    "description": "Keeps GIFs animated while reducing avoidable React Native image rendering work.",
+    "authors": [
+      {
+        "name": "Lordx679",
+        "id": "Lordx679"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_image",
+      "original": "raw.githubusercontent.com/Lordx679/revenge-gif-performance/main/gif-performance-plugin/"
+    },
+    "hash": "fdb49ad6fe5bde1e6c59a5f1ba8e5fc214ef6356f3b54b965c51000d99bfb582",
+    "discordPlus": {
+      "source": "https://github.com/Lordx679/revenge-gif-performance/tree/HEAD/gif-performance-plugin",
+      "updated": "2026-09-14",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://raw.githubusercontent.com/Lordx679/revenge-gif-performance/main/gif-performance-plugin/",
+      "license": "none",
+      "category": "Media",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Global Badges",
+    "description": "Add badges from other clients to your profile or other users' profiles.",
+    "authors": [
+      {
+        "name": "Wolfie",
+        "id": "347096063569559553"
+      },
+      {
+        "name": "thororen",
+        "id": "848339671629299742"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "original": "raw.githubusercontent.com/WolfPlugs/vendetta-plugins/gh-pages/globalBadges/"
+    },
+    "hash": "0fa6d39ef3773342516455376aea2d47cd32176630ae6abca23f518128988628",
+    "discordPlus": {
+      "source": "https://github.com/WolfPlugs/vendetta-plugins/tree/HEAD/globalBadges",
+      "updated": "2026-07-04",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://raw.githubusercontent.com/WolfPlugs/vendetta-plugins/gh-pages/globalBadges/",
+      "license": "Unlicense",
+      "category": "Appearance",
+      "recommended": false
+    }
+  },
+  {
+    "name": "GuildWatch — by woodbloom",
+    "description": "Locally logs every server you join or leave, and warns when a server suddenly renames or re-icons itself — a common sign of a scam takeover.",
+    "authors": [
+      {
+        "name": "woodbloom",
+        "id": "793935599702507542"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_servers_24px",
+      "original": "woodbloom.github.io/revenge-plugins/GuildWatch/"
+    },
+    "hash": "5eab59c3b4488bc0abe8a6fd7ced8599da74d5de9ade2e2d32fa5f18f005bcb0",
+    "discordPlus": {
+      "source": "https://github.com/woodbloom/revenge-plugins/tree/HEAD/GuildWatch",
+      "updated": "2026-06-19",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://woodbloom.github.io/revenge-plugins/GuildWatch/",
+      "license": "CC0-1.0",
+      "category": "Privacy & Info",
+      "recommended": false
     }
   },
   {
@@ -188,7 +1012,92 @@
       "checked": "2026-11-18",
       "checks": "Original MIT 1.1.0: additive list hooks with self-check; local fixture tests pass; rolled out to phone at user request (not pre-verified on device).",
       "installUrl": "https://raw.githubusercontent.com/IRISHDEVELOPERDEV/discord-plus-catalog/main/hidden-channel-locks/",
-      "license": "MIT"
+      "license": "MIT",
+      "category": "Privacy & Info",
+      "recommended": true
+    }
+  },
+  {
+    "name": "Hide Quest Popups",
+    "description": "Hides the mobile quest dock above your user panel. Experimental compatibility.",
+    "authors": [
+      {
+        "name": "Nova"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "original": "raw.githubusercontent.com/Mysticalz-mc/Kettu-hide-quests-plugin/main/hide-quest-popups/"
+    },
+    "hash": "58bf033537d7522378177eee8a4a6280d9f813f1dd6aada9531360be47c69138",
+    "discordPlus": {
+      "source": "https://github.com/Mysticalz-mc/Kettu-hide-quests-plugin/tree/HEAD/hide-quest-popups",
+      "updated": "2026-10-14",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://raw.githubusercontent.com/Mysticalz-mc/Kettu-hide-quests-plugin/main/hide-quest-popups/",
+      "license": "none",
+      "category": "Utility",
+      "recommended": false
+    }
+  },
+  {
+    "name": "HideBlockedAndIgnoredMessages",
+    "description": "A plugin that removes the `X blocked or ignored message/s` prompt and replies to the blocked or ignored messages from chat.",
+    "authors": [
+      {
+        "name": "Zykrah",
+        "id": "543614592291700748"
+      },
+      {
+        "name": "シグマ siguma",
+        "id": "737597276339437578"
+      },
+      {
+        "name": "Yaminko",
+        "id": "666"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_badge_staff",
+      "original": "yaminko18.github.io/Revenge-plugins/HideBlockedAndIgnoredMessages/"
+    },
+    "hash": "8a63f8c06aa2b7dc5ce5ef39bba48de0dd1ab3f7d7afb11fa9353571ad176439",
+    "discordPlus": {
+      "source": "https://github.com/yaminko18/Revenge-plugins/tree/HEAD/HideBlockedAndIgnoredMessages",
+      "updated": "2026-10-26",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://yaminko18.github.io/Revenge-plugins/HideBlockedAndIgnoredMessages/",
+      "license": "CC0-1.0",
+      "category": "Chat",
+      "recommended": false
+    }
+  },
+  {
+    "name": "HideBlockedInSettings",
+    "description": "Antigravity HideBlockedInSettings mobile port. Completely hides the Accounts you have blocked or ignored section and cards from Content & Social settings.",
+    "authors": [
+      {
+        "name": "Antigravity",
+        "id": "698947564459917343"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "original": "mezza1e.github.io/revenge-plugins/hideblockedinsettings/"
+    },
+    "hash": "73943455968c96c182ecaf9673c848fdc6ebf5f7c64cd326e40c00e67cbafb58",
+    "discordPlus": {
+      "source": "https://github.com/mezza1e/revenge-plugins/tree/HEAD/hideblockedinsettings",
+      "updated": "2026-09-19",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://mezza1e.github.io/revenge-plugins/hideblockedinsettings/",
+      "license": "none",
+      "category": "Privacy & Info",
+      "recommended": false
     }
   },
   {
@@ -211,7 +1120,118 @@
       "updated": "2026-09-01",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://marcmy.github.io/revenge-plugins/HideChannelListShortcuts/"
+      "installUrl": "https://marcmy.github.io/revenge-plugins/HideChannelListShortcuts/",
+      "category": "Utility",
+      "recommended": false
+    }
+  },
+  {
+    "name": "InfoCommands",
+    "description": "commands to Get user, server, and invite information",
+    "authors": [
+      {
+        "name": "fshin",
+        "id": "1381008677301129257"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_info_24px",
+      "original": "fshinz.github.io/Revenge-Plugins/InfoCommands/"
+    },
+    "hash": "1bfc702ceab1e54108cdc50e9de0ae6aafca274dd97bba8d7f259cda1afda3fc",
+    "discordPlus": {
+      "source": "https://github.com/fshinz/Revenge-Plugins/tree/HEAD/InfoCommands",
+      "updated": "2026-08-30",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://fshinz.github.io/Revenge-Plugins/InfoCommands/",
+      "license": "CC0-1.0",
+      "category": "Privacy & Info",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Last Speak",
+    "description": "A plugin for show timestamp last speak voice in DM.",
+    "authors": [
+      {
+        "name": "Hann",
+        "id": "301653417212903426"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_badge_staff",
+      "original": "han22-811422.github.io/Vendetta-Plugins/last-speak-v2/"
+    },
+    "hash": "104abbaaa4105d7f6f290adb54da8f9bf06782c85f0946f6475038c29cf194b7",
+    "discordPlus": {
+      "source": "https://github.com/Han22-811422/Vendetta-Plugins/tree/HEAD/last-speak-v2",
+      "updated": "2026-05-29",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://han22-811422.github.io/Vendetta-Plugins/last-speak-v2/",
+      "license": "CC0-1.0",
+      "category": "Voice & Calls",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Last.fm",
+    "description": "Show off your last.fm status on your Discord profile.",
+    "authors": [
+      {
+        "name": "pylix",
+        "id": "492949202121261067"
+      },
+      {
+        "name": "kmmiio99o",
+        "id": "879393496627306587"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_stage_music",
+      "original": "kmmiio99o.github.io/vd-plugins/Last.fm/"
+    },
+    "hash": "5429e95b64c2640c09bceaca42be1b2aba825e72fbe2cf78d72d4ff1b9b25aaa",
+    "discordPlus": {
+      "source": "https://github.com/kmmiio99o/vd-plugins/tree/HEAD/Last.fm",
+      "updated": "2026-07-26",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://kmmiio99o.github.io/vd-plugins/Last.fm/",
+      "license": "GPL-3.0",
+      "category": "Media",
+      "recommended": false,
+      "caution": "Needs your Last.fm username; sets your activity status."
+    }
+  },
+  {
+    "name": "LastOnlineTracker",
+    "description": "Shows 'Active X ago' under usernames in the member list, DM list, and DM header once they go offline.",
+    "authors": [
+      {
+        "name": "fshin",
+        "id": "1381008677301129257"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "EmojiFaceWithSpiralEyesIcon",
+      "original": "fshinz.github.io/Revenge-Plugins/LastOnlineTracker/"
+    },
+    "hash": "dafb41bd895693f828fba462f9b567e7519967c385465bf4310a5b2c7a5466d0",
+    "discordPlus": {
+      "source": "https://github.com/fshinz/Revenge-Plugins/tree/HEAD/LastOnlineTracker",
+      "updated": "2026-09-17",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://fshinz.github.io/Revenge-Plugins/LastOnlineTracker/",
+      "license": "CC0-1.0",
+      "category": "Privacy & Info",
+      "recommended": false
     }
   },
   {
@@ -234,7 +1254,136 @@
       "updated": "2026-09-15",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://marcmy.github.io/revenge-plugins/LongScreenshotFix/"
+      "installUrl": "https://marcmy.github.io/revenge-plugins/LongScreenshotFix/",
+      "category": "Media",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Markdown Tables",
+    "description": "Locally renders GitHub-style pipe tables in Discord mobile messages as compact aligned text tables. Built for Kettu/Revenge/Vendetta-style clients.",
+    "authors": [
+      {
+        "name": "Hermes",
+        "id": "0"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_text_24px",
+      "original": "thenedj3m.github.io/kettu-plugins/MarkdownTables/"
+    },
+    "hash": "5f0882a773e53926774aacb684b9641d1160738e7b840491db00a9bc2f4afb31",
+    "discordPlus": {
+      "source": "https://github.com/thenedj3m/kettu-plugins/tree/HEAD/MarkdownTables",
+      "updated": "2026-06-10",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://thenedj3m.github.io/kettu-plugins/MarkdownTables/",
+      "license": "none",
+      "category": "Chat",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Media Gestures",
+    "description": "Hold two fingers on one attachment to see its URL; lift one finger to keep reading, then return it to save. No copy action.",
+    "authors": [
+      {
+        "name": "Custom plugins"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ImageIcon",
+      "original": "xjetmaker.github.io/revenge-plugins/media-gestures/"
+    },
+    "hash": "17e0ed75ca418cdea70820fb1a483f97c206495412ebba20bd937c22c0d66ffa",
+    "discordPlus": {
+      "source": "https://github.com/xJetmaker/revenge-plugins/tree/HEAD/docs/media-gestures",
+      "updated": "2026-10-09",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://xjetmaker.github.io/revenge-plugins/media-gestures/",
+      "license": "none",
+      "category": "Media",
+      "recommended": false
+    }
+  },
+  {
+    "name": "MediaVault",
+    "description": "Favorites library for GIFs, images, videos, audio and files, with folders, search and automatically renewed links. Port of the Equicord plugin.",
+    "authors": [
+      {
+        "name": "Anybody4506",
+        "id": "0"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_star_filled",
+      "original": "anybody4506.github.io/mediaVault-Revenge/MediaVault/"
+    },
+    "hash": "544a67e0599aad4787e6463d11779b1584815fbaeb419009c76bea1d17c6e2c2",
+    "discordPlus": {
+      "source": "https://github.com/Anybody4506/mediaVault-Revenge/tree/HEAD/dist/MediaVault",
+      "updated": "2026-11-11",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://anybody4506.github.io/mediaVault-Revenge/MediaVault/",
+      "license": "GPL-3.0",
+      "category": "Media",
+      "recommended": true
+    }
+  },
+  {
+    "name": "Member Details",
+    "description": "/userinfo <user> — account creation date (snowflake), account age, server join date, roles.",
+    "authors": [
+      {
+        "name": "dolanexeee"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "original": "dolanexeee.github.io/kettu-plugins/member-details/"
+    },
+    "hash": "40c189d7d71a7ccd162df1ec66e5bacd46f0bd0ff3adb7727c80b1de3e859c59",
+    "discordPlus": {
+      "source": "https://github.com/dolanexeee/kettu-plugins/tree/HEAD/member-details",
+      "updated": "2026-11-13",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://dolanexeee.github.io/kettu-plugins/member-details/",
+      "license": "none",
+      "category": "Privacy & Info",
+      "recommended": false
+    }
+  },
+  {
+    "name": "MentionLog — by woodbloom",
+    "description": "Locally records every message that mentions you, including the channel and author — so a mention you missed (or that got deleted) is never lost.",
+    "authors": [
+      {
+        "name": "woodbloom",
+        "id": "793935599702507542"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_message_24px",
+      "original": "woodbloom.github.io/revenge-plugins/MentionLog/"
+    },
+    "hash": "60c68472153901c6d60b08bd0638331cb98b3107c23974c2c624ba7e9b64baeb",
+    "discordPlus": {
+      "source": "https://github.com/woodbloom/revenge-plugins/tree/HEAD/MentionLog",
+      "updated": "2026-06-19",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://woodbloom.github.io/revenge-plugins/MentionLog/",
+      "license": "CC0-1.0",
+      "category": "Privacy & Info",
+      "recommended": false
     }
   },
   {
@@ -256,7 +1405,9 @@
       "updated": "2026-11-10",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://ilickft.github.io/revenge-plugins/message-logger/"
+      "installUrl": "https://ilickft.github.io/revenge-plugins/message-logger/",
+      "category": "Privacy & Info",
+      "recommended": true
     }
   },
   {
@@ -278,7 +1429,9 @@
       "updated": "2026-10-19",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://ilickft.github.io/revenge-plugins/message-quote/"
+      "installUrl": "https://ilickft.github.io/revenge-plugins/message-quote/",
+      "category": "Fun",
+      "recommended": false
     }
   },
   {
@@ -300,7 +1453,9 @@
       "updated": "2026-10-19",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://ilickft.github.io/revenge-plugins/message-saver/"
+      "installUrl": "https://ilickft.github.io/revenge-plugins/message-saver/",
+      "category": "Chat",
+      "recommended": false
     }
   },
   {
@@ -323,7 +1478,294 @@
       "updated": "2026-09-15",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://marcmy.github.io/revenge-plugins/MessageHistory/"
+      "installUrl": "https://marcmy.github.io/revenge-plugins/MessageHistory/",
+      "category": "Privacy & Info",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Move Forward Button",
+    "description": "Repositions Discord's native Forward button to sit directly under Copy User ID in the message long press context menu.",
+    "authors": [
+      {
+        "name": "fshin",
+        "id": "1381008677301129257"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ArrowAngleRightUpIcon",
+      "original": "fshinz.github.io/Revenge-Plugins/MoveForwardButton/"
+    },
+    "hash": "6edd8e7522a7183e16dd279e538f79971181f48ff68969d49003d25f61c25ebc",
+    "discordPlus": {
+      "source": "https://github.com/fshinz/Revenge-Plugins/tree/HEAD/MoveForwardButton",
+      "updated": "2026-08-30",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://fshinz.github.io/Revenge-Plugins/MoveForwardButton/",
+      "license": "CC0-1.0",
+      "category": "Chat",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Multi Scrobbler",
+    "description": "Show off your music status from Last.fm, Libre.fm, or ListenBrainz on your Discord profile with comprehensive console logging.",
+    "authors": [
+      {
+        "name": "kmmiio99o",
+        "id": "879393496627306587"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_stage_music",
+      "original": "kmmiio99o.github.io/vd-plugins/multi-scrobbler/"
+    },
+    "hash": "b7c0c8d5ab3b602b5a8177ab9af61dd6644cb91dbf11496520025cbca0f93f3c",
+    "discordPlus": {
+      "source": "https://github.com/kmmiio99o/vd-plugins/tree/HEAD/multi-scrobbler",
+      "updated": "2026-07-26",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://kmmiio99o.github.io/vd-plugins/multi-scrobbler/",
+      "license": "GPL-3.0",
+      "category": "Media",
+      "recommended": false,
+      "caution": "Needs a Last.fm/Libre.fm/ListenBrainz username; sets your activity status."
+    }
+  },
+  {
+    "name": "NicknameHistory — by woodbloom",
+    "description": "Locally records every server nickname and username change you see, so you can always look up what someone used to be called.",
+    "authors": [
+      {
+        "name": "woodbloom",
+        "id": "793935599702507542"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_edit_24px",
+      "original": "woodbloom.github.io/revenge-plugins/NicknameHistory/"
+    },
+    "hash": "d05154a9d329d15ca7c287508673586fe84b8662e70bfe8fddc30646d227348b",
+    "discordPlus": {
+      "source": "https://github.com/woodbloom/revenge-plugins/tree/HEAD/NicknameHistory",
+      "updated": "2026-06-19",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://woodbloom.github.io/revenge-plugins/NicknameHistory/",
+      "license": "CC0-1.0",
+      "category": "Privacy & Info",
+      "recommended": false
+    }
+  },
+  {
+    "name": "No Delete Confirmation",
+    "description": "Delete messages immediately from the message menu, including moderation deletions, using Discord’s original action.",
+    "authors": [
+      {
+        "name": "Custom plugins"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_message_delete",
+      "original": "xjetmaker.github.io/revenge-plugins/no-delete-confirmation/"
+    },
+    "hash": "703109d5cd5f86b117553015404ecb7a9dfb6cbf54ecc91a94ae527309e2851b",
+    "discordPlus": {
+      "source": "https://github.com/xJetmaker/revenge-plugins/tree/HEAD/docs/no-delete-confirmation",
+      "updated": "2026-10-10",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://xjetmaker.github.io/revenge-plugins/no-delete-confirmation/",
+      "license": "none",
+      "category": "Chat",
+      "recommended": false,
+      "caution": "Deletes immediately with no confirm prompt."
+    }
+  },
+  {
+    "name": "No Embeds",
+    "description": "Automatically suppresses link embeds on every message you send.",
+    "authors": [
+      {
+        "name": "Kario"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "LinkIcon",
+      "original": "ilickft.github.io/revenge-plugins/no-embeds/"
+    },
+    "hash": "353e60b43df63561e1655bb3fef5107e6807996efc41a3e8decce3a518dfe71e",
+    "discordPlus": {
+      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/no-embeds",
+      "updated": "2026-11-10",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://ilickft.github.io/revenge-plugins/no-embeds/",
+      "license": "MIT",
+      "category": "Chat",
+      "recommended": false
+    }
+  },
+  {
+    "name": "No Orb Ads",
+    "description": "Blocks or mutes Discord Quest/Orb video ads to save bandwidth while farming Orbs. Uses 5 strategies: flag patching, component hiding, video collapse, API interception, and experiment gating.",
+    "authors": [
+      {
+        "name": "Kario"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "BlockedIcon",
+      "original": "ilickft.github.io/revenge-plugins/no-orb-ads/"
+    },
+    "hash": "df054eb675c728c3209548849f6b836a787b850149603a63e818f549ac3e9196",
+    "discordPlus": {
+      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/no-orb-ads",
+      "updated": "2026-11-10",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://ilickft.github.io/revenge-plugins/no-orb-ads/",
+      "license": "MIT",
+      "category": "Utility",
+      "recommended": true
+    }
+  },
+  {
+    "name": "No Suggestions",
+    "description": "Removes annoying channel suggestions that reappear even if you already removed them",
+    "authors": [
+      {
+        "name": "Palm",
+        "id": "629368283354628116"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_channel_browse",
+      "original": "raw.githubusercontent.com/Liz-chan/kettu-plugins/main/dist/no-suggestions/"
+    },
+    "hash": "955606ad87465352353678bf0f499886c335dc366198cd3db0364d9808414e46",
+    "discordPlus": {
+      "source": "https://github.com/Liz-chan/kettu-plugins/tree/HEAD/dist/no-suggestions",
+      "updated": "2026-08-18",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://raw.githubusercontent.com/Liz-chan/kettu-plugins/main/dist/no-suggestions/",
+      "license": "none",
+      "category": "Utility",
+      "recommended": false
+    }
+  },
+  {
+    "name": "NoCompression",
+    "description": "Prevents Discord from compressing files when uploading",
+    "authors": [
+      {
+        "name": "MSMA",
+        "id": "307215253811363843"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_file_upload_24px",
+      "original": "martinz64.github.io/vendetta-plugins/NoCompression/"
+    },
+    "hash": "6789e57091ec07ff23731a6b3407d33d9ecfb014817c6cddf678179db54d689b",
+    "discordPlus": {
+      "source": "https://github.com/Martinz64/vendetta-plugins/tree/HEAD/NoCompression",
+      "updated": "2026-06-13",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://martinz64.github.io/vendetta-plugins/NoCompression/",
+      "license": "Unlicense",
+      "category": "Media",
+      "recommended": true
+    }
+  },
+  {
+    "name": "NoMentionCount",
+    "description": "Hide mention counts for specific channels and servers.",
+    "authors": [
+      {
+        "name": "fshin",
+        "id": "1381008677301129257"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_notif_off",
+      "original": "fshinz.github.io/Revenge-Plugins/NoMentionCount/"
+    },
+    "hash": "52d483376a25d8fe0eb7708c66e02a3c1abf80f3a8f501a28df8cbe139051aac",
+    "discordPlus": {
+      "source": "https://github.com/fshinz/Revenge-Plugins/tree/HEAD/NoMentionCount",
+      "updated": "2026-08-30",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://fshinz.github.io/Revenge-Plugins/NoMentionCount/",
+      "license": "CC0-1.0",
+      "category": "Utility",
+      "recommended": false
+    }
+  },
+  {
+    "name": "NoTrack — by woodbloom",
+    "description": "Blocks Discord's telemetry, analytics & tracking-pixel requests before they leave your device. Live counter & whitelist in settings.",
+    "authors": [
+      {
+        "name": "woodbloom",
+        "id": "793935599702507542"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_privacy_24px",
+      "original": "woodbloom.github.io/revenge-plugins/NoTrack/"
+    },
+    "hash": "6eef1f8efc2b70330cb60278e1a08d0c8235fa5276208adf6dcc8bf33a840e3c",
+    "discordPlus": {
+      "source": "https://github.com/woodbloom/revenge-plugins/tree/HEAD/NoTrack",
+      "updated": "2026-06-19",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://woodbloom.github.io/revenge-plugins/NoTrack/",
+      "license": "CC0-1.0",
+      "category": "Privacy & Info",
+      "recommended": true
+    }
+  },
+  {
+    "name": "Override User Avatars",
+    "description": "Allows you to set custom profile pictures for multiple Discord users.",
+    "authors": [
+      {
+        "name": "Yaminko",
+        "id": "666"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_group",
+      "original": "yaminko18.github.io/Revenge-plugins/OverrideUserAvatars/"
+    },
+    "hash": "1c1a2e15e5bf8ce1a748cb8e588fe428dd1c379e8233716f877ccae2a017fc2e",
+    "discordPlus": {
+      "source": "https://github.com/yaminko18/Revenge-plugins/tree/HEAD/OverrideUserAvatars",
+      "updated": "2026-08-04",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://yaminko18.github.io/Revenge-plugins/OverrideUserAvatars/",
+      "license": "CC0-1.0",
+      "category": "Appearance",
+      "recommended": false
     }
   },
   {
@@ -345,7 +1787,9 @@
       "updated": "2026-10-19",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://ilickft.github.io/revenge-plugins/pet-pet/"
+      "installUrl": "https://ilickft.github.io/revenge-plugins/pet-pet/",
+      "category": "Fun",
+      "recommended": false
     }
   },
   {
@@ -368,7 +1812,85 @@
       "updated": "2026-10-08",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://martinz64.github.io/vendetta-plugins/PlatformIndicators/"
+      "installUrl": "https://martinz64.github.io/vendetta-plugins/PlatformIndicators/",
+      "category": "Privacy & Info",
+      "recommended": true
+    }
+  },
+  {
+    "name": "PluginCommands",
+    "description": "Manage, install, uninstall, and open plugin settings directly via slash commands.",
+    "authors": [
+      {
+        "name": "fshinz",
+        "id": "0"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "original": "fshinz.github.io/Revenge-Plugins/Plugin-Commands/"
+    },
+    "hash": "aa13309ca6a6e2de8ebf17f8991c611d2e2e4746c523ef1bb1eb60730bcbbd20",
+    "discordPlus": {
+      "source": "https://github.com/fshinz/Revenge-Plugins/tree/HEAD/Plugin-Commands",
+      "updated": "2026-09-06",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://fshinz.github.io/Revenge-Plugins/Plugin-Commands/",
+      "license": "CC0-1.0",
+      "category": "Utility",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Quick Server Switcher",
+    "description": "Alphabetical server list + fuzzy search + flat sidebar for Revenge.",
+    "authors": [
+      {
+        "name": "Danny Clark",
+        "id": "689173209785958424"
+      }
+    ],
+    "main": "dist/index.js",
+    "vendetta": {
+      "original": "raw.githubusercontent.com/frdminc/RevengeQuickSwitcher/main/"
+    },
+    "hash": "3c77c74e025ac0ac6f4979872b6711b4402bf535acbae687c1240657c3953c5d",
+    "discordPlus": {
+      "source": "https://github.com/frdminc/RevengeQuickSwitcher/tree/HEAD",
+      "updated": "2026-07-20",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://raw.githubusercontent.com/frdminc/RevengeQuickSwitcher/main/",
+      "license": "none",
+      "category": "Utility",
+      "recommended": false
+    }
+  },
+  {
+    "name": "QuickCopy — by woodbloom",
+    "description": "Slash commands to instantly copy your user ID, avatar URL or the current server's ID/icon to your clipboard.",
+    "authors": [
+      {
+        "name": "woodbloom",
+        "id": "793935599702507542"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_copy_24px",
+      "original": "woodbloom.github.io/revenge-plugins/QuickCopy/"
+    },
+    "hash": "a5fcaa498b3456d74b1cca5ec7eb338516f84fdd47bbe6fa1f6c1f5bc678d363",
+    "discordPlus": {
+      "source": "https://github.com/woodbloom/revenge-plugins/tree/HEAD/QuickCopy",
+      "updated": "2026-06-19",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://woodbloom.github.io/revenge-plugins/QuickCopy/",
+      "license": "CC0-1.0",
+      "category": "Utility",
+      "recommended": false
     }
   },
   {
@@ -399,7 +1921,86 @@
       "updated": "2026-09-24",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://marcmy.github.io/revenge-plugins/RealMoji/"
+      "installUrl": "https://marcmy.github.io/revenge-plugins/RealMoji/",
+      "category": "Chat",
+      "recommended": false
+    }
+  },
+  {
+    "name": "RelationshipNotifier",
+    "description": "Notifies you when you are unfriended, or removed from a group DM or server.",
+    "authors": [
+      {
+        "name": "Vaiskiainen",
+        "id": "1465743112428064955"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_notif",
+      "original": "vaiskiainen.github.io/testplugins/relationshipNotifier/"
+    },
+    "hash": "845a4b47bdde8bcff9b5843401821fa2fe55eda2938b45a6f68fb574a85b6422",
+    "discordPlus": {
+      "source": "https://github.com/Vaiskiainen/testplugins/tree/HEAD/relationshipNotifier",
+      "updated": "2026-03-27",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://vaiskiainen.github.io/testplugins/relationshipNotifier/",
+      "license": "CC0-1.0",
+      "category": "Privacy & Info",
+      "recommended": false
+    }
+  },
+  {
+    "name": "RemoveBanner",
+    "description": "Remove Server Banners completely.",
+    "authors": [
+      {
+        "name": "Vaiskiainen",
+        "id": "1205851726586970125"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_image_slash",
+      "original": "vaiskiainen.github.io/testplugins/removeBanner/"
+    },
+    "hash": "e00bf8d962cb3e637808db4eba617c062775de25eba9a268c3351c5e5fa40b0c",
+    "discordPlus": {
+      "source": "https://github.com/Vaiskiainen/testplugins/tree/HEAD/removeBanner",
+      "updated": "2026-03-25",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://vaiskiainen.github.io/testplugins/removeBanner/",
+      "license": "CC0-1.0",
+      "category": "Appearance",
+      "recommended": false
+    }
+  },
+  {
+    "name": "RemoveBlockedUsers",
+    "description": "DevilBro RemoveBlockedUsers mobile port. Removes blocked and ignored messages, strips collapsed bars, prunes orphaned date dividers, filters playerlist, and hides typing.",
+    "authors": [
+      {
+        "name": "Antigravity",
+        "id": "698947564459917343"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "original": "mezza1e.github.io/revenge-plugins/removeblockedusers/"
+    },
+    "hash": "fd2d587f6a0a2817d7f3714637d227ea5cf9fa602fa55e74d9646ddfe5189514",
+    "discordPlus": {
+      "source": "https://github.com/mezza1e/revenge-plugins/tree/HEAD/removeblockedusers",
+      "updated": "2026-09-19",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://mezza1e.github.io/revenge-plugins/removeblockedusers/",
+      "license": "none",
+      "category": "Privacy & Info",
+      "recommended": false
     }
   },
   {
@@ -426,7 +2027,142 @@
       "updated": "2026-06-05",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://janisslsm.github.io/vdplugins/ReviewDB/"
+      "installUrl": "https://janisslsm.github.io/vdplugins/ReviewDB/",
+      "category": "Privacy & Info",
+      "recommended": false
+    }
+  },
+  {
+    "name": "RPCGuard — by woodbloom",
+    "description": "Stops Discord from broadcasting what you're playing/listening to (Rich Presence / game activity) to everyone who can see your profile.",
+    "authors": [
+      {
+        "name": "woodbloom",
+        "id": "793935599702507542"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_privacy_24px",
+      "original": "woodbloom.github.io/revenge-plugins/RPCGuard/"
+    },
+    "hash": "2327b7a5d08b248c669ee12730442501c3e4948636d755d5e3c921f52852ad72",
+    "discordPlus": {
+      "source": "https://github.com/woodbloom/revenge-plugins/tree/HEAD/RPCGuard",
+      "updated": "2026-06-19",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://woodbloom.github.io/revenge-plugins/RPCGuard/",
+      "license": "CC0-1.0",
+      "category": "Privacy & Info",
+      "recommended": false
+    }
+  },
+  {
+    "name": "SearchLink",
+    "description": "Lets you make a link to a search using various services. Adds the /search command",
+    "authors": [
+      {
+        "name": "meqativ :3",
+        "id": "744276454946242723"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_application_command_24px",
+      "original": "meqativ.github.io/dumsane/SearchLink/"
+    },
+    "hash": "c285d5445c6f1450c78675524b0c9905e1f7901b30acc8e2ad99ee36dd9fe678",
+    "discordPlus": {
+      "source": "https://github.com/meqativ/dumsane/tree/HEAD/SearchLink",
+      "updated": "2026-04-01",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://meqativ.github.io/dumsane/SearchLink/",
+      "license": "Unlicense",
+      "category": "Utility",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Server Drawer",
+    "description": "Server Drawer above the YouBar, manage your servers differently! Now fully hides the Quest Dock/GuildsBar, adds a DM tile, optional server-name labels, and a settings screen.",
+    "authors": [
+      {
+        "name": "kmmiio99o",
+        "id": "879393496627306587"
+      },
+      {
+        "name": "Rosie",
+        "id": "1356936317501571214"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ServerIcon",
+      "original": "kmmiio99o.github.io/vd-plugins/ServerDrawer/"
+    },
+    "hash": "be160c965401d68f8bc10cc07d80c162209a960a43fe32ff2d4ff7ebc9a523f9",
+    "discordPlus": {
+      "source": "https://github.com/kmmiio99o/vd-plugins/tree/HEAD/ServerDrawer",
+      "updated": "2026-09-12",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://kmmiio99o.github.io/vd-plugins/ServerDrawer/",
+      "license": "GPL-3.0",
+      "category": "Appearance",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Server Info",
+    "description": "Displays detailed server information when long pressing a guild icon on sidebar.",
+    "authors": [
+      {
+        "name": "fshin",
+        "id": "1381008677301129257"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_information_24px",
+      "original": "fshinz.github.io/Revenge-Plugins/ServerInfo/"
+    },
+    "hash": "7a391c7b51224dce06fb489b126f3f3c1daa51abe5f4b6f646ead372b890e57d",
+    "discordPlus": {
+      "source": "https://github.com/fshinz/Revenge-Plugins/tree/HEAD/ServerInfo",
+      "updated": "2026-08-30",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://fshinz.github.io/Revenge-Plugins/ServerInfo/",
+      "license": "CC0-1.0",
+      "category": "Privacy & Info",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Shadow Ban",
+    "description": "Shadow ban users so they completely disappear from DMs, all chats, voice channels, and everywhere. Unban via /unsban or from plugin settings.",
+    "authors": [
+      {
+        "name": "Kario"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_person_off_24px",
+      "original": "ilickft.github.io/revenge-plugins/shadow-ban/"
+    },
+    "hash": "5e7eea97cbb7a5e997ece47a8c7e98f35cf4e329b44b7a47d31b67bfa576d949",
+    "discordPlus": {
+      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/shadow-ban",
+      "updated": "2026-10-19",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://ilickft.github.io/revenge-plugins/shadow-ban/",
+      "license": "MIT",
+      "category": "Privacy & Info",
+      "recommended": true
     }
   },
   {
@@ -449,7 +2185,9 @@
       "updated": "2026-11-17",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://brainage04.github.io/SocialEmbedFixer/"
+      "installUrl": "https://brainage04.github.io/SocialEmbedFixer/",
+      "category": "Media",
+      "recommended": true
     }
   },
   {
@@ -472,7 +2210,434 @@
       "updated": "2026-10-17",
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://revenge.nexpid.xyz/song-spotlight/"
+      "installUrl": "https://revenge.nexpid.xyz/song-spotlight/",
+      "category": "Fun",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Soundboard Anywhere",
+    "description": "Use soundboard sounds from any server without Nitro — patches Discord's sound availability checks.",
+    "authors": [
+      {
+        "name": "Kario"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "SpeakerIcon",
+      "original": "ilickft.github.io/revenge-plugins/soundboard-anywhere/"
+    },
+    "hash": "8b4b8ee41c54fcc23ee8c24ce65050a3eb66b80fa9858731a5cc38d64cafa378",
+    "discordPlus": {
+      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/soundboard-anywhere",
+      "updated": "2026-11-10",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://ilickft.github.io/revenge-plugins/soundboard-anywhere/",
+      "license": "MIT",
+      "category": "Voice & Calls",
+      "recommended": false,
+      "caution": "Uses soundboard sounds you don't normally have access to; use at your own risk."
+    }
+  },
+  {
+    "name": "SplitLargeMessages",
+    "description": "Automatically splits messages larger than 2000/4000 characters",
+    "authors": [
+      {
+        "name": "marcmy",
+        "id": "92076581404545024"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_messages",
+      "original": "marcmy.github.io/revenge-plugins/SplitLargeMessages/"
+    },
+    "hash": "440c7b173ee0bbf8a0d87eb1e0eaeda6abe4173ffc024dc2c8ff3e578570c6ed",
+    "discordPlus": {
+      "source": "https://github.com/marcmy/revenge-plugins/tree/HEAD/SplitLargeMessages",
+      "updated": "2026-11-16",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://marcmy.github.io/revenge-plugins/SplitLargeMessages/",
+      "license": "none",
+      "category": "Chat",
+      "recommended": true
+    }
+  },
+  {
+    "name": "Staff Tags",
+    "description": "Shows OWNER, ADMIN, STAFF and moderator tags based on server permissions.",
+    "authors": [
+      {
+        "name": "Fiery",
+        "id": "890228870559698955"
+      },
+      {
+        "name": "siguma",
+        "id": "737597276339437578"
+      },
+      {
+        "name": "Flarya",
+        "id": "435847641041993759"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "original": "floralflarya.github.io/revenge/stafftag/"
+    },
+    "hash": "7138f661e9923481a7416adba6c989f99df29fbc5c2a871e0f03de78285dc07f",
+    "discordPlus": {
+      "source": "https://github.com/FloralFlarya/revenge/tree/HEAD/stafftag",
+      "updated": "2026-10-27",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://floralflarya.github.io/revenge/stafftag/",
+      "license": "none",
+      "category": "Appearance",
+      "recommended": false
+    }
+  },
+  {
+    "name": "StealSticker",
+    "description": "Save Discord stickers directly to your Camera Roll.",
+    "authors": [
+      {
+        "name": "Lotte",
+        "id": "1462536039708233925"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_sticker_24px",
+      "original": "raw.githubusercontent.com/lotte-xrd/steal-sticker-plugin/main/dist/"
+    },
+    "hash": "bab5d233e43455a8244ed625943174106abe6ebeec811908b5cbcac618c2099a",
+    "discordPlus": {
+      "source": "https://github.com/lotte-xrd/steal-sticker-plugin/tree/HEAD/dist",
+      "updated": "2026-08-14",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://raw.githubusercontent.com/lotte-xrd/steal-sticker-plugin/main/dist/",
+      "license": "none",
+      "category": "Media",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Terminal Prompt",
+    "description": "Turns the message box placeholder into a shell prompt, e.g. ethan@discord:~/#general$",
+    "authors": [
+      {
+        "name": "ethan"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "SlashBoxIcon",
+      "original": "cathousing.github.io/horrible-kettu-plugins/plugins/terminal-prompt/"
+    },
+    "hash": "6e60b4be8bcd9604d6e46ecba48e5f411b3c55b61b3061b0882b729f9d12b61e",
+    "discordPlus": {
+      "source": "https://github.com/CatHousing/horrible-kettu-plugins/tree/HEAD/plugins/terminal-prompt",
+      "updated": "2026-10-03",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://cathousing.github.io/horrible-kettu-plugins/plugins/terminal-prompt/",
+      "license": "none",
+      "category": "Fun",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Terminal Timestamps",
+    "description": "Shows message times as [HH:MM:SS], like a shell log.",
+    "authors": [
+      {
+        "name": "ethan"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ClockIcon",
+      "original": "cathousing.github.io/horrible-kettu-plugins/plugins/terminal-timestamps/"
+    },
+    "hash": "882e576971351e19a1c7ccb81f2a60aed7df86fbe7b84ee78ebd66c9b6afeb53",
+    "discordPlus": {
+      "source": "https://github.com/CatHousing/horrible-kettu-plugins/tree/HEAD/plugins/terminal-timestamps",
+      "updated": "2026-10-03",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://cathousing.github.io/horrible-kettu-plugins/plugins/terminal-timestamps/",
+      "license": "none",
+      "category": "Appearance",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Text Replace",
+    "description": "Generic text replacement plugin (Kettu: regex toggle fixed)",
+    "authors": [
+      {
+        "name": "Fiery",
+        "id": "890228870559698955"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_message_edit",
+      "original": "mobvadasz2.github.io/textreplace/"
+    },
+    "hash": "9068ae6b59c6ced90530b13ee0c576d4c1bdbc5abef3c6894c3136f5104ee725",
+    "discordPlus": {
+      "source": "https://github.com/mobvadasz2/textreplace/tree/HEAD",
+      "updated": "2026-08-09",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://mobvadasz2.github.io/textreplace/",
+      "license": "none",
+      "category": "Chat",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Timeout Countdown",
+    "description": "/timeoutinfo <user> — shows when a member's timeout ends, with Discord's native live countdown timestamp.",
+    "authors": [
+      {
+        "name": "dolanexeee"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "original": "dolanexeee.github.io/kettu-plugins/timeout-countdown/"
+    },
+    "hash": "5dcb8a68d7c8728db95edc2ce16d02f0fbd9bee265f9eb3eeeea910071245f53",
+    "discordPlus": {
+      "source": "https://github.com/dolanexeee/kettu-plugins/tree/HEAD/timeout-countdown",
+      "updated": "2026-11-13",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://dolanexeee.github.io/kettu-plugins/timeout-countdown/",
+      "license": "none",
+      "category": "Utility",
+      "recommended": false
+    }
+  },
+  {
+    "name": "TimestampHelper — by woodbloom",
+    "description": "Slash command to generate Discord timestamp markup (<t:...>) from a relative time like '2h' or '3d', so everyone sees it in their own timezone.",
+    "authors": [
+      {
+        "name": "woodbloom",
+        "id": "793935599702507542"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_clock_24px",
+      "original": "woodbloom.github.io/revenge-plugins/TimestampHelper/"
+    },
+    "hash": "594f6302e473cc419c0ef7ec23330d6ee43e69d1613a949e5bef1081120dd5af",
+    "discordPlus": {
+      "source": "https://github.com/woodbloom/revenge-plugins/tree/HEAD/TimestampHelper",
+      "updated": "2026-06-19",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://woodbloom.github.io/revenge-plugins/TimestampHelper/",
+      "license": "CC0-1.0",
+      "category": "Utility",
+      "recommended": false
+    }
+  },
+  {
+    "name": "UwUify",
+    "description": "Lets you UwUify text. As a filter on all your messages or through the /uwuify command",
+    "authors": [
+      {
+        "name": "meqativ :3",
+        "id": "744276454946242723"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_application_command_24px",
+      "original": "meqativ.github.io/dumsane/UwUify/"
+    },
+    "hash": "c2ae1cc90573c37b701bdc84a79d8c2bb8947d3cb0f4812350c14bc7bdc92e89",
+    "discordPlus": {
+      "source": "https://github.com/meqativ/dumsane/tree/HEAD/UwUify",
+      "updated": "2026-09-20",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://meqativ.github.io/dumsane/UwUify/",
+      "license": "Unlicense",
+      "category": "Fun",
+      "recommended": false
+    }
+  },
+  {
+    "name": "ValidUser",
+    "description": "Fixes unresolved user mentions like @unknown-user to a normal clickable mention.",
+    "authors": [
+      {
+        "name": "fshin",
+        "id": "1381008677301129257"
+      },
+      {
+        "name": "o.oer",
+        "id": "306810730055729152"
+      },
+      {
+        "name": "kmmiio99o",
+        "id": "879393496627306587"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_mention_24px",
+      "original": "fshinz.github.io/Revenge-Plugins/ValidUser/"
+    },
+    "hash": "30bdfcf9a9d01113b20dc3b668eff566044eaadf870603be87404263532426c1",
+    "discordPlus": {
+      "source": "https://github.com/fshinz/Revenge-Plugins/tree/HEAD/ValidUser",
+      "updated": "2026-09-15",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://fshinz.github.io/Revenge-Plugins/ValidUser/",
+      "license": "CC0-1.0",
+      "category": "Chat",
+      "recommended": true
+    }
+  },
+  {
+    "name": "VaultDMs",
+    "description": "Hide DM conversations behind a PIN-locked private vault.",
+    "authors": [
+      {
+        "name": "you",
+        "id": "000000000000000000"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "original": "raw.githubusercontent.com/tuomix/revenge-plugins/gh-pages/dist/VaultDMs/"
+    },
+    "hash": "b41e0c93f6021cc4170a4c15a32b8cc69eefcc0ef71debd9bce64e923e8e0853",
+    "discordPlus": {
+      "source": "https://github.com/tuomix/revenge-plugins/tree/HEAD/dist/VaultDMs",
+      "updated": "2026-05-17",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://raw.githubusercontent.com/tuomix/revenge-plugins/gh-pages/dist/VaultDMs/",
+      "license": "none",
+      "category": "Privacy & Info",
+      "recommended": false
+    }
+  },
+  {
+    "name": "Video Embeds",
+    "description": "Shows a native video player for Facebook, Instagram and Twitter / X video links.",
+    "authors": [
+      {
+        "name": "Yaminko",
+        "id": "666"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_video",
+      "original": "yaminko18.github.io/Revenge-plugins/VideoEmbeds/"
+    },
+    "hash": "36db5a535b23a452f961453c0c9155e0ff5b459854019a789cfbe5a01aa2f43c",
+    "discordPlus": {
+      "source": "https://github.com/yaminko18/Revenge-plugins/tree/HEAD/VideoEmbeds",
+      "updated": "2026-10-27",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://yaminko18.github.io/Revenge-plugins/VideoEmbeds/",
+      "license": "CC0-1.0",
+      "category": "Media",
+      "recommended": false,
+      "caution": "Fetches video info from Facebook/Instagram/X to show a player."
+    }
+  },
+  {
+    "name": "Yellow Notes",
+    "description": "Private local global, server, and user notes with search, pins, and reminders.",
+    "authors": [
+      {
+        "name": "ProxyDesync"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_note_24px",
+      "original": "proxydesync.github.io/yellow-notes-repo/YellowNotes/"
+    },
+    "hash": "5a6597c750015bc6b94d3a3373a4699148c626b9edf760118207b2634b7d5861",
+    "discordPlus": {
+      "source": "https://github.com/ProxyDesync/yellow-notes-repo/tree/HEAD/YellowNotes",
+      "updated": "2026-08-05",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://proxydesync.github.io/yellow-notes-repo/YellowNotes/",
+      "license": "none",
+      "category": "Utility",
+      "recommended": false
+    }
+  },
+  {
+    "name": "YouBar+",
+    "description": "Adds Settings and DM buttons to the YouBar. (Requires a restart)",
+    "authors": [
+      {
+        "name": "Purple_Ξye™",
+        "id": "646535537334812682"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "UserCircleIcon",
+      "original": "purple-eyez.github.io/RevengePlugins/YouBarPlus/"
+    },
+    "hash": "e6426deb70ea5f3ead4542fee848bc07d23c215968169504ddea1e1f3e59c7e5",
+    "discordPlus": {
+      "source": "https://github.com/Purple-EyeZ/RevengePlugins/tree/HEAD/YouBarPlus",
+      "updated": "2026-07-29",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://purple-eyez.github.io/RevengePlugins/YouBarPlus/",
+      "license": "none",
+      "category": "Appearance",
+      "recommended": false
+    }
+  },
+  {
+    "name": "🇺🇸 GTA VI Countdown",
+    "description": "Counting down until you reach heaven.",
+    "authors": [
+      {
+        "name": "Purple_Ξye™",
+        "id": "646535537334812682"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "original": "purple-eyez.github.io/RevengePlugins/GTAVICountdown/"
+    },
+    "hash": "ca175a3b4ae82d5d393311249a1bf47734d84e594600545cd6368cd6ad9ac933",
+    "discordPlus": {
+      "source": "https://github.com/Purple-EyeZ/RevengePlugins/tree/HEAD/GTAVICountdown",
+      "updated": "2026-08-11",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; static security skim (no token exfiltration, no remote eval); not phone-tested",
+      "installUrl": "https://purple-eyez.github.io/RevengePlugins/GTAVICountdown/",
+      "license": "none",
+      "category": "Fun",
+      "recommended": false
     }
   }
 ]

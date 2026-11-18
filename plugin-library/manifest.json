@@ -1,13 +1,13 @@
 {
   "name": "Plugin Library",
-  "description": "Browse recent plugins, view source and install or remove them in one tap.",
+  "description": "Discord+ Library: browse curated plugins, themes and fonts; one-tap install, apply or remove.",
   "authors": [
     {
       "name": "Discord+ Personal Build"
     }
   ],
   "main": "index.js",
-  "hash": "1385f36fcdd2dc903a25bd337273786d41f00234d0dbc365b4fad75d36c75375",
+  "hash": "cda4ee3d07a89dd6f84043b5384c4e19a2eabd4a24e955da49c799b3f0c16364",
   "vendetta": {
     "icon": "ic_grid_24px"
   }

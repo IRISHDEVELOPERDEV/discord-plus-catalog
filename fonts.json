@@ -1,0 +1,240 @@
+[
+  {
+    "name": "DM Sans",
+    "fontName": "DM Sans",
+    "description": "",
+    "authors": [
+      {
+        "name": "AhmadMorningstar"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/AhmadMorningstar/Discord-Fonts/main/DM_Sans.json",
+    "files": 18,
+    "updated": "2026-08-26",
+    "source": "https://github.com/AhmadMorningstar/Discord-Fonts/blob/HEAD/DM_Sans.json",
+    "license": "MIT",
+    "checked": "2026-11-18",
+    "checks": "JSON spec 1 valid; every font file HTTP 200 with TTF/OTF header; not phone-tested"
+  },
+  {
+    "name": "JetBrains Mono",
+    "fontName": "JetBrains Mono",
+    "description": "",
+    "authors": [
+      {
+        "name": "AhmadMorningstar"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/AhmadMorningstar/Discord-Fonts/main/JetBrainsMono.json",
+    "files": 18,
+    "updated": "2026-08-26",
+    "source": "https://github.com/AhmadMorningstar/Discord-Fonts/blob/HEAD/JetBrainsMono.json",
+    "license": "MIT",
+    "checked": "2026-11-18",
+    "checks": "JSON spec 1 valid; every font file HTTP 200 with TTF/OTF header; not phone-tested"
+  },
+  {
+    "name": "Cascadia Mono",
+    "fontName": "Cascadia Mono",
+    "description": "",
+    "authors": [
+      {
+        "name": "AhmadMorningstar"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/AhmadMorningstar/Discord-Fonts/main/Cascadia_Mono.json",
+    "files": 18,
+    "updated": "2026-08-24",
+    "source": "https://github.com/AhmadMorningstar/Discord-Fonts/blob/HEAD/Cascadia_Mono.json",
+    "license": "MIT",
+    "checked": "2026-11-18",
+    "checks": "JSON spec 1 valid; every font file HTTP 200 with TTF/OTF header; not phone-tested"
+  },
+  {
+    "name": "Archivo Black",
+    "fontName": "Archivo Black",
+    "description": "",
+    "authors": [
+      {
+        "name": "AhmadMorningstar"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/AhmadMorningstar/Discord-Fonts/main/Archivo_Black.json",
+    "files": 18,
+    "updated": "2026-08-26",
+    "source": "https://github.com/AhmadMorningstar/Discord-Fonts/blob/HEAD/Archivo_Black.json",
+    "license": "MIT",
+    "checked": "2026-11-18",
+    "checks": "JSON spec 1 valid; every font file HTTP 200 with TTF/OTF header; not phone-tested"
+  },
+  {
+    "name": "Asap Sharp",
+    "fontName": "Asap Sharp",
+    "description": "",
+    "authors": [
+      {
+        "name": "AhmadMorningstar"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/AhmadMorningstar/Discord-Fonts/main/Asap_Sharp.json",
+    "files": 18,
+    "updated": "2026-08-26",
+    "source": "https://github.com/AhmadMorningstar/Discord-Fonts/blob/HEAD/Asap_Sharp.json",
+    "license": "MIT",
+    "checked": "2026-11-18",
+    "checks": "JSON spec 1 valid; every font file HTTP 200 with TTF/OTF header; not phone-tested"
+  },
+  {
+    "name": "McLaren",
+    "fontName": "McLaren",
+    "description": "",
+    "authors": [
+      {
+        "name": "AhmadMorningstar"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/AhmadMorningstar/Discord-Fonts/main/McLaren.json",
+    "files": 18,
+    "updated": "2026-08-24",
+    "source": "https://github.com/AhmadMorningstar/Discord-Fonts/blob/HEAD/McLaren.json",
+    "license": "MIT",
+    "checked": "2026-11-18",
+    "checks": "JSON spec 1 valid; every font file HTTP 200 with TTF/OTF header; not phone-tested"
+  },
+  {
+    "name": "Figtree",
+    "fontName": "Figtree",
+    "description": "",
+    "authors": [
+      {
+        "name": "Rairof"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/Rairof/Theme-Fonts/main/Figtree/Figtree-font-snippet.json",
+    "files": 18,
+    "updated": "2026-08-08",
+    "source": "https://github.com/Rairof/Theme-Fonts/blob/HEAD/Figtree/Figtree-font-snippet.json",
+    "license": "GPL-3.0",
+    "checked": "2026-11-18",
+    "checks": "JSON spec 1 valid; every font file HTTP 200 with TTF/OTF header; not phone-tested"
+  },
+  {
+    "name": "Geist",
+    "fontName": "Geist",
+    "description": "",
+    "authors": [
+      {
+        "name": "azurenekowo"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/azurenekowo/discord-theme-fonts/main/Geist_Rain.json",
+    "files": 18,
+    "updated": "2026-09-28",
+    "source": "https://github.com/azurenekowo/discord-theme-fonts/blob/HEAD/Geist_Rain.json",
+    "license": "none",
+    "checked": "2026-11-18",
+    "checks": "JSON spec 1 valid; every font file HTTP 200 with TTF/OTF header; not phone-tested"
+  },
+  {
+    "name": "Atkinson Hyperlegible",
+    "fontName": "Atkinson Hyperlegible",
+    "description": "",
+    "authors": [
+      {
+        "name": "dmack6464"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/dmack6464/RealDark/master/Rain/AtkinsonForRain.json",
+    "files": 18,
+    "updated": "2026-07-06",
+    "source": "https://github.com/dmack6464/RealDark/blob/HEAD/Rain/AtkinsonForRain.json",
+    "license": "GPL-3.0",
+    "checked": "2026-11-18",
+    "checks": "JSON spec 1 valid; every font file HTTP 200 with TTF/OTF header; not phone-tested"
+  },
+  {
+    "name": "Balsamiq Sans",
+    "fontName": "Balsamiq Sans",
+    "description": "",
+    "authors": [
+      {
+        "name": "Ruhannn"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/Ruhannn/bunnyfont/main/balsamiq-sans.json",
+    "files": 18,
+    "updated": "2026-11-02",
+    "source": "https://github.com/Ruhannn/bunnyfont/blob/HEAD/balsamiq-sans.json",
+    "license": "none",
+    "checked": "2026-11-18",
+    "checks": "JSON spec 1 valid; every font file HTTP 200 with TTF/OTF header; not phone-tested"
+  },
+  {
+    "name": "DM Mono Light",
+    "fontName": "DM Mono Light",
+    "description": "",
+    "authors": [
+      {
+        "name": "SlashXIV"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/SlashXIV/discord-themes/main/fonts/dm-mono.json",
+    "files": 18,
+    "updated": "2026-10-11",
+    "source": "https://github.com/SlashXIV/discord-themes/blob/HEAD/fonts/dm-mono.json",
+    "license": "none",
+    "checked": "2026-11-18",
+    "checks": "JSON spec 1 valid; every font file HTTP 200 with TTF/OTF header; not phone-tested"
+  },
+  {
+    "name": "Outfit",
+    "fontName": "Outfit",
+    "description": "",
+    "authors": [
+      {
+        "name": "GoyDevv"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/GoyDevv/ArseIDE/main/revenge-fonts/outfit.json",
+    "files": 11,
+    "updated": "2026-09-03",
+    "source": "https://github.com/GoyDevv/ArseIDE/blob/HEAD/revenge-fonts/outfit.json",
+    "license": "GPL-3.0",
+    "checked": "2026-11-18",
+    "checks": "JSON spec 1 valid; every font file HTTP 200 with TTF/OTF header; not phone-tested"
+  },
+  {
+    "name": "Saira (All Mapped)",
+    "fontName": "Saira (All Mapped)",
+    "description": "",
+    "authors": [
+      {
+        "name": "Titan87zs"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/Titan87zs/titan87zs.github.io/main/kettu/Saira-AllMapped.json",
+    "files": 18,
+    "updated": "2026-07-31",
+    "source": "https://github.com/Titan87zs/titan87zs.github.io/blob/HEAD/kettu/Saira-AllMapped.json",
+    "license": "none",
+    "checked": "2026-11-18",
+    "checks": "JSON spec 1 valid; every font file HTTP 200 with TTF/OTF header; not phone-tested"
+  },
+  {
+    "name": "Sarpanch",
+    "fontName": "Sarpanch",
+    "description": "",
+    "authors": [
+      {
+        "name": "Brayden1609"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/Brayden1609/Fonts/main/Sarpanch-font-snippet.json",
+    "files": 18,
+    "updated": "2026-08-15",
+    "source": "https://github.com/Brayden1609/Fonts/blob/HEAD/Sarpanch-font-snippet.json",
+    "license": "none",
+    "checked": "2026-11-18",
+    "checks": "JSON spec 1 valid; every font file HTTP 200 with TTF/OTF header; not phone-tested"
+  }
+]
