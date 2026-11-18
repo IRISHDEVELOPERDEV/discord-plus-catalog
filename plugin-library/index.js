@@ -129,7 +129,7 @@
   },
   {
     "name": "Emoji Anywhere",
-    "description": "Use emojis from any server \u2014 sends them as small GIFs that look like emojis, while keeping server emojis normal.",
+    "description": "Use emojis from any server — sends them as small GIFs that look like emojis, while keeping server emojis normal.",
     "authors": [
       {
         "name": "Kario"
@@ -170,6 +170,29 @@
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
       "installUrl": "https://martinz64.github.io/vendetta-plugins/FileSizeOnPicker/"
+    }
+  },
+  {
+    "name": "HiddenChannelLocks",
+    "description": "Adds lock rows for hidden channels in their real categories (additive, self-checking). Tap for received metadata; cannot recover names or messages Discord withholds. Show/hide toggle.",
+    "authors": [
+      {
+        "name": "Discord+ Personal Build"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_lock",
+      "original": "raw.githubusercontent.com/IRISHDEVELOPERDEV/discord-plus-catalog/main/hidden-channel-locks/"
+    },
+    "hash": "307499af8bf68fa8724a6e85691c0350b665418d1ae607c58634fd273d5c486a",
+    "discordPlus": {
+      "source": "https://github.com/IRISHDEVELOPERDEV/discord-plus-catalog/tree/main/hidden-channel-locks",
+      "updated": "2026-11-18",
+      "checked": "2026-11-18",
+      "checks": "Original MIT 1.1.0: additive list hooks with self-check; local fixture tests pass; rolled out to phone at user request (not pre-verified on device).",
+      "installUrl": "https://raw.githubusercontent.com/IRISHDEVELOPERDEV/discord-plus-catalog/main/hidden-channel-locks/",
+      "license": "MIT"
     }
   },
   {
@@ -309,7 +332,7 @@
   },
   {
     "name": "Pet Pet",
-    "description": "Use /petpet to generate a pet-pet GIF of any user \u2014 reply to someone, mention them, or just pet yourself!",
+    "description": "Use /petpet to generate a pet-pet GIF of any user — reply to someone, mention them, or just pet yourself!",
     "authors": [
       {
         "name": "Kario"
@@ -361,7 +384,7 @@
         "id": "265064055490871297"
       },
       {
-        "name": "Purple_\u039eye\u2122",
+        "name": "Purple_Ξye™",
         "id": "646535537334812682"
       },
       {
@@ -408,29 +431,6 @@
       "checked": "2026-11-18",
       "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
       "installUrl": "https://janisslsm.github.io/vdplugins/ReviewDB/"
-    }
-  },
-  {
-    "name": "ShowHiddenChannels",
-    "description": "Shows server channels you do not have permission to view, with locked styling and no unread indicators",
-    "authors": [
-      {
-        "name": "marcmy",
-        "id": "92076581404545024"
-      }
-    ],
-    "main": "index.js",
-    "vendetta": {
-      "icon": "ic_lock",
-      "original": "marcmy.github.io/revenge-plugins/ShowHiddenChannels/"
-    },
-    "hash": "866b5b482dab84e33680efa32065d7fe75cc132a8802f12566c45b81d32247c4",
-    "discordPlus": {
-      "source": "https://github.com/marcmy/revenge-plugins/tree/HEAD/plugins/ShowHiddenChannels",
-      "updated": "2026-11-02",
-      "checked": "2026-11-18",
-      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
-      "installUrl": "https://marcmy.github.io/revenge-plugins/ShowHiddenChannels/"
     }
   },
   {
