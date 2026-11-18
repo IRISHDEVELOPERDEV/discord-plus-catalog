@@ -170,7 +170,7 @@
   },
   {
     "name": "HiddenChannelLocks",
-    "description": "Temporarily in safe mode (does nothing) while a channel-list issue is fixed.",
+    "description": "Adds lock rows for hidden channels in their real categories (additive, self-checking). Tap for received metadata; cannot recover names or messages Discord withholds. Show/hide toggle.",
     "authors": [
       {
         "name": "Discord+ Personal Build"
@@ -181,12 +181,12 @@
       "icon": "ic_lock",
       "original": "raw.githubusercontent.com/IRISHDEVELOPERDEV/discord-plus-catalog/main/hidden-channel-locks/"
     },
-    "hash": "3ef73d1483e3b76986be352251d4d48a4835ade662af05c84e73751180df2fb7",
+    "hash": "fb602ae4d5c14889055627dd088fc2f2f2873c28b5c564c01ec6958b73e042dc",
     "discordPlus": {
       "source": "https://github.com/IRISHDEVELOPERDEV/discord-plus-catalog/tree/main/hidden-channel-locks",
       "updated": "2026-11-18",
       "checked": "2026-11-18",
-      "checks": "Original MIT; synthetic fixture tests pass; not phone-tested. Replaces marcmy ShowHiddenChannels (broken by Discord channel obfuscation).",
+      "checks": "Original MIT 1.1.0: additive list hooks with self-check; local fixture tests pass; rolled out to phone at user request (not pre-verified on device).",
       "installUrl": "https://raw.githubusercontent.com/IRISHDEVELOPERDEV/discord-plus-catalog/main/hidden-channel-locks/",
       "license": "MIT"
     }

@@ -1,14 +1,14 @@
 {
   "name": "HiddenChannelLocks",
-  "description": "Temporarily in safe mode (does nothing) while a channel-list issue is fixed.",
+  "description": "Adds lock rows for hidden channels in their real categories (additive, self-checking). Tap for received metadata; cannot recover names or messages Discord withholds. Show/hide toggle.",
   "authors": [
     {
       "name": "Discord+ Personal Build"
     }
   ],
   "main": "index.js",
-  "version": "1.0.1",
-  "hash": "3ef73d1483e3b76986be352251d4d48a4835ade662af05c84e73751180df2fb7",
+  "version": "1.1.0",
+  "hash": "fb602ae4d5c14889055627dd088fc2f2f2873c28b5c564c01ec6958b73e042dc",
   "vendetta": {
     "icon": "ic_lock"
   }
