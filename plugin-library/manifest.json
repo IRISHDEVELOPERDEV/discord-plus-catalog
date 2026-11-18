@@ -1,0 +1,14 @@
+{
+  "name": "Plugin Library",
+  "description": "Browse recent plugins, view source and install or remove them in one tap.",
+  "authors": [
+    {
+      "name": "Discord+ Personal Build"
+    }
+  ],
+  "main": "index.js",
+  "hash": "f0da35514e46b66b3cc619c16890f77a0a257361cf375710baea4e754eafa7fe",
+  "vendetta": {
+    "icon": "ic_grid_24px"
+  }
+}

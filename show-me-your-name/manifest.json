@@ -1,0 +1,14 @@
+{
+  "name": "ShowMeYourName",
+  "description": "Shows @username beside nicknames in chat. Personal native-row port.",
+  "authors": [
+    {
+      "name": "Discord+ Personal Build"
+    }
+  ],
+  "main": "index.js",
+  "hash": "3af256e9e5acd9430c0a56cfb67697d5688b1f9ee075c6c033f67850c81ff409",
+  "vendetta": {
+    "icon": "ic_grid_24px"
+  }
+}

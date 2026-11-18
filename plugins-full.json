@@ -1,0 +1,478 @@
+[
+  {
+    "name": "App Icons",
+    "description": "Unlocks all Discord premium app icons without Nitro. Go to Settings > Appearance > App Icon to choose any icon.",
+    "authors": [
+      {
+        "name": "Kario"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ImageIcon",
+      "original": "ilickft.github.io/revenge-plugins/app-icons/"
+    },
+    "hash": "55373291afdf6564da10be6c0c79198368906cb2c294ffe8da04ed6dc03f9de6",
+    "discordPlus": {
+      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/app-icons",
+      "updated": "2026-11-10",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://ilickft.github.io/revenge-plugins/app-icons/"
+    }
+  },
+  {
+    "name": "BetterChatCopy",
+    "description": "Copy clean nearby Discord conversations from the mobile message action sheet.",
+    "authors": [
+      {
+        "name": "marcmy",
+        "id": "92076581404545024"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_copy_24px",
+      "original": "marcmy.github.io/revenge-plugins/BetterChatCopy/"
+    },
+    "hash": "430de501046ca7dd3b7d316eff2fa7e92c6fbc278042f701d180c33029870693",
+    "discordPlus": {
+      "source": "https://github.com/marcmy/revenge-plugins/tree/HEAD/plugins/BetterChatCopy",
+      "updated": "2026-09-24",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://marcmy.github.io/revenge-plugins/BetterChatCopy/"
+    }
+  },
+  {
+    "name": "Clean Context Menu",
+    "description": "Hide unwanted items from the message long-press context menu with customizable toggles.",
+    "authors": [
+      {
+        "name": "Kario"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "MenuIcon",
+      "original": "ilickft.github.io/revenge-plugins/clean-context-menu/"
+    },
+    "hash": "bc9e9c26aa96a71dd1dab1921201dd81e3d64330948c70ae6e5213b9405eda16",
+    "discordPlus": {
+      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/clean-context-menu",
+      "updated": "2026-11-10",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://ilickft.github.io/revenge-plugins/clean-context-menu/"
+    }
+  },
+  {
+    "name": "Discordo",
+    "description": "Plays the classic Japanese \"DISCORDO!\" chime whenever Discord launches.",
+    "authors": [
+      {
+        "name": "Kario"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_volume_up_24px",
+      "original": "ilickft.github.io/revenge-plugins/discordo/"
+    },
+    "hash": "e37ad9676c054d49a7fb5910cc83ea457b896f9f8c5501233e209561dd69ada7",
+    "discordPlus": {
+      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/discordo",
+      "updated": "2026-11-10",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://ilickft.github.io/revenge-plugins/discordo/"
+    }
+  },
+  {
+    "name": "Dislate Lite",
+    "description": "Translates text into a desired language.",
+    "authors": [
+      {
+        "name": "Acquite",
+        "id": "581573474296791211"
+      },
+      {
+        "name": "sapphire",
+        "id": "757982547861962752"
+      },
+      {
+        "name": "Rico040",
+        "id": "619474349845643275"
+      },
+      {
+        "name": "chrysoljq",
+        "id": "791663810594603028"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_locale_24px",
+      "original": "rico040.github.io/bunny-plugins/dislate/"
+    },
+    "hash": "a16be777e24c9bb2d73e4d8502f49580c3e4f3e3ea75c89e910527c4f438f991",
+    "discordPlus": {
+      "source": "https://github.com/Rico040/bunny-plugins/tree/HEAD/plugins/dislate",
+      "updated": "2026-08-31",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://rico040.github.io/bunny-plugins/dislate/"
+    }
+  },
+  {
+    "name": "Emoji Anywhere",
+    "description": "Use emojis from any server \u2014 sends them as small GIFs that look like emojis, while keeping server emojis normal.",
+    "authors": [
+      {
+        "name": "Kario"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "StickerIcon",
+      "original": "ilickft.github.io/revenge-plugins/emoji-anywhere/"
+    },
+    "hash": "41c78345854d3c41ac2d88e64b765007f3eba481402ef7ad160e21132789d37c",
+    "discordPlus": {
+      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/emoji-anywhere",
+      "updated": "2026-11-10",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://ilickft.github.io/revenge-plugins/emoji-anywhere/"
+    }
+  },
+  {
+    "name": "FileSizeOnPicker",
+    "description": "Show the file sizes in the media picker",
+    "authors": [
+      {
+        "name": "MSMA",
+        "id": "307215253811363843"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_image",
+      "original": "martinz64.github.io/vendetta-plugins/FileSizeOnPicker/"
+    },
+    "hash": "c96ba87ee19e0ff31609284ac142460c13404fa57ccdbd17671bec87d00b2a2e",
+    "discordPlus": {
+      "source": "https://github.com/Martinz64/vendetta-plugins/tree/HEAD/plugins/FileSizeOnPicker",
+      "updated": "2026-06-13",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://martinz64.github.io/vendetta-plugins/FileSizeOnPicker/"
+    }
+  },
+  {
+    "name": "HideChannelListShortcuts",
+    "description": "Hide Server Boosts (and optionally Events) shortcuts at the top of the channel list",
+    "authors": [
+      {
+        "name": "marcmy",
+        "id": "92076581404545024"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_more_horizontal",
+      "original": "marcmy.github.io/revenge-plugins/HideChannelListShortcuts/"
+    },
+    "hash": "fe063ed86ccdb37baf12422ce40c13ab4cb80e3d4467e92181c322ca534b3ac2",
+    "discordPlus": {
+      "source": "https://github.com/marcmy/revenge-plugins/tree/HEAD/plugins/HideChannelListShortcuts",
+      "updated": "2026-09-01",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://marcmy.github.io/revenge-plugins/HideChannelListShortcuts/"
+    }
+  },
+  {
+    "name": "LongScreenshotFix",
+    "description": "Keeps a deeper Discord message window loaded so Android scrolling screenshots do not stop at the virtualized history boundary",
+    "authors": [
+      {
+        "name": "marcmy",
+        "id": "92076581404545024"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_image",
+      "original": "marcmy.github.io/revenge-plugins/LongScreenshotFix/"
+    },
+    "hash": "ed9d2e965b8d102f999c339bb685776aace2a1474acb0693f52894ca385475b1",
+    "discordPlus": {
+      "source": "https://github.com/marcmy/revenge-plugins/tree/HEAD/plugins/LongScreenshotFix",
+      "updated": "2026-09-15",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://marcmy.github.io/revenge-plugins/LongScreenshotFix/"
+    }
+  },
+  {
+    "name": "Message Logger",
+    "description": "Deleted messages and attachments stay visible with dimmed opacity/lower brightness, and edited messages show the original text dimmed while new text stays bright.",
+    "authors": [
+      {
+        "name": "Kario"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "EyeIcon",
+      "original": "ilickft.github.io/revenge-plugins/message-logger/"
+    },
+    "hash": "afce035063c734ae1aa9bb7f19e8090f76e7696691296b597d3858a0c9d29fce",
+    "discordPlus": {
+      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/message-logger",
+      "updated": "2026-11-10",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://ilickft.github.io/revenge-plugins/message-logger/"
+    }
+  },
+  {
+    "name": "Message Quote",
+    "description": "Turn any message or text into an authentic Discord-style PNG quote card with author avatar, username, timestamp, and styling via /quote or message menu.",
+    "authors": [
+      {
+        "name": "Kario"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ImageIcon",
+      "original": "ilickft.github.io/revenge-plugins/message-quote/"
+    },
+    "hash": "1b06d4c56e5e4db0f4b48e8238797d94681381c7166c194d496e25e27ee49c12",
+    "discordPlus": {
+      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/message-quote",
+      "updated": "2026-10-19",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://ilickft.github.io/revenge-plugins/message-quote/"
+    }
+  },
+  {
+    "name": "Message Saver",
+    "description": "Save any message with its text and attachments, and easily resend it anytime to any channel.",
+    "authors": [
+      {
+        "name": "Kario"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "BookmarkIcon",
+      "original": "ilickft.github.io/revenge-plugins/message-saver/"
+    },
+    "hash": "4f13fb4480f62097811a423c0eb6de403ad6503976c7f375ab25ba8f0ecd1f04",
+    "discordPlus": {
+      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/message-saver",
+      "updated": "2026-10-19",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://ilickft.github.io/revenge-plugins/message-saver/"
+    }
+  },
+  {
+    "name": "MessageHistory",
+    "description": "Logs edited and deleted messages without exposing edit history in message content.",
+    "authors": [
+      {
+        "name": "marcmy",
+        "id": "92076581404545024"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_history_24px",
+      "original": "marcmy.github.io/revenge-plugins/MessageHistory/"
+    },
+    "hash": "9f3f88ad92dc4b12f73bb68857714bf939462c84eb9f5d3196f931665788275c",
+    "discordPlus": {
+      "source": "https://github.com/marcmy/revenge-plugins/tree/HEAD/plugins/MessageHistory",
+      "updated": "2026-09-15",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://marcmy.github.io/revenge-plugins/MessageHistory/"
+    }
+  },
+  {
+    "name": "Pet Pet",
+    "description": "Use /petpet to generate a pet-pet GIF of any user \u2014 reply to someone, mention them, or just pet yourself!",
+    "authors": [
+      {
+        "name": "Kario"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "StickerIcon",
+      "original": "ilickft.github.io/revenge-plugins/pet-pet/"
+    },
+    "hash": "8a508f6efa851f5c28240037cd88c3e5f0a96495efe3b84c4b9eabb5a3d206a1",
+    "discordPlus": {
+      "source": "https://github.com/ilickft/revenge-plugins/tree/HEAD/pet-pet",
+      "updated": "2026-10-19",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://ilickft.github.io/revenge-plugins/pet-pet/"
+    }
+  },
+  {
+    "name": "PlatformIndicators",
+    "description": "Adds platform indicators (Desktop, Mobile, Web...) to users",
+    "authors": [
+      {
+        "name": "MSMA",
+        "id": "307215253811363843"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_person_status",
+      "original": "martinz64.github.io/vendetta-plugins/PlatformIndicators/"
+    },
+    "hash": "8a3e051039f900e5e1f87ec5989f0e3f3a6728d4c94b8ddfdf5416837f1e9034",
+    "discordPlus": {
+      "source": "https://github.com/Martinz64/vendetta-plugins/tree/HEAD/plugins/PlatformIndicators",
+      "updated": "2026-10-08",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://martinz64.github.io/vendetta-plugins/PlatformIndicators/"
+    }
+  },
+  {
+    "name": "RealMoji",
+    "description": "Makes Freemoji CDN links render as real inline emoji, including messages with surrounding text.",
+    "authors": [
+      {
+        "name": "redstonekasi",
+        "id": "265064055490871297"
+      },
+      {
+        "name": "Purple_\u039eye\u2122",
+        "id": "646535537334812682"
+      },
+      {
+        "name": "marcmy",
+        "id": "92076581404545024"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ReactionIcon",
+      "original": "marcmy.github.io/revenge-plugins/RealMoji/"
+    },
+    "hash": "f649df8ce64a17a52148c67c94c81332f39991eb3db7fc872f21a173351be6e0",
+    "discordPlus": {
+      "source": "https://github.com/marcmy/revenge-plugins/tree/HEAD/plugins/RealMoji",
+      "updated": "2026-09-24",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://marcmy.github.io/revenge-plugins/RealMoji/"
+    }
+  },
+  {
+    "name": "ReviewDB",
+    "description": "Display and post reviews on user profiles.",
+    "authors": [
+      {
+        "name": "maisy",
+        "id": "257109471589957632"
+      },
+      {
+        "name": "John",
+        "id": "780819226839220265"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_trending_16px",
+      "original": "janisslsm.github.io/vdplugins/ReviewDB/"
+    },
+    "hash": "886e15513466a95396789e195e64548658d9b1d9d83374350dc9cb323cc5b096",
+    "discordPlus": {
+      "source": "https://github.com/janisslsm/vdplugins/tree/HEAD/plugins/ReviewDB",
+      "updated": "2026-06-05",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://janisslsm.github.io/vdplugins/ReviewDB/"
+    }
+  },
+  {
+    "name": "ShowHiddenChannels",
+    "description": "Shows server channels you do not have permission to view, with locked styling and no unread indicators",
+    "authors": [
+      {
+        "name": "marcmy",
+        "id": "92076581404545024"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "ic_lock",
+      "original": "marcmy.github.io/revenge-plugins/ShowHiddenChannels/"
+    },
+    "hash": "866b5b482dab84e33680efa32065d7fe75cc132a8802f12566c45b81d32247c4",
+    "discordPlus": {
+      "source": "https://github.com/marcmy/revenge-plugins/tree/HEAD/plugins/ShowHiddenChannels",
+      "updated": "2026-11-02",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://marcmy.github.io/revenge-plugins/ShowHiddenChannels/"
+    }
+  },
+  {
+    "name": "SocialEmbedFixer",
+    "description": "Rewrites X/Twitter and Instagram links to selectable embed-friendly services.",
+    "authors": [
+      {
+        "name": "brainage04",
+        "id": "0"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "LinkIcon",
+      "original": "brainage04.github.io/SocialEmbedFixer/"
+    },
+    "hash": "8764a10f7c17a9f520563e91af8240900a407fcc5ce4f53ffb9ab3d663f7a8d8",
+    "discordPlus": {
+      "source": "https://github.com/brainage04/SocialEmbedFixer/tree/HEAD/",
+      "updated": "2026-11-17",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://brainage04.github.io/SocialEmbedFixer/"
+    }
+  },
+  {
+    "name": "Song Spotlight",
+    "description": "Show off songs on your Discord profile!",
+    "authors": [
+      {
+        "name": "nexpid",
+        "id": "853550207039832084"
+      }
+    ],
+    "main": "index.js",
+    "vendetta": {
+      "icon": "MusicIcon",
+      "original": "revenge.nexpid.xyz/song-spotlight/"
+    },
+    "hash": "92232f0eafc383ae3dab4e2ddf4291bea56493ebbc5453f22cfe89a11ca50309",
+    "discordPlus": {
+      "source": "https://github.com/nexpid/RevengePlugins/tree/HEAD/src/plugins/song-spotlight",
+      "updated": "2026-10-17",
+      "checked": "2026-11-18",
+      "checks": "manifest HTTP 200, script HTTP 200, SHA256 verified; not phone-tested",
+      "installUrl": "https://revenge.nexpid.xyz/song-spotlight/"
+    }
+  }
+]
